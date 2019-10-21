@@ -27,7 +27,12 @@
             <kind>1</kind>
             <string>obj = 0&#13;
 plusx = 0&#13;
-plusy = 0</string>
+plusy = 0&#13;
+pos = 0 // This'll be a very shitty system too xd // And starts from zero&#13;
+//I know that the double comment slashes aren't neccessary but i just wanted to do it xd&#13;
+&#13;
+//This won't be modified&#13;
+tab = 0 // 0 - build, 1 - edit</string>
           </argument>
         </arguments>
       </action>
@@ -72,7 +77,9 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.selected_obj = obj</string>
+            <string>if global.selected_mode == 1 {&#13;
+	global.selected_obj = obj&#13;
+}</string>
           </argument>
         </arguments>
       </action>
@@ -94,17 +101,19 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sprite_index, 0, x, y)&#13;
-obj_spr = object_get_sprite(obj)&#13;
-obj_spr_w = sprite_get_width(obj_spr)&#13;
-obj_spr_h = sprite_get_height(obj_spr)&#13;
-scale = 1&#13;
-&#13;
-if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-	scale = .5&#13;
-}&#13;
-&#13;
-draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)</string>
+            <string>if global.selected_mode == 1 {&#13;
+	draw_sprite(sprite_index, 0, x, y)&#13;
+	obj_spr = object_get_sprite(obj)&#13;
+	obj_spr_w = sprite_get_width(obj_spr)&#13;
+	obj_spr_h = sprite_get_height(obj_spr)&#13;
+	scale = 1&#13;
+	&#13;
+	if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+		scale = .5&#13;
+	}&#13;
+	&#13;
+	draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;
+}</string>
           </argument>
         </arguments>
       </action>
