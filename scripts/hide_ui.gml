@@ -8,10 +8,11 @@ if global.playing {
 	edit_editBtn.visible   = false
 	edit_deleteBtn.visible = false
 } else {
-	//This'll be bugged very very soon, this'll be deleted too xd
-	//I did this 'coz i didn't want to do it in the shitty way
-	with(all)
+	with(obj_ed_obj)
 	{
 		visible = true
 	}
+	edit_buildBtn.visible  = true
+	edit_editBtn.visible   = true
+	edit_deleteBtn.visible = true
 }
