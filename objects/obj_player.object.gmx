@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>spr_cube_01</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>0</depth>
+  <persistent>0</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Initializing variables&#13;
+hsp = 10.6 * global.spdboost //Speed&#13;
+ini_physics(5)&#13;
+sprite_set_offset(sprite_index, 30, 30)&#13;
+&#13;
+global.yscroll = 1&#13;
+global.g1y = room_height - 164&#13;
+global.g2y = 0&#13;
+fis = 1&#13;
+image_xscale = 1&#13;
+image_yscale = 1&#13;
+ddb = instance_create(x, y, obj_player_deadbox)&#13;
+avoidup = 1&#13;
+col1 = global.col1&#13;
+col2 = global.col2&#13;
+&#13;
+canring = 0&#13;
+angle = 0&#13;
+trail = 0&#13;
+scr_other_var()&#13;
+fbspd = 12</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hsp = 10.6 * global.spdboost&#13;
+scr_mini_set()&#13;
+jboost_set()&#13;
+jumpspd = 20 * s_jboost()&#13;
+&#13;
+if global.playing &#13;
+{&#13;
+	physics()&#13;
+	if keyboard_check(vk_up)&#13;
+	{&#13;
+		if place_meeting(x, y+gravdir, obj_wall)&#13;
+		{&#13;
+			vsp = -jumpspd&#13;
+		}&#13;
+	}&#13;
+}</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.1</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.1</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.1</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.2</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints/>
+</object>

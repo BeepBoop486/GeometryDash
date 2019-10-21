@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assets>
+  <Configs name="configs">
+    <Config>Configs\Default</Config>
+  </Configs>
+  <sprites name="sprites">
+    <sprites name="Editor">
+      <sprites name="GUI">
+        <sprite>sprites\spr_obj</sprite>
+        <sprite>sprites\edit_buildBtn_001</sprite>
+        <sprite>sprites\edit_editBtn_001</sprite>
+        <sprite>sprites\edit_deleteBtn_001</sprite>
+      </sprites>
+      <sprites name="Scripts"/>
+    </sprites>
+    <sprites name="Objects">
+      <sprites name="Solids">
+        <sprite>sprites\spr_wall</sprite>
+      </sprites>
+      <sprites name="Spikes">
+        <sprite>sprites\spr_spike1</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Vehicles">
+      <sprite>sprites\spr_cube_01</sprite>
+      <sprite>sprites\spr_player_02</sprite>
+    </sprites>
+    <sprites name="Scripts">
+      <sprite>sprites\spr_player_deadbox</sprite>
+    </sprites>
+  </sprites>
+  <scripts name="scripts">
+    <script>scripts\drawGrid.gml</script>
+    <script>scripts\ini_physics.gml</script>
+    <script>scripts\scr_other_var.gml</script>
+    <script>scripts\scr_mini_set.gml</script>
+    <script>scripts\jboost_set.gml</script>
+    <script>scripts\s_jboost.gml</script>
+    <script>scripts\physics.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="Editor">
+      <objects name="GUI">
+        <object>objects\obj_ed_obj</object>
+        <object>objects\edit_buildBtn</object>
+        <object>objects\edit_editBtn</object>
+        <object>objects\edit_deleteBtn</object>
+      </objects>
+      <objects name="Scripts"/>
+      <object>objects\core</object>
+    </objects>
+    <objects name="Objects">
+      <objects name="Solids">
+        <object>objects\obj_wall</object>
+      </objects>
+      <objects name="Spikes">
+        <object>objects\obj_spike1</object>
+      </objects>
+    </objects>
+    <objects name="Vehicles">
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="Scripts">
+      <object>objects\obj_player_deadbox</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_1</room>
+    <room>rooms\rm_0</room>
+  </rooms>
+  <constants number="0"/>
+  <help>
+    <rtf>help.rtf</rtf>
+  </help>
+</assets>
