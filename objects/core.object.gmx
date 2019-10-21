@@ -28,7 +28,8 @@
             <string>///var init&#13;
 global.selected_obj = noone //Selected object&#13;
 global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete&#13;
-global.playing = false //Checks if we're in test mode</string>
+global.playing = false //Checks if we're in test mode&#13;
+global.dragging= false //Variable that determines wether we're dragging or not</string>
           </argument>
         </arguments>
       </action>
@@ -53,7 +54,9 @@ global.playing = false //Checks if we're in test mode</string>
             <string>mouse_xx = floor(mouse_x/30)&#13;
 mouse_yy = floor(mouse_y/30)&#13;
 &#13;
-if global.selected_mode == 2 &amp;&amp; mouse_y &lt; 4592 &amp;&amp; !position_meeting(mouse_x, mouse_y, undel){&#13;
+if global.selected_mode == 2 /*&amp;&amp; mouse_y &lt; 4592*/ &amp;&amp; !position_meeting(mouse_x, mouse_y, undel)&#13;
+//Undeleteable elements&#13;
+&amp;&amp; !position_meeting(mouse_x, mouse_y, obj_ground) {&#13;
 	position_destroy(mouse_x, mouse_y)&#13;
 }&#13;
 &#13;
@@ -65,7 +68,35 @@ if keyboard_check_released(vk_enter)&#13;
 		tt.x = 64&#13;
 		tt.y = 4400&#13;
 	}&#13;
+}&#13;
+&#13;
+if global.dragging &amp;&amp; !global.playing&#13;
+{&#13;
+	view_xview = view_xview + drag_x - mouse_x&#13;
+	view_yview = view_yview + drag_y - mouse_y&#13;
 }</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="58" eventtype="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.dragging = false</string>
           </argument>
         </arguments>
       </action>
@@ -109,13 +140,37 @@ if keyboard_check_released(vk_enter)&#13;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !place_meeting(mouse_x, mouse_y, obj_ed_obj)&#13;
-&amp;&amp; global.selected_obj != noone &amp;&amp; mouse_y &lt; 4592&#13;
+            <string>if !position_meeting(mouse_x, mouse_y, obj_ed_obj)&#13;
+&amp;&amp; global.selected_obj != noone /*&amp; mouse_y &lt; 4592*/&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
 	boj = instance_create(mouse_x, mouse_y, global.selected_obj)&#13;
 	with(boj) move_snap(30.5,30.5)&#13;
 }</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="55" eventtype="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.dragging = true&#13;
+drag_x = mouse_x&#13;
+drag_y = mouse_y</string>
           </argument>
         </arguments>
       </action>

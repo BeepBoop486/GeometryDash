@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <object>
-  <spriteName>edit_deleteBtn_001</spriteName>
+  <spriteName>spr_ground1</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>2</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
-  <parentName>undel</parentName>
+  <parentName>obj_wall</parentName>
   <events>
     <event enumb="0" eventtype="0">
       <action>
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0</string>
+            <string>iniw = sprite_width&#13;
+image_xscale = room_width / iniw&#13;
+global.g1y = room_height - 164</string>
           </argument>
         </arguments>
       </action>
@@ -47,10 +49,33 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.selected_mode == 2 {&#13;
-	image_index = 1&#13;
-} else {&#13;
-	image_index = 0&#13;
+            <string>y += ((global.g1y-y))*0.2</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>jx = 0&#13;
+repeat image_xscale&#13;
+{&#13;
+	draw_sprite2(sprite_index, 0, global.gcolor, x+jx, y)&#13;
+	jx+=iniw&#13;
 }</string>
           </argument>
         </arguments>

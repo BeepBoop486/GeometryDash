@@ -39,7 +39,7 @@
     <script>scripts\s_jboost.gml</script>
     <script>scripts\physics.gml</script>
     <script>scripts\reset_angle.gml</script>
-    <script>scripts\scr_8.gml</script>
+    <script>scripts\draw_sprite2.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">
@@ -57,6 +57,7 @@
     <objects name="Objects">
       <objects name="Solids">
         <object>objects\obj_wall</object>
+        <object>objects\obj_ground</object>
       </objects>
       <objects name="Spikes">
         <object>objects\obj_spike1</object>
