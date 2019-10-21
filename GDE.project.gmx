@@ -16,6 +16,7 @@
     <sprites name="Objects">
       <sprites name="Solids">
         <sprite>sprites\spr_wall</sprite>
+        <sprite>sprites\spr_ground1</sprite>
       </sprites>
       <sprites name="Spikes">
         <sprite>sprites\spr_spike1</sprite>
@@ -37,6 +38,8 @@
     <script>scripts\jboost_set.gml</script>
     <script>scripts\s_jboost.gml</script>
     <script>scripts\physics.gml</script>
+    <script>scripts\reset_angle.gml</script>
+    <script>scripts\scr_8.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">
@@ -46,7 +49,9 @@
         <object>objects\edit_editBtn</object>
         <object>objects\edit_deleteBtn</object>
       </objects>
-      <objects name="Scripts"/>
+      <objects name="Scripts">
+        <object>objects\undel</object>
+      </objects>
       <object>objects\core</object>
     </objects>
     <objects name="Objects">

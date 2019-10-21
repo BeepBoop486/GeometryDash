@@ -53,7 +53,7 @@ global.playing = false //Checks if we're in test mode</string>
             <string>mouse_xx = floor(mouse_x/30)&#13;
 mouse_yy = floor(mouse_y/30)&#13;
 &#13;
-if global.selected_mode == 2 &amp;&amp; mouse_y &lt; 4592 {&#13;
+if global.selected_mode == 2 &amp;&amp; mouse_y &lt; 4592 &amp;&amp; !position_meeting(mouse_x, mouse_y, undel){&#13;
 	position_destroy(mouse_x, mouse_y)&#13;
 }&#13;
 &#13;
