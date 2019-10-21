@@ -3,7 +3,7 @@
   <spriteName>edit_deleteBtn_001</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
   <parentName>undel</parentName>
@@ -51,7 +51,10 @@
 	image_index = 1&#13;
 } else {&#13;
 	image_index = 0&#13;
-}</string>
+}&#13;
+&#13;
+x = view_xview[0] + 96&#13;
+y = view_yview[0] + 692</string>
           </argument>
         </arguments>
       </action>

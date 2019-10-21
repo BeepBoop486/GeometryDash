@@ -3,7 +3,7 @@
   <spriteName>spr_obj</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
   <parentName>undel</parentName>
@@ -25,7 +25,32 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj = 0</string>
+            <string>obj = 0&#13;
+plusx = 0&#13;
+plusy = 0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>x = view_xview[0]+plusx&#13;
+y = view_yview[0]+plusy</string>
           </argument>
         </arguments>
       </action>
