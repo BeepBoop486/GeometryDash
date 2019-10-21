@@ -40,6 +40,7 @@
     <script>scripts\physics.gml</script>
     <script>scripts\reset_angle.gml</script>
     <script>scripts\draw_sprite2.gml</script>
+    <script>scripts\hide_ui.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">
