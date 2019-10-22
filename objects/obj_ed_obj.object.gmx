@@ -77,7 +77,7 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.selected_mode == 1 {&#13;
+            <string>if global.selected_mode == 0 {&#13;
 	global.selected_obj = obj&#13;
 }</string>
           </argument>
@@ -101,7 +101,7 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.selected_mode == 1 {&#13;
+            <string>if global.selected_mode == 0 {&#13;
 	draw_sprite(sprite_index, 0, x, y)&#13;
 	obj_spr = object_get_sprite(obj)&#13;
 	obj_spr_w = sprite_get_width(obj_spr)&#13;
@@ -113,6 +113,13 @@ y = view_yview[0]+plusy</string>
 	}&#13;
 	&#13;
 	draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;
+} else //if selected mode is edit basically&#13;
+{&#13;
+	draw_sprite(sprite_index, 0, x, y)&#13;
+&#13;
+	//pos - 1 'cuz we've started pos from 1, and we're literally drawing a sprite&#13;
+	//with pos as subimage&#13;
+	draw_sprite_ext(spr_edit, pos-1, x, y, .5, .5, 0, c_white, 100)&#13;
 }</string>
           </argument>
         </arguments>
