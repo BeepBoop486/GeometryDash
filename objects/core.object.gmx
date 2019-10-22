@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///var init&#13;
+global.toput = noone&#13;
 global.selected_obj = noone //Selected object&#13;
 global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete&#13;
 global.playing = false //Checks if we're in test mode&#13;
@@ -248,10 +249,10 @@ if global.selected_obj != 0 //If we've selected an object&#13;
           <argument>
             <kind>1</kind>
             <string>if !position_meeting(mouse_x, mouse_y, obj_ed_obj)&#13;
-&amp;&amp; global.selected_obj != noone /*&amp; mouse_y &lt; 4592*/&#13;
+&amp;&amp; global.toput != noone /*&amp; mouse_y &lt; 4592*/&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
-	boj = instance_create(mouse_x, mouse_y, global.selected_obj) //Bugs fixed&#13;
+	boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
 	with(boj) move_snap(30.5,30.5)&#13;
 }</string>
           </argument>

@@ -78,7 +78,18 @@ y = view_yview[0]+plusy</string>
           <argument>
             <kind>1</kind>
             <string>if global.selected_mode == 0 {&#13;
-	global.selected_obj = obj&#13;
+	global.toput = obj&#13;
+} if global.selected_mode == 1 &amp;&amp; global.selected_obj != 0 {&#13;
+	if pos == 1 {&#13;
+		with(global.selected_obj) {&#13;
+			x -= 61&#13;
+		}&#13;
+	} if pos == 2 {&#13;
+		with(global.selected_obj)&#13;
+		{&#13;
+			x += 61&#13;
+		}&#13;
+	}&#13;
 }</string>
           </argument>
         </arguments>
