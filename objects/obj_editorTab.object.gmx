@@ -104,8 +104,10 @@ if global.intab == totab&#13;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sprite_index, 0, x, y)&#13;
-draw_sprite_ext(icon, 0, x, y, .3, .3, 0, c_white, 100)</string>
+            <string>if !global.playing {&#13;
+	draw_sprite(sprite_index, 0, x, y)&#13;
+	draw_sprite_ext(icon, 0, x, y, .3, .3, 0, c_white, 100)&#13;
+}</string>
           </argument>
         </arguments>
       </action>

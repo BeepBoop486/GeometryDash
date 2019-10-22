@@ -78,6 +78,16 @@
       <objects name="Solids">
         <object>objects\obj_wall</object>
         <object>objects\obj_ground</object>
+        <objects name="Grid">
+          <object>objects\obj_grid1</object>
+          <object>objects\obj_grid2</object>
+          <object>objects\obj_grid3</object>
+          <object>objects\obj_grid4</object>
+          <object>objects\obj_grid5</object>
+          <object>objects\obj_grid6</object>
+          <object>objects\obj_grid7</object>
+          <object>objects\obj_grid8</object>
+        </objects>
       </objects>
       <objects name="Spikes">
         <object>objects\obj_spike1</object>

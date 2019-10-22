@@ -18,6 +18,7 @@
         </sprites>
         <sprite>sprites\spr_editorBG</sprite>
         <sprite>sprites\spr_editorTab</sprite>
+        <sprite>sprites\spr_editbtn</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
