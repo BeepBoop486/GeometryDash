@@ -10,6 +10,7 @@
         <sprite>sprites\edit_buildBtn_001</sprite>
         <sprite>sprites\edit_editBtn_001</sprite>
         <sprite>sprites\edit_deleteBtn_001</sprite>
+        <sprite>sprites\spr_edit</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
