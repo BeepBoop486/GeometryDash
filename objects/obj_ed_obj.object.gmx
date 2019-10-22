@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj = 0&#13;
+            <string>//Select objects by tab&#13;
+obj_solid = 0&#13;
+obj_spike = 0&#13;
+&#13;
 plusx = 0&#13;
 plusy = 0&#13;
 pos = 0 // This'll be a very shitty system too xd // And starts from zero&#13;
@@ -78,7 +81,11 @@ y = view_yview[0]+plusy</string>
           <argument>
             <kind>1</kind>
             <string>if global.selected_mode == 0 {&#13;
-	global.toput = obj&#13;
+	if global.intab == 0 {&#13;
+		global.toput = obj_solid&#13;
+	} if global.intab == 1 {&#13;
+		global.toput = obj_spike&#13;
+	}&#13;
 } if global.selected_mode == 1 &amp;&amp; global.selected_obj != 0 {&#13;
 	if pos == 1 {&#13;
 		with(global.selected_obj) {&#13;
@@ -114,13 +121,25 @@ y = view_yview[0]+plusy</string>
             <kind>1</kind>
             <string>if global.selected_mode == 0 {&#13;
 	draw_sprite(sprite_index, 0, x, y)&#13;
-	obj_spr = object_get_sprite(obj)&#13;
-	obj_spr_w = sprite_get_width(obj_spr)&#13;
-	obj_spr_h = sprite_get_height(obj_spr)&#13;
-	scale = 1&#13;
 	&#13;
-	if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-		scale = .5&#13;
+	if global.intab == 0 {&#13;
+		obj_spr = object_get_sprite(obj_solid)&#13;
+		obj_spr_w = sprite_get_width(obj_spr)&#13;
+		obj_spr_h = sprite_get_height(obj_spr)&#13;
+		scale = 1&#13;
+		&#13;
+		if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+			scale = .5&#13;
+		}&#13;
+	} if global.intab == 1 {&#13;
+		obj_spr = object_get_sprite(obj_spike)&#13;
+		obj_spr_w = sprite_get_width(obj_spr)&#13;
+		obj_spr_h = sprite_get_height(obj_spr)&#13;
+		scale = 1&#13;
+		&#13;
+		if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+			scale = .5&#13;
+		}&#13;
 	}&#13;
 	&#13;
 	draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;

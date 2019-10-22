@@ -3,8 +3,8 @@
   <caption/>
   <width>6400</width>
   <height>4800</height>
-  <hsnap>61</hsnap>
-  <vsnap>61</vsnap>
+  <hsnap>16</hsnap>
+  <vsnap>16</vsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -51,7 +51,7 @@
   </views>
   <instances>
     <instance code="" colour="4294967295" id="100006" locked="0" name="inst_71389109" objName="core" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="0"/>
-    <instance code="obj = obj_wall&#13;&#10;plusx = 224&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;//This'll be for the edit mode&#13;&#10;pos = 1" colour="4294967295" id="100007" locked="0" name="inst_A8A4BCB4" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="224" y="4656"/>
+    <instance code="obj_solid = obj_wall&#13;&#10;obj_spike = obj_spike1&#13;&#10;&#13;&#10;plusx = 224&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;//This'll be for the edit mode&#13;&#10;pos = 1" colour="4294967295" id="100007" locked="0" name="inst_A8A4BCB4" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="224" y="4656"/>
     <instance code="obj = obj_spike1&#13;&#10;plusx = 304&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 2" colour="4294967295" id="100009" locked="0" name="inst_E10F2BE9" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="304" y="4656"/>
     <instance code="" colour="4294967295" id="100010" locked="0" name="inst_6C55DF05" objName="edit_buildBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4640"/>
     <instance code="" colour="4294967295" id="100012" locked="0" name="inst_6C306B5B" objName="edit_editBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4704"/>

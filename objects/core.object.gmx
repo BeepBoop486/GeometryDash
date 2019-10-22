@@ -30,7 +30,8 @@ global.toput = noone&#13;
 global.selected_obj = noone //Selected object&#13;
 global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete&#13;
 global.playing = false //Checks if we're in test mode&#13;
-global.dragging= false //Variable that determines wether we're dragging or not</string>
+global.dragging= false //Variable that determines wether we're dragging or not&#13;
+global.intab = 0 // 0 - solid, 1 - spike</string>
           </argument>
         </arguments>
       </action>
@@ -326,7 +327,12 @@ drag_y = mouse_y</string>
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_black)&#13;
-drawGrid(61,61)</string>
+drawGrid(61,61)&#13;
+&#13;
+if !global.playing&#13;
+{&#13;
+	draw_sprite(spr_editorBG, 0, view_xview, view_yview+532)&#13;
+}</string>
           </argument>
         </arguments>
       </action>
