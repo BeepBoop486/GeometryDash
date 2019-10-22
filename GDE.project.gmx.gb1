@@ -70,6 +70,7 @@
     </objects>
     <objects name="Scripts">
       <object>objects\obj_player_deadbox</object>
+      <object>objects\obj_camera</object>
     </objects>
   </objects>
   <rooms name="rooms">

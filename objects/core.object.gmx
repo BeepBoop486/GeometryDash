@@ -89,6 +89,8 @@ if keyboard_check_released(vk_enter)&#13;
 		tt.y = 4400&#13;
 	} else  {&#13;
 		//When we're playing the camera will focus the 0-0 (basically that) when does the player is&#13;
+		//view_xview = 0&#13;
+		//view_yview = 4076&#13;
 		view_xview = 0&#13;
 		view_yview = 4076&#13;
 	}&#13;

@@ -58,6 +58,7 @@
     <instance code="" colour="4294967295" id="100025" locked="0" name="inst_25E281EA" objName="edit_deleteBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4768"/>
     <instance code="" colour="4294967295" id="100033" locked="0" name="inst_7AF842A1" objName="obj_player" rotation="0.0" scaleX="1.0" scaleY="1.0" x="48" y="4272"/>
     <instance code="" colour="4294967295" id="100073" locked="0" name="inst_299C9B0A" objName="obj_ground" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="4636"/>
+    <instance code="" colour="4294967295" id="100082" locked="0" name="inst_9F2A64B2" objName="obj_camera" rotation="0.0" scaleX="1.0" scaleY="1.0" x="61" y="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
