@@ -113,7 +113,7 @@ y = view_yview[0]+plusy</string>
 	}&#13;
 	&#13;
 	draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;
-} else //if selected mode is edit basically&#13;
+} else if global.selected_mode == 1 //if we're in edit mode&#13;
 {&#13;
 	draw_sprite(sprite_index, 0, x, y)&#13;
 &#13;
