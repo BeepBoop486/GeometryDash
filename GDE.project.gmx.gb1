@@ -17,6 +17,7 @@
           <sprite>sprites\edit_downBtn2_001</sprite>
         </sprites>
         <sprite>sprites\spr_editorBG</sprite>
+        <sprite>sprites\spr_editorTab</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
@@ -56,6 +57,7 @@
         <object>objects\edit_buildBtn</object>
         <object>objects\edit_editBtn</object>
         <object>objects\edit_deleteBtn</object>
+        <object>objects\obj_editorTab</object>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>

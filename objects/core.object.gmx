@@ -252,6 +252,8 @@ if global.selected_obj != 0 //If we've selected an object&#13;
             <string>if !position_meeting(mouse_x, mouse_y, obj_ed_obj)&#13;
 &amp;&amp; !position_meeting(mouse_x, mouse_y, undel) //You can't put an object upon "undel" child objects&#13;
 &amp;&amp; global.toput != noone /*&amp; mouse_y &lt; 4592*/&#13;
+&amp;&amp; global.toput != obj_ed_obj //If the selected object isn't a GUI element (This'll be a lot of&#13;
+//objects in a very shitty way too)&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
 	boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
