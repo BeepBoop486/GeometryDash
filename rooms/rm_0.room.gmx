@@ -52,13 +52,15 @@
   <instances>
     <instance code="" colour="4294967295" id="100006" locked="0" name="inst_71389109" objName="core" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="0"/>
     <instance code="obj_solid = obj_wall&#13;&#10;obj_spike = obj_spike1&#13;&#10;&#13;&#10;plusx = 224&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;//This'll be for the edit mode&#13;&#10;pos = 1" colour="4294967295" id="100007" locked="0" name="inst_A8A4BCB4" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="224" y="4656"/>
-    <instance code="obj = obj_spike1&#13;&#10;plusx = 304&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 2" colour="4294967295" id="100009" locked="0" name="inst_E10F2BE9" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="304" y="4656"/>
+    <instance code="//obj = obj_spike1&#13;&#10;plusx = 304&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 2" colour="4294967295" id="100009" locked="0" name="inst_E10F2BE9" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="304" y="4656"/>
     <instance code="" colour="4294967295" id="100010" locked="0" name="inst_6C55DF05" objName="edit_buildBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4640"/>
     <instance code="" colour="4294967295" id="100012" locked="0" name="inst_6C306B5B" objName="edit_editBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4704"/>
     <instance code="" colour="4294967295" id="100025" locked="0" name="inst_25E281EA" objName="edit_deleteBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4768"/>
     <instance code="" colour="4294967295" id="100033" locked="0" name="inst_7AF842A1" objName="obj_player" rotation="0.0" scaleX="1.0" scaleY="1.0" x="48" y="4272"/>
     <instance code="" colour="4294967295" id="100073" locked="0" name="inst_299C9B0A" objName="obj_ground" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="4636"/>
     <instance code="" colour="4294967295" id="100082" locked="0" name="inst_9F2A64B2" objName="obj_camera" rotation="0.0" scaleX="1.0" scaleY="1.0" x="61" y="0"/>
+    <instance code="plusx = 80 //It'll keep moving with the camera&#13;&#10;totab = 0  //This'll select the solids tab&#13;&#10;icon = spr_wall //The icon of this tab'll be the wall sprite (spr_wall)" colour="4294967295" id="100119" locked="0" name="inst_735733DB" objName="obj_editorTab" rotation="0.0" scaleX="1.0" scaleY="1.0" x="80" y="4592"/>
+    <instance code="plusx = 160 //It'll keep moving with the camera&#13;&#10;totab = 1 //This'll select the spikes tab&#13;&#10;icon = spr_spike1 //The icon of this tab'll be the spike sprite (spr_spike1)" colour="4294967295" id="100121" locked="0" name="inst_B1CAF653" objName="obj_editorTab" rotation="0.0" scaleX="1.0" scaleY="1.0" x="160" y="4592"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

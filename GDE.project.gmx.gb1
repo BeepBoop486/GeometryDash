@@ -16,6 +16,7 @@
           <sprite>sprites\edit_upBtn2_001</sprite>
           <sprite>sprites\edit_downBtn2_001</sprite>
         </sprites>
+        <sprite>sprites\spr_editorBG</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
