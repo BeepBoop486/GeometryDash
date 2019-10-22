@@ -25,6 +25,16 @@
       <sprites name="Solids">
         <sprite>sprites\spr_wall</sprite>
         <sprite>sprites\spr_ground1</sprite>
+        <sprites name="Grid">
+          <sprite>sprites\spr_grid1</sprite>
+          <sprite>sprites\spr_grid2</sprite>
+          <sprite>sprites\spr_grid3</sprite>
+          <sprite>sprites\spr_grid4</sprite>
+          <sprite>sprites\spr_grid5</sprite>
+          <sprite>sprites\spr_grid6</sprite>
+          <sprite>sprites\spr_grid7</sprite>
+          <sprite>sprites\spr_grid8</sprite>
+        </sprites>
       </sprites>
       <sprites name="Spikes">
         <sprite>sprites\spr_spike1</sprite>
