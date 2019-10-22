@@ -251,7 +251,7 @@ if global.selected_obj != 0 //If we've selected an object&#13;
 &amp;&amp; global.selected_obj != noone /*&amp; mouse_y &lt; 4592*/&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
-	boj = instance_create(mouse_x, mouse_y, global.selected_obj)&#13;
+	boj = instance_create(mouse_x, mouse_y, global.selected_obj) //Bugs fixed&#13;
 	with(boj) move_snap(30.5,30.5)&#13;
 }</string>
           </argument>

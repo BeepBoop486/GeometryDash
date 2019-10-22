@@ -118,9 +118,9 @@ y = view_yview[0]+plusy</string>
 	draw_sprite(sprite_index, 0, x, y)&#13;
 	&#13;
 	if pos == 1 {&#13;
-		&#13;
+		draw_sprite_ext(edit_leftBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
 	} else if pos == 2 {&#13;
-		&#13;
+		draw_sprite_ext(edit_rightBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
 	}&#13;
 }</string>
           </argument>
