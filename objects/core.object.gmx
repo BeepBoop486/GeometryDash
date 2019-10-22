@@ -61,6 +61,8 @@ if global.selected_mode == 1 //If we're in edit mode&#13;
 &amp;&amp; mouse_check_button_released(mb_left)&#13;
 {&#13;
 	/* aaaaaaall this bullshit MUST be deleted later */&#13;
+	global.selected_obj = 0 //Forgot to set selected object to practically null xd&#13;
+	//Just to avoid bugs xd&#13;
 	with(all)&#13;
 	{&#13;
 		image_blend = c_white&#13;
@@ -97,6 +99,43 @@ if global.dragging &amp;&amp; !global.playing&#13;
 {&#13;
 	view_xview = view_xview + drag_x - mouse_x&#13;
 	view_yview = view_yview + drag_y - mouse_y&#13;
+}</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Keyboard shortcuts with a selected object&#13;
+&#13;
+if global.selected_obj != 0 //If we've selected an object&#13;
+{&#13;
+	if keyboard_check_released(ord("W")) {&#13;
+		//If we press the 'W' key&#13;
+		with(global.selected_obj) {y -= 61}&#13;
+	} if keyboard_check_released(ord("S")) {&#13;
+		//If we press the 'S' key&#13;
+		with(global.selected_obj) {y += 61}&#13;
+	} if keyboard_check_released(ord("A")) {&#13;
+		//If we press the 'A' key&#13;
+		with(global.selected_obj) {x -= 61}&#13;
+	} if keyboard_check_released(ord("D")) {&#13;
+		//If we press the 'D' key&#13;
+		with(global.selected_obj) {x += 61}&#13;
+	}&#13;
 }</string>
           </argument>
         </arguments>
