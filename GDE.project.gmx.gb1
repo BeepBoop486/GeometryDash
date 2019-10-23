@@ -18,6 +18,7 @@
         </sprites>
         <sprite>sprites\spr_editorBG</sprite>
         <sprite>sprites\spr_editorTab</sprite>
+        <sprite>sprites\spr_editbtn</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
@@ -59,6 +60,7 @@
     <script>scripts\reset_angle.gml</script>
     <script>scripts\draw_sprite2.gml</script>
     <script>scripts\hide_ui.gml</script>
+    <script>scripts\save_level.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">

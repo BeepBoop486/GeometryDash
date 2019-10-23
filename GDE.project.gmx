@@ -60,6 +60,7 @@
     <script>scripts\reset_angle.gml</script>
     <script>scripts\draw_sprite2.gml</script>
     <script>scripts\hide_ui.gml</script>
+    <script>scripts\save_level.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">
