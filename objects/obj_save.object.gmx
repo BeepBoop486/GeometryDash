@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>undel</parentName>
   <events>
     <event enumb="0" eventtype="3">
       <action>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>y = view_yview[0]+16&#13;
+            <string>y = view_yview[0]+62&#13;
 x = view_xview[0]+1120</string>
           </argument>
         </arguments>

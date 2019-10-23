@@ -6,6 +6,7 @@ version = argument0 //This'll be to avoid bugs and problems saving and loading i
 
 //This'll be to avoid mistakes in the future
 if version == 0 {
+	file_text_write_real(file, version) //This'll be used for loading
 	for(var i = 0; i < instance_count; i++) //We'll iterate for every instance in the room
 	{
 		var object_name; //The name of the object
