@@ -1,8 +1,8 @@
 ///save_level(version, filename)
 //The very first version of the level saver
 var file; //First, we init some vars
-file = file_text_open_write(filename+".gdl") //The extension of the level file (Geometry Dash level)
-version = 0 //This'll be to avoid bugs and problems saving and loading in future versions ugu
+file = file_text_open_write(argument1) //The extension of the level file (Geometry Dash level)
+version = argument0 //This'll be to avoid bugs and problems saving and loading in future versions ugu
 
 //This'll be to avoid mistakes in the future
 if version == 0 {
