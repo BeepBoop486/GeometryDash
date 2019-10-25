@@ -63,6 +63,7 @@
     <script>scripts\draw_sprite2.gml</script>
     <script>scripts\hide_ui.gml</script>
     <script>scripts\save_level.gml</script>
+    <script>scripts\load_level.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Editor">
@@ -73,6 +74,7 @@
         <object>objects\edit_deleteBtn</object>
         <object>objects\obj_editorTab</object>
         <object>objects\obj_save</object>
+        <object>objects\obj_load</object>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>
