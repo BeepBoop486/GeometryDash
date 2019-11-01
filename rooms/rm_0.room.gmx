@@ -3,8 +3,8 @@
   <caption/>
   <width>6400</width>
   <height>4800</height>
-  <hsnap>16</hsnap>
-  <vsnap>16</vsnap>
+  <hsnap>30</hsnap>
+  <vsnap>30</vsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -56,7 +56,7 @@
     <instance code="" colour="4294967295" id="100010" locked="0" name="inst_6C55DF05" objName="edit_buildBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4640"/>
     <instance code="" colour="4294967295" id="100012" locked="0" name="inst_6C306B5B" objName="edit_editBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4704"/>
     <instance code="" colour="4294967295" id="100025" locked="0" name="inst_25E281EA" objName="edit_deleteBtn" rotation="0.0" scaleX="1.0" scaleY="1.0" x="96" y="4768"/>
-    <instance code="" colour="4294967295" id="100033" locked="0" name="inst_7AF842A1" objName="obj_player" rotation="0.0" scaleX="1.0" scaleY="1.0" x="48" y="4272"/>
+    <instance code="" colour="4294967295" id="100033" locked="0" name="inst_7AF842A1" objName="obj_player" rotation="0.0" scaleX="1.0" scaleY="1.0" x="-61" y="4572"/>
     <instance code="" colour="4294967295" id="100073" locked="0" name="inst_299C9B0A" objName="obj_ground" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="4636"/>
     <instance code="" colour="4294967295" id="100082" locked="0" name="inst_9F2A64B2" objName="obj_camera" rotation="0.0" scaleX="1.0" scaleY="1.0" x="61" y="0"/>
     <instance code="plusx = 80 //It'll keep moving with the camera&#13;&#10;totab = 0  //This'll select the solids tab&#13;&#10;icon = spr_wall //The icon of this tab'll be the wall sprite (spr_wall)" colour="4294967295" id="100119" locked="0" name="inst_735733DB" objName="obj_editorTab" rotation="0.0" scaleX="1.0" scaleY="1.0" x="80" y="4592"/>
@@ -68,6 +68,8 @@
     <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_grid6&#13;&#10;plusx = 768&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 5" colour="4294967295" id="100148" locked="0" name="inst_90A90426" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="768" y="4656"/>
     <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_grid7&#13;&#10;plusx = 848&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 8" colour="4294967295" id="100149" locked="0" name="inst_FB16BD5B" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="848" y="4656"/>
     <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_grid8&#13;&#10;plusx = 928&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 9" colour="4294967295" id="100150" locked="0" name="inst_372994B3" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="928" y="4656"/>
+    <instance code="" colour="4294967295" id="100264" locked="0" name="inst_0AAB3809" objName="obj_wall" rotation="0.0" scaleX="1.0" scaleY="1.0" x="-91" y="4666"/>
+    <instance code="" colour="4294967295" id="100272" locked="0" name="inst_96AD9F7B" objName="obj_wall" rotation="0.0" scaleX="1.0" scaleY="1.0" x="-30" y="4666"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

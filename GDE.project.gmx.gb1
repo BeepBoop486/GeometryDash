@@ -50,6 +50,9 @@
     <sprites name="Scripts">
       <sprite>sprites\spr_player_deadbox</sprite>
     </sprites>
+    <sprites name="Misc">
+      <sprite>sprites\spr_bg1</sprite>
+    </sprites>
   </sprites>
   <scripts name="scripts">
     <script>scripts\drawGrid.gml</script>
