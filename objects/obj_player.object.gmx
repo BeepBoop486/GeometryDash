@@ -82,6 +82,7 @@ if global.playing &#13;
 			vsp = -jumpspd&#13;
 		}&#13;
 	}&#13;
+	x += hsp&#13;
 }</string>
           </argument>
         </arguments>

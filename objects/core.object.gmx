@@ -86,17 +86,6 @@ if global.selected_mode == 2 /*&amp;&amp; mouse_y &lt; 4592*/ &amp;&amp; !positi
 if keyboard_check_released(vk_enter)&#13;
 {&#13;
 	global.playing = !global.playing&#13;
-	if !global.playing {&#13;
-		tt = obj_player&#13;
-		tt.x = -61&#13;
-		tt.y = 4572&#13;
-	} else  {&#13;
-		//When we're playing the camera will focus the 0-0 (basically that) when does the player is&#13;
-		//view_xview = 0&#13;
-		//view_yview = 4076&#13;
-		//view_xview = 0&#13;
-		//view_yview = 4076&#13;
-	}&#13;
 	hide_ui()&#13;
 }&#13;
 &#13;
