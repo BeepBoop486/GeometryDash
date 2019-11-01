@@ -80,7 +80,7 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !instance_exists(obj_editBG) {&#13;
+            <string>&#13;
 	if global.selected_mode == 0 {&#13;
 		if global.intab == 0 {&#13;
 			global.toput = obj_solid&#13;
@@ -98,8 +98,7 @@ y = view_yview[0]+plusy</string>
 				x += 61&#13;
 			}&#13;
 		}&#13;
-	}&#13;
-}</string>
+	}</string>
           </argument>
         </arguments>
       </action>
@@ -121,40 +120,41 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.selected_mode == 0 {&#13;
-	draw_sprite(spr_obj, 0, x, y)&#13;
-	&#13;
-	if global.intab == 0 {&#13;
-		obj_spr = object_get_sprite(obj_solid)&#13;
-		obj_spr_w = sprite_get_width(obj_spr)&#13;
-		obj_spr_h = sprite_get_height(obj_spr)&#13;
-		scale = 1&#13;
+            <string>&#13;
+	if global.selected_mode == 0 {&#13;
+		draw_sprite(spr_obj, 0, x, y)&#13;
 		&#13;
-		if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-			scale = .5&#13;
+		if global.intab == 0 {&#13;
+			obj_spr = object_get_sprite(obj_solid)&#13;
+			obj_spr_w = sprite_get_width(obj_spr)&#13;
+			obj_spr_h = sprite_get_height(obj_spr)&#13;
+			scale = 1&#13;
+			&#13;
+			if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+				scale = .5&#13;
+			}&#13;
+		} if global.intab == 1 {&#13;
+			obj_spr = object_get_sprite(obj_spike)&#13;
+			obj_spr_w = sprite_get_width(obj_spr)&#13;
+			obj_spr_h = sprite_get_height(obj_spr)&#13;
+			scale = 1&#13;
+			&#13;
+			if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+				scale = .5&#13;
+			}&#13;
 		}&#13;
-	} if global.intab == 1 {&#13;
-		obj_spr = object_get_sprite(obj_spike)&#13;
-		obj_spr_w = sprite_get_width(obj_spr)&#13;
-		obj_spr_h = sprite_get_height(obj_spr)&#13;
-		scale = 1&#13;
 		&#13;
-		if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-			scale = .5&#13;
+		draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;
+	} else if global.selected_mode == 1 //if we're in edit mode&#13;
+	{&#13;
+		draw_sprite(spr_editbtn, 0, x, y)&#13;
+		&#13;
+		if pos == 1 {&#13;
+			draw_sprite_ext(edit_leftBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
+		} else if pos == 2 {&#13;
+			draw_sprite_ext(edit_rightBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
 		}&#13;
-	}&#13;
-	&#13;
-	draw_sprite_ext(obj_spr, 0, x, y, scale, scale, 0, c_white, 100)&#13;
-} else if global.selected_mode == 1 //if we're in edit mode&#13;
-{&#13;
-	draw_sprite(spr_editbtn, 0, x, y)&#13;
-	&#13;
-	if pos == 1 {&#13;
-		draw_sprite_ext(edit_leftBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
-	} else if pos == 2 {&#13;
-		draw_sprite_ext(edit_rightBtn2_001, 0, x, y, .5, .5, 0, c_white, 100)&#13;
-	}&#13;
-}</string>
+	}</string>
           </argument>
         </arguments>
       </action>

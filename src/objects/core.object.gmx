@@ -246,7 +246,6 @@ if global.selected_obj != 0 //If we've selected an object&#13;
 //objects in a very shitty way too)&#13;
 &amp;&amp; !global.playing&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
-&amp;&amp; !instance_exists(obj_editBG) //If we ain't editing anything&#13;
 {&#13;
 	boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
 	with(boj) move_snap(30.5,30.5)&#13;
@@ -273,8 +272,8 @@ if global.selected_obj != 0 //If we've selected an object&#13;
           <argument>
             <kind>1</kind>
             <string>global.dragging = true&#13;
-drag_x = mouse_x&#13;
-drag_y = mouse_y</string>
+	drag_x = mouse_x&#13;
+	drag_y = mouse_y</string>
           </argument>
         </arguments>
       </action>

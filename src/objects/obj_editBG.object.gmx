@@ -6,7 +6,7 @@
   <depth>-220</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
-  <parentName>undel</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <events>
     <event enumb="0" eventtype="0">
       <action>
@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>plusx = 0&#13;
 plusy = 0&#13;
-on = false //This'll be just for debugging/testing, and it'll be deleted in the future</string>
+on = false //This'll be just for debugging/testing, and it'll be deleted in the future&#13;
+title = "Wut" //</string>
           </argument>
         </arguments>
       </action>
@@ -57,6 +58,33 @@ if !on {&#13;
 } else {&#13;
 	visible = true&#13;
 }</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self()&#13;
+draw_set_color(c_white)&#13;
+draw_set_valign(fa_center)&#13;
+draw_set_halign(fa_center)&#13;
+draw_set_font(font_0)&#13;
+draw_text(view_xview[0]+view_wview[0]/2, y+64, string(title))</string>
           </argument>
         </arguments>
       </action>
