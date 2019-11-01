@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>10</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
   <parentName>&lt;undefined&gt;</parentName>
@@ -51,6 +51,35 @@ if instance_exists(obj_player) &amp;&amp; global.playing {&#13;
 	}&#13;
 } if !global.playing {&#13;
 	//This was part of a failed try to do something, this'll be added soon (maybe) xd&#13;
+}</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Background&#13;
+jx = 0&#13;
+toj = sprite_get_width(spr_bg1)&#13;
+repeat room_width/toj&#13;
+{&#13;
+	draw_sprite2(spr_bg1, 0, global.bgcolor, (view_xview/1.1)+jx, (view_yview/1.1)+180)&#13;
+	jx += toj&#13;
 }</string>
           </argument>
         </arguments>
