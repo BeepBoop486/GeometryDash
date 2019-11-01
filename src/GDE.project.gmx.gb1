@@ -25,6 +25,7 @@
         <sprite>sprites\spr_groupIDBtn</sprite>
       </sprites>
       <sprites name="Scripts"/>
+      <sprites name="Utils"/>
     </sprites>
     <sprites name="Objects">
       <sprites name="Solids">
@@ -85,8 +86,9 @@
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>
+        <object>objects\core</object>
       </objects>
-      <object>objects\core</object>
+      <objects name="Utils"/>
     </objects>
     <objects name="Objects">
       <objects name="Solids">
