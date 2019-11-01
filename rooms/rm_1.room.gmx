@@ -12,6 +12,8 @@
   <showcolour>-1</showcolour>
   <code>room_goto_next()&#13;
 &#13;
+global.spdboost = 1&#13;
+&#13;
 global.music = 0&#13;
 global.pause = 0&#13;
 global.pulse = 0&#13;

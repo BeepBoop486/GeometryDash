@@ -83,6 +83,9 @@ if global.playing &#13;
 		}&#13;
 	}&#13;
 	x += hsp&#13;
+} else {&#13;
+	x = -61&#13;
+	y = 4572&#13;
 }</string>
           </argument>
         </arguments>
