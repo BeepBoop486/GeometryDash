@@ -21,6 +21,8 @@
         <sprite>sprites\spr_editbtn</sprite>
         <sprite>sprites\spr_load</sprite>
         <sprite>sprites\spr_save</sprite>
+        <sprite>sprites\spr_editObjBtn</sprite>
+        <sprite>sprites\spr_groupIDBtn</sprite>
       </sprites>
       <sprites name="Scripts"/>
     </sprites>
@@ -78,6 +80,8 @@
         <object>objects\obj_editorTab</object>
         <object>objects\obj_save</object>
         <object>objects\obj_load</object>
+        <object>objects\obj_editObj</object>
+        <object>objects\obj_editGroupID</object>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>
