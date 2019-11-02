@@ -26,8 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>//Select objects by tab&#13;
+&#13;
+//Page 0&#13;
 obj_solid = 0&#13;
 obj_spike = 0&#13;
+//Page 1&#13;
+obj_solid1 = 0&#13;
+obj_spikes1 = 0&#13;
 &#13;
 plusx = 0&#13;
 plusy = 0&#13;
@@ -80,7 +85,7 @@ y = view_yview[0]+plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>&#13;
+            <string>/*&#13;
 	if global.selected_mode == 0 {&#13;
 		if global.intab == 0 {&#13;
 			global.toput = obj_solid&#13;
@@ -98,7 +103,25 @@ y = view_yview[0]+plusy</string>
 				x += 61&#13;
 			}&#13;
 		}&#13;
-	}</string>
+	}&#13;
+*/&#13;
+&#13;
+///Select an object depending the pagination&#13;
+if global.selected_mode == 0{&#13;
+	if global.intab == 0 {&#13;
+		if global.solidspage == 0 {&#13;
+			global.toput = obj_solid&#13;
+		} else if global.solidspage == 1 {&#13;
+			global.toput = obj_solid1&#13;
+		}&#13;
+	} if global.intab == 1 {&#13;
+		if global.spikepage == 0 {&#13;
+			global.toput = obj_spike&#13;
+		} else if global.solidspage == 1 {&#13;
+			global.toput = obj_spikes1&#13;
+		}&#13;
+	}&#13;
+}</string>
           </argument>
         </arguments>
       </action>
@@ -125,22 +148,44 @@ y = view_yview[0]+plusy</string>
 		draw_sprite(spr_obj, 0, x, y)&#13;
 		&#13;
 		if global.intab == 0 {&#13;
-			obj_spr = object_get_sprite(obj_solid)&#13;
-			obj_spr_w = sprite_get_width(obj_spr)&#13;
-			obj_spr_h = sprite_get_height(obj_spr)&#13;
-			scale = 1&#13;
-			&#13;
-			if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-				scale = .5&#13;
+			if global.solidspage == 0 {&#13;
+				obj_spr = object_get_sprite(obj_solid)&#13;
+				obj_spr_w = sprite_get_width(obj_spr)&#13;
+				obj_spr_h = sprite_get_height(obj_spr)&#13;
+				scale = 1&#13;
+				&#13;
+				if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+					scale = .5&#13;
+				}&#13;
+			} else if global.solidspage == 1 {&#13;
+				obj_spr = object_get_sprite(obj_solid1)&#13;
+				obj_spr_w = sprite_get_width(obj_spr)&#13;
+				obj_spr_h = sprite_get_height(obj_spr)&#13;
+				scale = 1&#13;
+				&#13;
+				if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+					scale = .5&#13;
+				}&#13;
 			}&#13;
 		} if global.intab == 1 {&#13;
-			obj_spr = object_get_sprite(obj_spike)&#13;
-			obj_spr_w = sprite_get_width(obj_spr)&#13;
-			obj_spr_h = sprite_get_height(obj_spr)&#13;
-			scale = 1&#13;
-			&#13;
-			if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
-				scale = .5&#13;
+			if global.spikepage == 0 {&#13;
+				obj_spr = object_get_sprite(obj_spike)&#13;
+				obj_spr_w = sprite_get_width(obj_spr)&#13;
+				obj_spr_h = sprite_get_height(obj_spr)&#13;
+				scale = 1&#13;
+				&#13;
+				if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+					scale = .5&#13;
+				}&#13;
+			} else if global.spikepage == 1 {&#13;
+				obj_spr = object_get_sprite(obj_spikes1)&#13;
+				obj_spr_w = sprite_get_width(obj_spr)&#13;
+				obj_spr_h = sprite_get_height(obj_spr)&#13;
+				scale = 1&#13;
+				&#13;
+				if obj_spr_w == 61 &amp;&amp; obj_spr_h == 61 {&#13;
+					scale = .5&#13;
+				}&#13;
 			}&#13;
 		}&#13;
 		&#13;

@@ -31,7 +31,14 @@ global.selected_obj = noone //Selected object&#13;
 global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete&#13;
 global.playing = false //Checks if we're in test mode&#13;
 global.dragging= false //Variable that determines wether we're dragging or not&#13;
-global.intab = 0 // 0 - solid, 1 - spike</string>
+global.intab = 0 // 0 - solid, 1 - spike&#13;
+&#13;
+///Basic and shitty object pagination&#13;
+global.solidspage = 0&#13;
+global.spikepage = 0&#13;
+&#13;
+global.maxsolidspage = 2&#13;
+global.maxspikepage = 1</string>
           </argument>
         </arguments>
       </action>
