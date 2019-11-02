@@ -15,8 +15,8 @@
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1273</w>
-    <h>778</h>
+    <w>946</w>
+    <h>588</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -73,7 +73,15 @@
     <instance code="plusx = 1230&#13;&#10;plusy = 154" colour="4294967295" id="100394" locked="0" name="inst_ADF2F188" objName="obj_editObj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1230" y="4230"/>
     <instance code="plusx = 1156&#13;&#10;plusy = 154" colour="4294967295" id="100482" locked="0" name="inst_A8911332" objName="obj_editGroupID" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1156" y="4230"/>
     <instance code="plusx = 208&#13;&#10;plusy = 628" colour="4294967295" id="100505" locked="0" name="inst_F550C1BF" objName="obj_pagination" rotation="0.0" scaleX="0.5" scaleY="0.5" x="208" y="4704"/>
-    <instance code="plusx = 1088&#13;&#10;plusy = 628" colour="4294967295" id="100506" locked="0" name="inst_520C19E9" objName="obj_pagination" rotation="180.0" scaleX="0.5" scaleY="0.5" x="1088" y="4704"/>
+    <instance code="plusx = 1088&#13;&#10;plusy = 628&#13;&#10;toadd = 1" colour="4294967295" id="100506" locked="0" name="inst_520C19E9" objName="obj_pagination" rotation="180.0" scaleX="0.5" scaleY="0.5" x="1088" y="4704"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_01&#13;&#10;plusx = 1008&#13;&#10;plusy = 580&#13;&#10;&#13;&#10;pos = 9" colour="4294967295" id="100510" locked="0" name="inst_B1EA6B82" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1008" y="4656"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_02&#13;&#10;plusx = 288&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 11" colour="4294967295" id="100511" locked="0" name="inst_EC3A84EF" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="288" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_03&#13;&#10;plusx = 368&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 12" colour="4294967295" id="100512" locked="0" name="inst_8AD8C8EA" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="368" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_04&#13;&#10;plusx = 448&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 13" colour="4294967295" id="100513" locked="0" name="inst_BEF33A81" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="448" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_05&#13;&#10;plusx = 528&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 14" colour="4294967295" id="100514" locked="0" name="inst_F4F65D96" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="528" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_06&#13;&#10;plusx = 608&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 15" colour="4294967295" id="100516" locked="0" name="inst_38A16672" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="608" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_07&#13;&#10;plusx = 688&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 16" colour="4294967295" id="100517" locked="0" name="inst_DF534AC9" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="688" y="4736"/>
+    <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_slope&#13;&#10;plusx = 768&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 17" colour="4294967295" id="100518" locked="0" name="inst_B69CA133" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="768" y="4736"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

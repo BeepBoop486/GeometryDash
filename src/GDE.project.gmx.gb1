@@ -23,6 +23,7 @@
         <sprite>sprites\spr_save</sprite>
         <sprite>sprites\spr_editObjBtn</sprite>
         <sprite>sprites\spr_groupIDBtn</sprite>
+        <sprite>sprites\spr_pagination</sprite>
       </sprites>
       <sprites name="Scripts"/>
       <sprites name="Utils">
@@ -88,6 +89,7 @@
         <object>objects\obj_load</object>
         <object>objects\obj_editObj</object>
         <object>objects\obj_editGroupID</object>
+        <object>objects\obj_pagination</object>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>
