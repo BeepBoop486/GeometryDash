@@ -58,16 +58,16 @@ with(all)&#13;
             <string>x = view_xview[0] + plusx&#13;
 y = view_yview[0] + plusy&#13;
 &#13;
-global.toput = noone&#13;
+//global.toput = noone wtf bruh&#13;
 &#13;
 //TODO: This&#13;
-if mouse_check_button_released(mb_left) &amp;&amp; position_meeting(mouse_x, mouse_y, object_index) {&#13;
+/*if mouse_check_button_released(mb_left) &amp;&amp; position_meeting(mouse_x, mouse_y, object_index) {&#13;
 	tt = instance_create(0, 0, obj_editBG)&#13;
 	tt.plusx = 144&#13;
 	tt.plusy = 32&#13;
 	tt.on = true&#13;
 	tt.title = "Group editor";&#13;
-}</string>
+}*/</string>
           </argument>
         </arguments>
       </action>

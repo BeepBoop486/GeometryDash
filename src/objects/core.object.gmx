@@ -245,11 +245,11 @@ if global.selected_obj != 0 //If we've selected an object&#13;
 &amp;&amp; global.toput != noone /*&amp; mouse_y &lt; 4592*/&#13;
 &amp;&amp; global.toput != obj_ed_obj //If the selected object isn't a GUI element (This'll be a lot of&#13;
 //objects in a very shitty way too)&#13;
-//&amp;&amp; !global.playing&#13;
+&amp;&amp; !global.playing&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
-	/*boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
-	with(boj) move_snap(30.5,30.5)*/&#13;
+	boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
+	with(boj) move_snap(30.5,30.5)&#13;
 }</string>
           </argument>
         </arguments>

@@ -16,7 +16,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1286</w>
-    <h>780</h>
+    <h>812</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -72,7 +72,6 @@
     <instance code="" colour="4294967295" id="100272" locked="0" name="inst_96AD9F7B" objName="obj_wall" rotation="0.0" scaleX="1.0" scaleY="1.0" x="-30" y="4666"/>
     <instance code="plusx = 1230&#13;&#10;plusy = 154" colour="4294967295" id="100394" locked="0" name="inst_ADF2F188" objName="obj_editObj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1230" y="4230"/>
     <instance code="plusx = 1156&#13;&#10;plusy = 154" colour="4294967295" id="100482" locked="0" name="inst_A8911332" objName="obj_editGroupID" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1156" y="4230"/>
-    <instance code="" colour="4294967295" id="100505" locked="0" name="inst_DBB39227" objName="obj_editBG" rotation="0.0" scaleX="1.0" scaleY="1.0" x="144" y="4112"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
