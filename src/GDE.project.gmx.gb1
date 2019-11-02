@@ -73,6 +73,9 @@
     <script>scripts\save_level.gml</script>
     <script>scripts\load_level.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_0</font>
+  </fonts>
   <objects name="objects">
     <objects name="Editor">
       <objects name="GUI">
