@@ -90,7 +90,9 @@ image_yscale=image_xscale</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp = 10.6 * global.spdboost&#13;
+            <string>///Cube logic&#13;
+&#13;
+hsp = 10.6 * global.spdboost&#13;
 scr_mini_set()&#13;
 jboost_set()&#13;
 jumpspd = 20 * s_jboost()&#13;
