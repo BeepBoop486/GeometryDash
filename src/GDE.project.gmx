@@ -160,7 +160,15 @@
       <objects name="Spikes">
         <object>objects\obj_spike1</object>
       </objects>
-      <objects name="Rings"/>
+      <objects name="Rings">
+        <object>objects\obj_ring1</object>
+        <object>objects\obj_ring2</object>
+        <object>objects\obj_ring3</object>
+        <object>objects\obj_ring4</object>
+        <object>objects\obj_ring5</object>
+        <object>objects\obj_ring6</object>
+        <object>objects\obj_ring7</object>
+      </objects>
     </objects>
     <objects name="Vehicles">
       <object>objects\obj_player</object>

@@ -58,6 +58,15 @@
       <sprites name="Spikes">
         <sprite>sprites\spr_spike1</sprite>
       </sprites>
+      <sprites name="Rings">
+        <sprite>sprites\spr_ring1</sprite>
+        <sprite>sprites\spr_ring2</sprite>
+        <sprite>sprites\spr_ring3</sprite>
+        <sprite>sprites\spr_ring4</sprite>
+        <sprite>sprites\spr_ring5</sprite>
+        <sprite>sprites\spr_ring6</sprite>
+        <sprite>sprites\spr_ring7</sprite>
+      </sprites>
     </sprites>
     <sprites name="Vehicles">
       <sprite>sprites\spr_cube_01</sprite>
@@ -96,6 +105,7 @@
     <script>scripts\scr_hitbox.gml</script>
     <script>scripts\scr_die.gml</script>
     <script>scripts\scr_ring_set.gml</script>
+    <script>scripts\scr_interactive.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
@@ -149,6 +159,15 @@
       </objects>
       <objects name="Spikes">
         <object>objects\obj_spike1</object>
+      </objects>
+      <objects name="Rings">
+        <object>objects\obj_ring1</object>
+        <object>objects\obj_ring2</object>
+        <object>objects\obj_ring3</object>
+        <object>objects\obj_ring4</object>
+        <object>objects\obj_ring5</object>
+        <object>objects\obj_ring6</object>
+        <object>objects\obj_ring7</object>
       </objects>
     </objects>
     <objects name="Vehicles">
