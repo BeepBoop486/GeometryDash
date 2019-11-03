@@ -88,6 +88,8 @@
     <script>scripts\hide_ui.gml</script>
     <script>scripts\save_level.gml</script>
     <script>scripts\load_level.gml</script>
+    <script>scripts\scr_trail.gml</script>
+    <script>scripts\scr_sprite.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
