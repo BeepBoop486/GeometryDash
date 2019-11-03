@@ -142,6 +142,27 @@ if trail {&#13;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///jitbacs&#13;
+scr_hitbox(x, y)</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event enumb="0" eventtype="8">
       <action>
