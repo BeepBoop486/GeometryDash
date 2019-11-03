@@ -3,7 +3,7 @@
   <spriteName>spr_cube_01</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
   <parentName>undel</parentName>
