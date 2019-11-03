@@ -36,9 +36,11 @@ global.intab = 0 // 0 - solid, 1 - spike&#13;
 ///Basic and shitty object pagination&#13;
 global.solidspage = 0&#13;
 global.spikepage = 0&#13;
+global.orbspage = 0&#13;
 &#13;
 global.maxsolidspage = 2&#13;
-global.maxspikepage = 1</string>
+global.maxspikepage = 2&#13;
+global.maxorbspage = 2</string>
           </argument>
         </arguments>
       </action>
