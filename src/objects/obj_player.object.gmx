@@ -96,7 +96,7 @@ hsp = 10.6 * global.spdboost&#13;
 scr_mini_set()&#13;
 jboost_set()&#13;
 jumpspd = 20 * s_jboost()&#13;
-&#13;
+scr_ring_set()&#13;
 if global.playing &#13;
 {&#13;
 	physics()&#13;
@@ -160,6 +160,27 @@ if trail {&#13;
             <kind>1</kind>
             <string>///jitbacs&#13;
 scr_hitbox(x, y)</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Interactive&#13;
+scr_interactive()</string>
           </argument>
         </arguments>
       </action>

@@ -75,6 +75,9 @@
       <sprite>sprites\spr_par3</sprite>
     </sprites>
   </sprites>
+  <sounds name="sound">
+    <sound>sound\snd_dead</sound>
+  </sounds>
   <scripts name="scripts">
     <script>scripts\drawGrid.gml</script>
     <script>scripts\ini_physics.gml</script>
@@ -92,6 +95,7 @@
     <script>scripts\scr_sprite.gml</script>
     <script>scripts\scr_hitbox.gml</script>
     <script>scripts\scr_die.gml</script>
+    <script>scripts\scr_ring_set.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
@@ -153,6 +157,9 @@
     <objects name="Scripts">
       <object>objects\obj_player_deadbox</object>
       <object>objects\obj_camera</object>
+      <object>objects\obj_restart</object>
+      <object>objects\obj_cam_shake</object>
+      <object>objects\obj_ring_parent</object>
     </objects>
     <objects name="Effects">
       <object>objects\obj_par1</object>
