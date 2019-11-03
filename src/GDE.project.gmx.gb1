@@ -24,6 +24,8 @@
         <sprite>sprites\spr_editObjBtn</sprite>
         <sprite>sprites\spr_groupIDBtn</sprite>
         <sprite>sprites\spr_pagination</sprite>
+        <sprite>sprites\spr_configBox</sprite>
+        <sprite>sprites\spr_emptyBox</sprite>
       </sprites>
       <sprites name="Scripts"/>
       <sprites name="Utils">

@@ -26,6 +26,7 @@
         <sprite>sprites\spr_pagination</sprite>
         <sprite>sprites\spr_configBox</sprite>
         <sprite>sprites\spr_emptyBox</sprite>
+        <sprite>sprites\spr_optionsBTN</sprite>
       </sprites>
       <sprites name="Scripts"/>
       <sprites name="Utils">
@@ -158,6 +159,7 @@
         <object>objects\obj_editObj</object>
         <object>objects\obj_editGroupID</object>
         <object>objects\obj_pagination</object>
+        <object>objects\obj_optionsBTN</object>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>

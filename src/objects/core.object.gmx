@@ -110,6 +110,8 @@ if !global.playing&#13;
 	global.spdboost = 0&#13;
 	global.gravdir = 0&#13;
 	with(obj_player) {trail = 0}&#13;
+} else {&#13;
+	global.spdboost = 1&#13;
 }</string>
           </argument>
         </arguments>

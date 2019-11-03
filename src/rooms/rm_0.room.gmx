@@ -15,8 +15,8 @@
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>946</w>
-    <h>588</h>
+    <w>1273</w>
+    <h>778</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -83,6 +83,7 @@
     <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_07&#13;&#10;plusx = 688&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 16" colour="4294967295" id="100517" locked="0" name="inst_DF534AC9" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="688" y="4736"/>
     <instance code="//obj = obj_spike1&#13;&#10;obj_solid = obj_block001_slope&#13;&#10;plusx = 768&#13;&#10;plusy = 660&#13;&#10;&#13;&#10;pos = 17" colour="4294967295" id="100518" locked="0" name="inst_B69CA133" objName="obj_ed_obj" rotation="0.0" scaleX="1.0" scaleY="1.0" x="768" y="4736"/>
     <instance code="plusx = 240 //It'll keep moving with the camera&#13;&#10;totab = 2 //This'll select the orbs tab&#13;&#10;icon = spr_ring1 //The icon of this tab'll be the spike sprite (spr_spike1)" colour="4294967295" id="100551" locked="0" name="inst_B07ADB61" objName="obj_editorTab" rotation="0.0" scaleX="1.0" scaleY="1.0" x="240" y="4592"/>
+    <instance code="plusx = 1216&#13;&#10;plusy = 68" colour="4294967295" id="100618" locked="0" name="inst_27E8A3CF" objName="obj_optionsBTN" rotation="0.0" scaleX="0.8" scaleY="0.8" x="1216" y="4144"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
