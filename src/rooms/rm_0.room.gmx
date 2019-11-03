@@ -3,8 +3,8 @@
   <caption/>
   <width>6400</width>
   <height>4800</height>
-  <hsnap>16</hsnap>
-  <vsnap>16</vsnap>
+  <hsnap>640</hsnap>
+  <vsnap>8</vsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>

@@ -264,6 +264,7 @@ if global.selected_obj != 0 //If we've selected an object&#13;
 &amp;&amp; global.toput != obj_ed_obj //If the selected object isn't a GUI element (This'll be a lot of&#13;
 //objects in a very shitty way too)&#13;
 &amp;&amp; !global.playing&#13;
+&amp;&amp; !instance_exists(BoxOpts)&#13;
 &amp;&amp; global.selected_mode = 0 // If we're in build mode&#13;
 {&#13;
 	boj = instance_create(mouse_x, mouse_y, global.toput) //Bugs fixed&#13;
@@ -290,9 +291,11 @@ if global.selected_obj != 0 //If we've selected an object&#13;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.dragging = true&#13;
+            <string>if !instance_exists(BoxOpts) {&#13;
+	global.dragging = true&#13;
 	drag_x = mouse_x&#13;
-	drag_y = mouse_y</string>
+	drag_y = mouse_y&#13;
+}</string>
           </argument>
         </arguments>
       </action>

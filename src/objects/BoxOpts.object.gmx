@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <object>
-  <spriteName>spr_optionsBTN</spriteName>
+  <spriteName>spr_configBox</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-4000</depth>
   <persistent>0</persistent>
   <maskName>&lt;undefined&gt;</maskName>
-  <parentName>undel</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <events>
     <event enumb="0" eventtype="0">
       <action>
@@ -25,9 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>plusx = 0&#13;
-plusy = 0&#13;
-toadd = 1</string>
+            <string>plusx=0&#13;
+plusy=0</string>
           </argument>
         </arguments>
       </action>
@@ -55,7 +54,7 @@ y = view_yview[0] + plusy</string>
         </arguments>
       </action>
     </event>
-    <event enumb="7" eventtype="6">
+    <event enumb="0" eventtype="8">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -72,12 +71,7 @@ y = view_yview[0] + plusy</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !instance_exists(BoxOpts)&#13;
-{&#13;
-	tt = instance_create(0, 0, BoxOpts)&#13;
-	tt.plusx = 640&#13;
-	tt.plusy = 364&#13;
-}</string>
+            <string>draw_self()</string>
           </argument>
         </arguments>
       </action>
