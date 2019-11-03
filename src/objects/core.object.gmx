@@ -96,6 +96,11 @@ if global.selected_mode == 2 /*&amp;&amp; mouse_y &lt; 4592*/ &amp;&amp; !positi
 if keyboard_check_released(vk_enter)&#13;
 {&#13;
 	global.playing = !global.playing&#13;
+	if global.playing{&#13;
+		audio_play_sound(global.music, 1, true)&#13;
+	} else {&#13;
+		audio_stop_all()&#13;
+	}&#13;
 	hide_ui()&#13;
 }&#13;
 &#13;

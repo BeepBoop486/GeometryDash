@@ -159,8 +159,10 @@
         <object>objects\obj_editObj</object>
         <object>objects\obj_editGroupID</object>
         <object>objects\obj_pagination</object>
-        <object>objects\obj_optionsBTN</object>
-        <object>objects\BoxOpts</object>
+        <objects name="Opts">
+          <object>objects\obj_optionsBTN</object>
+          <object>objects\BoxOpts</object>
+        </objects>
       </objects>
       <objects name="Scripts">
         <object>objects\undel</object>

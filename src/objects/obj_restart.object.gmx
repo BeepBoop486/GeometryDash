@@ -47,7 +47,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(-182, obj_ground.y-30, obj_player)</string>
+            <string>instance_create(-182, obj_ground.y-30, obj_player)&#13;
+if global.playing &amp;&amp; !audio_is_playing(global.music) {&#13;
+	audio_play_sound(global.music, 1, true)&#13;
+}</string>
           </argument>
         </arguments>
       </action>

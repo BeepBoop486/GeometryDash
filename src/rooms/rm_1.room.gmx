@@ -14,7 +14,7 @@
 &#13;
 global.spdboost = 1&#13;
 &#13;
-global.music = 0&#13;
+global.music = AirborneRobots&#13;
 global.pause = 0&#13;
 global.pulse = 0&#13;
 &#13;
@@ -35,8 +35,8 @@ global.col2 = c_lime</code>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1037</w>
-    <h>618</h>
+    <w>1273</w>
+    <h>778</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
