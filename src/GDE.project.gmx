@@ -86,6 +86,39 @@
   </sprites>
   <sounds name="sound">
     <sound>sound\snd_dead</sound>
+    <sound>sound\AirborneRobots</sound>
+    <sound>sound\BackOnTrack</sound>
+    <sound>sound\BaseAfterBase</sound>
+    <sound>sound\BeastMode</sound>
+    <sound>sound\BlastProcessing</sound>
+    <sound>sound\CantLetGo</sound>
+    <sound>sound\Clubstep</sound>
+    <sound>sound\Clutterfunk</sound>
+    <sound>sound\Cycles</sound>
+    <sound>sound\DeadLocked</sound>
+    <sound>sound\DryOut</sound>
+    <sound>sound\ElectroFrontlines</sound>
+    <sound>sound\Electrodynamix</sound>
+    <sound>sound\Electroman</sound>
+    <sound>sound\Embers</sound>
+    <sound>sound\Fingerbang</sound>
+    <sound>sound\GeometricalDominator</sound>
+    <sound>sound\HexagonForce</sound>
+    <sound>sound\Jumper</sound>
+    <sound>sound\Machina</sound>
+    <sound>sound\MonsterDanceOff</sound>
+    <sound>sound\Payload</sound>
+    <sound>sound\Polargeist</sound>
+    <sound>sound\SpacePirates</sound>
+    <sound>sound\StayInsideMe</sound>
+    <sound>sound\StereoMadness</sound>
+    <sound>sound\Striker</sound>
+    <sound>sound\The7Seas</sound>
+    <sound>sound\TheoryOfEverything</sound>
+    <sound>sound\TheoryOfEverything2</sound>
+    <sound>sound\TimeMachine</sound>
+    <sound>sound\VikingArena</sound>
+    <sound>sound\Years</sound>
   </sounds>
   <scripts name="scripts">
     <script>scripts\drawGrid.gml</script>
