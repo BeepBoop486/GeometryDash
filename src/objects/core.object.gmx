@@ -103,6 +103,13 @@ if global.dragging &amp;&amp; !global.playing&#13;
 {&#13;
 	view_xview = view_xview + drag_x - mouse_x&#13;
 	view_yview = view_yview + drag_y - mouse_y&#13;
+}&#13;
+&#13;
+if !global.playing&#13;
+{&#13;
+	global.spdboost = 0&#13;
+	global.gravdir = 0&#13;
+	with(obj_player) {trail = 0}&#13;
 }</string>
           </argument>
         </arguments>
