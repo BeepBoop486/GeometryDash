@@ -90,6 +90,8 @@
     <script>scripts\load_level.gml</script>
     <script>scripts\scr_trail.gml</script>
     <script>scripts\scr_sprite.gml</script>
+    <script>scripts\scr_hitbox.gml</script>
+    <script>scripts\scr_die.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
