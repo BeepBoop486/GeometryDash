@@ -18,7 +18,7 @@ if version == 0 {
 		//Why do i'll write the name of the object in place of the id
 		//cuz if as by example the first object of the root (obj_ed_obj)
 		//is changed to the second one, its object_index won't be 1 (or zero dunno)
-		//It'll or 1 or two
+		//It'll be or 1 or two
 		var angle, xscale, yscale, blend, groupo, xpos, ypos; //The first version of this editor
 		//Just will save these variables
 		/*with(instance_id_get( i ))
@@ -35,12 +35,12 @@ if version == 0 {
 			}
 		}*/
 		var obj = instance_id_get(i);
-		obj = obj.object_index
-		if obj != obj_ed_obj && obj != edit_buildBtn && obj != edit_buildBtn && obj != edit_deleteBtn
-		&& obj != obj_save && obj != obj_editorTab && obj != obj_editObj && obj != obj_editGroupID 
-		&& obj != obj_load && obj != obj_pagination && obj != obj_optionsBTN && obj != core
-		&& obj != obj_camera{
-			obj_name = object_get_name(obj);
+		objid = obj.object_index
+		if objid != obj_ed_obj && objid != edit_buildBtn && objid != edit_buildBtn && objid != edit_deleteBtn
+		&& objid != obj_save && objid != obj_editorTab && objid != obj_editObj && objid != obj_editGroupID 
+		&& objid != obj_load && objid != obj_pagination && objid != obj_optionsBTN && objid != core
+		&& objid != obj_camera{
+			obj_name = object_get_name(objid);
 			angle = obj.image_angle
 			xscale = obj.image_xscale
 			yscale = obj.image_yscale
