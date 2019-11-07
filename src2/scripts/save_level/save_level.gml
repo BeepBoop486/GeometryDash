@@ -19,7 +19,7 @@ if version == 0 {
 		//cuz if as by example the first object of the root (obj_ed_obj)
 		//is changed to the second one, its object_index won't be 1 (or zero dunno)
 		//It'll or 1 or two
-		var angle, xscale, yscale, blend, groupo; //The first version of this editor
+		var angle, xscale, yscale, blend, groupo, xpos, ypos; //The first version of this editor
 		//Just will save these variables
 		/*with(instance_id_get( i ))
 		{
@@ -50,6 +50,8 @@ if version == 0 {
 			} else {
 				groupo = 0
 			}
+			xpos = obj.x
+			ypos = obj.y
 		
 			file_text_write_string(file, obj_name)
 			file_text_writeln(file)
@@ -62,6 +64,10 @@ if version == 0 {
 			file_text_write_real(file, blend)
 			file_text_writeln(file)
 			file_text_write_real(file, groupo)
+			file_text_writeln(file)
+			file_text_write_real(file, xpos)
+			file_text_writeln(file)
+			file_text_write_real(file, ypos)
 			file_text_writeln(file)
 		}
 	}
