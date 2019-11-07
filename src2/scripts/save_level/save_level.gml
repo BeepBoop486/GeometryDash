@@ -19,17 +19,33 @@ if version == 0 {
 		//cuz if as by example the first object of the root (obj_ed_obj)
 		//is changed to the second one, its object_index won't be 1 (or zero dunno)
 		//It'll or 1 or two
-		var angle, xscale, yscale, blend, group; //The first version of this editor
+		var angle, xscale, yscale, blend, groupo; //The first version of this editor
 		//Just will save these variables
-		with(instance_id_get( i ))
+		/*with(instance_id_get( i ))
 		{
 			obj_name = object_get_name(object_index)
 			angle = image_angle;
 			xscale = image_xscale;
 			yscale = image_yscale;
 			blend = image_blend
-			group = group
+			if group != undefined {
+				groupo = group
+			} else {
+				groupo = 0
+			}
+		}*/
+		var obj = instance_id_get(i);
+		obj_name = object_get_name(obj.object_index);
+		angle = obj.image_angle
+		xscale = obj.image_xscale
+		yscale = obj.image_yscale
+		blend = obj.image_blend
+		if variable_instance_exists(obj, "group") {
+			groupo = obj.group
+		} else {
+			groupo = 0
 		}
+		
 		file_text_write_string(file, obj_name)
 		file_text_writeln(file)
 		file_text_write_real(file, angle)
@@ -40,7 +56,7 @@ if version == 0 {
 		file_text_writeln(file)
 		file_text_write_real(file, blend)
 		file_text_writeln(file)
-		file_text_write_real(file, group)
+		file_text_write_real(file, groupo)
 		file_text_writeln(file)
 	}
 }
