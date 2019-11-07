@@ -36,29 +36,34 @@ if version == 0 {
 		}*/
 		var obj = instance_id_get(i);
 		obj = obj.object_index
-		obj_name = object_get_name(obj);
-		angle = obj.image_angle
-		xscale = obj.image_xscale
-		yscale = obj.image_yscale
-		blend = obj.image_blend
-		if variable_instance_exists(obj, "group") {
-			groupo = obj.group
-		} else {
-			groupo = 0
-		}
+		if obj != obj_ed_obj && obj != edit_buildBtn && obj != edit_buildBtn && obj != edit_deleteBtn
+		&& obj != obj_save && obj != obj_editorTab && obj != obj_editObj && obj != obj_editGroupID 
+		&& obj != obj_load && obj != obj_pagination && obj != obj_optionsBTN && obj != core
+		&& obj != obj_camera{
+			obj_name = object_get_name(obj);
+			angle = obj.image_angle
+			xscale = obj.image_xscale
+			yscale = obj.image_yscale
+			blend = obj.image_blend
+			if variable_instance_exists(obj, "group") {
+				groupo = obj.group
+			} else {
+				groupo = 0
+			}
 		
-		file_text_write_string(file, obj_name)
-		file_text_writeln(file)
-		file_text_write_real(file, angle)
-		file_text_writeln(file)
-		file_text_write_real(file, xscale)
-		file_text_writeln(file)
-		file_text_write_real(file, yscale)
-		file_text_writeln(file)
-		file_text_write_real(file, blend)
-		file_text_writeln(file)
-		file_text_write_real(file, groupo)
-		file_text_writeln(file)
+			file_text_write_string(file, obj_name)
+			file_text_writeln(file)
+			file_text_write_real(file, angle)
+			file_text_writeln(file)
+			file_text_write_real(file, xscale)
+			file_text_writeln(file)
+			file_text_write_real(file, yscale)
+			file_text_writeln(file)
+			file_text_write_real(file, blend)
+			file_text_writeln(file)
+			file_text_write_real(file, groupo)
+			file_text_writeln(file)
+		}
 	}
 }
 file_text_close(file)
