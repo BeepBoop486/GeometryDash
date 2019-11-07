@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "2f6a2aca-f398-4a3a-83da-594cb2c44eac",
-            "Value": {
-                "id": "a9c247be-ac5a-44d8-8542-2a6862560e45",
-                "resourcePath": "fonts\\font_0\\font_0.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "2ff36e46-171e-4c4b-a1bf-13ba0e976ff3",
             "Value": {
                 "id": "24845722-b49e-47e5-8760-85d44bf845b0",
@@ -655,6 +647,14 @@
             }
         },
         {
+            "Key": "5cb7485b-d765-44ac-9cc3-9e873096dc53",
+            "Value": {
+                "id": "98b1186b-62ad-494a-93ee-dac5905b9c1f",
+                "resourcePath": "objects\\ClickableMusicLess1\\ClickableMusicLess1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e0de20c-494a-42d4-8dab-e96e9cb98c6e",
             "Value": {
                 "id": "de62829e-f985-42f0-9785-9d5c7d394763",
@@ -764,6 +764,14 @@
                 "id": "18e871e2-7da5-41b3-b96b-69a3a5df921e",
                 "resourcePath": "views\\6f555a1f-724e-4e3c-8f65-bbe1b5b457fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6fc58ecf-4954-4f79-85fb-724722bdd7c1",
+            "Value": {
+                "id": "c5370537-c908-40e7-a739-614e8da9a91f",
+                "resourcePath": "sprites\\sClickableArea\\sClickableArea.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1119,6 +1127,14 @@
             }
         },
         {
+            "Key": "a3035a63-9f01-4ab9-acb1-c6261ed8ddbf",
+            "Value": {
+                "id": "55b42e8a-166d-4513-a54a-f6edcb970141",
+                "resourcePath": "objects\\ClickableMusicPlus1\\ClickableMusicPlus1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3a13ca6-bb95-4f1a-8236-42bf853fac7a",
             "Value": {
                 "id": "9ae39187-f556-4d05-8897-40f738cd3bf1",
@@ -1404,6 +1420,14 @@
                 "id": "3524ffe0-0e72-48c1-9679-d28e5e53057e",
                 "resourcePath": "views\\ca25421e-1116-42f1-a0e5-77f3dca20e93.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca3be700-e774-479e-930c-19e0a5f248b4",
+            "Value": {
+                "id": "f38e2842-ee5f-4dd9-870a-a23b5d2af635",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {
