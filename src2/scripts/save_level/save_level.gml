@@ -35,7 +35,8 @@ if version == 0 {
 			}
 		}*/
 		var obj = instance_id_get(i);
-		obj_name = object_get_name(obj.object_index);
+		obj = obj.object_index
+		obj_name = object_get_name(obj);
 		angle = obj.image_angle
 		xscale = obj.image_xscale
 		yscale = obj.image_yscale

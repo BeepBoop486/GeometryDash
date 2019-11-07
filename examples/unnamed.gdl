@@ -152,13 +152,13 @@ obj_editorTab
 0 
 obj_wall
 0 
-1 
+25 
 1 
 1.67772e+07 
 0 
 obj_wall
 0 
-1 
+25 
 1 
 1.67772e+07 
 0 
@@ -181,7 +181,7 @@ obj_pagination
 1.67772e+07 
 0 
 obj_pagination
-180 
+0 
 0.5 
 0.5 
 1.67772e+07 
