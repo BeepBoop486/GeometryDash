@@ -1,0 +1,179 @@
+Convirtiendo script GML: ${project_dir}\scripts\draw_sprite2\draw_sprite2.gml
+Descripción convertida /// @description draw_sprite2(sprite, angle, color, x, y)/// @param sprite
+/// @param  angle
+/// @param  color
+/// @param  x
+/// @param  y
+
+Convirtiendo script GML: ${project_dir}\scripts\save_level\save_level.gml
+Cadena incluida - línea 20: instance_id[i] -> instance_id_get( i )
+Descripción convertida /// @description save_level(version, filename)/// @param version
+/// @param  filename
+
+Convirtiendo script GML: ${project_dir}\scripts\scr_interactive\scr_interactive.gml
+Descripción convertida /// @description I dont' want to do this in every object so...
+
+!!! La fuente font_0 usa una fuente (Pusab) no instalada en este sistema - La fuente NO se ha regenerado
+La fuente no tiene textura en un proyecto de GameMaker Studio 1, se ha forzado su regeneración
+La textura de la fuente ha sido regenerada, podría haber incoherencias
+Convirtiendo script GML: ${project_dir}\objects\obj_ed_obj\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\edit_buildBtn\Step_0.gml
+Cadena incluida - línea 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\edit_editBtn\Step_0.gml
+Cadena incluida - línea 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\edit_deleteBtn\Step_0.gml
+Cadena incluida - línea 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editorTab\Create_0.gml
+Descripción convertida /// @description Init vars
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editorTab\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_save\Step_0.gml
+Cadena incluida - línea 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_load\Step_0.gml
+Cadena incluida - línea 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editObj\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editGroupID\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pagination\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_pagination\Mouse_7.gml
+Descripción convertida /// @description Pagination
+
+Convirtiendo script GML: ${project_dir}\objects\obj_optionsBTN\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\BoxOpts\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\core\Create_0.gml
+Descripción convertida /// @description var init
+
+Convirtiendo script GML: ${project_dir}\objects\core\Step_0.gml
+Cadena incluida - línea 89: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 91: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 89: view_xview = __view_get( e__VW.XView, 0 ) + drag_x - mouse_x -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + drag_x - mouse_x )
+Cadena incluida - línea 91: view_yview = __view_get( e__VW.YView, 0 ) + drag_y - mouse_y -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + drag_y - mouse_y )
+
+Convirtiendo script GML: ${project_dir}\objects\core\Draw_0.gml
+Cadena incluida - línea 11: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 11: view_yview -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editBG\Step_0.gml
+Cadena incluida - línea 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_editBG\Draw_0.gml
+Cadena incluida - línea 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Create_0.gml
+Descripción convertida /// @description Initializing variables
+
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Step_0.gml
+Descripción convertida /// @description Cube logic
+
+Convirtiendo script GML: ${project_dir}\objects\obj_player\Draw_0.gml
+ERROR: C:\Users\BeepBoop486\Documents\GitHub\GeometryDash\src2\objects\obj_player\Draw_0.gml - 61: Se obtuvo "image_index" (id) se esperaba ","
+ERROR: C:\Users\BeepBoop486\Documents\GitHub\GeometryDash\src2\objects\obj_player\Draw_0.gml - 61: número de argumentos esperados 9 se obtuvieron 0
+Demasiados errores - GML no procesado : ${project_dir}\objects\obj_player\Draw_0.gml
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Step_0.gml
+Cadena incluida - línea 33: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 5: view_xview = obj_player.x-view_wview/3 -> __view_set( e__VW.XView, 0, obj_player.x-view_wview/3 )
+Cadena incluida - línea 37: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Cadena incluida - línea 11: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 15: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 19: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 23: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 29: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 41: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 45: view_yview = room_height - view_hview -> __view_set( e__VW.YView, 0, room_height - view_hview )
+Cadena incluida - línea 11: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 15: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 19: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 23: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 29: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 41: view_hview -> __view_get( e__VW.HView, 0 )
+Cadena incluida - línea 15: view_yview += ((obj_player.y-(__view_get( e__VW.HView, 0 )/3)) - __view_get( e__VW.YView, 0 )) * 0.2 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((obj_player.y-(__view_get( e__VW.HView, 0 )/3)) - __view_get( e__VW.YView, 0 )) * 0.2) )
+Cadena incluida - línea 23: view_yview += ((obj_player.y-(__view_get( e__VW.HView, 0 )/3)*2) - __view_get( e__VW.YView, 0 )) * 0.2 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((obj_player.y-(__view_get( e__VW.HView, 0 )/3)*2) - __view_get( e__VW.YView, 0 )) * 0.2) )
+Cadena incluida - línea 29: view_yview+=((global.ylimit-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.1 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((global.ylimit-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.1) )
+Cadena incluida - línea 5: view_wview -> __view_get( e__VW.WView, 0 )
+Cadena incluida - línea 45: view_hview -> __view_get( e__VW.HView, 0 )
+
+Convirtiendo script GML: ${project_dir}\objects\obj_camera\Draw_0.gml
+Cadena incluida - línea 11: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 11: view_yview -> __view_get( e__VW.YView, 0 )
+Descripción convertida /// @description Background
+
+Convirtiendo script GML: ${project_dir}\objects\obj_cam_shake\Step_0.gml
+Cadena incluida - línea 1: view_xview+=random_range(-spd, spd) -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (random_range(-spd, spd)) )
+Cadena incluida - línea 3: view_yview+=random_range(-spd, spd) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (random_range(-spd, spd)) )
+
+Falta el grupo de audio para el sonido: "snd_dead" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "AirborneRobots" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "BackOnTrack" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "BaseAfterBase" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "BeastMode" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "BlastProcessing" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "CantLetGo" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Clubstep" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Clutterfunk" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Cycles" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "DeadLocked" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "DryOut" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "ElectroFrontlines" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Electrodynamix" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Electroman" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Embers" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Fingerbang" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "GeometricalDominator" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "HexagonForce" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Jumper" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Machina" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "MonsterDanceOff" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Payload" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Polargeist" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "SpacePirates" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "StayInsideMe" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "StereoMadness" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Striker" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "The7Seas" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "TheoryOfEverything" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "TheoryOfEverything2" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "TimeMachine" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "VikingArena" - pasando el grupo de audio a predeterminado
+Falta el grupo de audio para el sonido: "Years" - pasando el grupo de audio a predeterminado
+Velocidad del juego fijada en 60
+Añadido el script de compatibilidad "instance/instance_create.gml"
+Añadido el script de compatibilidad "object/object_get_depth.gml"
+Añadido el script de compatibilidad "view/__view_get.gml"
+Añadido el script de compatibilidad "view/__view_set.gml"
+Añadido el script de compatibilidad "view/__view_set_internal.gml"
+Añadido el script de compatibilidad "view/__init_view.gml"
+Añadido el script de compatibilidad "__init_global.gml"
+Añadido el script de compatibilidad "__global_object_depths.gml"
