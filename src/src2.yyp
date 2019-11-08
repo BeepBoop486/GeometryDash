@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0c114b81-2abe-45e4-bfc9-b9e14cd04b9f",
+            "Value": {
+                "id": "33396017-0c64-40ff-9e14-36d25d6d1eef",
+                "resourcePath": "views\\0c114b81-2abe-45e4-bfc9-b9e14cd04b9f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0f140cb7-3c11-4ba5-ac85-5f36c3ad6cc1",
             "Value": {
                 "id": "7db8f9a4-7543-462f-82ad-144d09955ad4",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "34d32095-7533-4e56-82ac-ee536ff5ddeb",
+            "Value": {
+                "id": "dbbbdc6a-2d33-4d06-9cff-075f42efbd1a",
+                "resourcePath": "views\\34d32095-7533-4e56-82ac-ee536ff5ddeb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "36349395-ff71-4cc8-97d3-5cd6d10233b0",
             "Value": {
                 "id": "fec09daf-3af6-48b1-bef0-110d9ff4d70b",
@@ -524,6 +540,14 @@
                 "id": "224759a1-aa63-4f01-9f02-8d8a31067c3e",
                 "resourcePath": "sprites\\spr_robot_fb_a\\spr_robot_fb_a.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f38252a-699a-431c-9490-f4ce860cb91c",
+            "Value": {
+                "id": "08d39d19-3c25-4b03-b1d8-36ff6464ce61",
+                "resourcePath": "views\\3f38252a-699a-431c-9490-f4ce860cb91c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1828,6 +1852,14 @@
                 "id": "2d867fc7-4018-47d8-a19c-e90e0fe7ea81",
                 "resourcePath": "objects\\obj_cam_shake\\obj_cam_shake.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dae5e608-7bf5-4c9e-8cfa-325c2d095272",
+            "Value": {
+                "id": "7838c05d-68d2-4eb6-807b-d3d746124da9",
+                "resourcePath": "views\\dae5e608-7bf5-4c9e-8cfa-325c2d095272.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
