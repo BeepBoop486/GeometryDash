@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_0",
+    "name": "rm_editor",
     "id": "7607902a-0b2d-440e-ac2f-c3fecd7e3e09",
     "creationCodeFile": "",
     "inheritCode": false,

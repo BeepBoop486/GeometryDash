@@ -930,7 +930,7 @@
             "Key": "715b8f03-3bb9-4db9-96cf-0e2d092ac658",
             "Value": {
                 "id": "ab1fda31-c403-4307-848f-2f1de60bbb98",
-                "resourcePath": "rooms\\rm_1\\rm_1.yy",
+                "resourcePath": "rooms\\rm_init\\rm_init.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1002,7 +1002,7 @@
             "Key": "7607902a-0b2d-440e-ac2f-c3fecd7e3e09",
             "Value": {
                 "id": "67ae5059-9acd-4512-b9e7-8abdfb9d3910",
-                "resourcePath": "rooms\\rm_0\\rm_0.yy",
+                "resourcePath": "rooms\\rm_editor\\rm_editor.yy",
                 "resourceType": "GMRoom"
             }
         },
