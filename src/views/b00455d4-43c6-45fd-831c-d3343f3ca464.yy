@@ -14,7 +14,7 @@
         "4dd71a4e-54db-4598-add3-09c309be8272"
     ],
     "filterType": "GMSprite",
-    "folderName": "Block001",
+    "folderName": "BeamBlock",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

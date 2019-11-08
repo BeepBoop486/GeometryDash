@@ -14,7 +14,7 @@
         "bab254ce-1a7f-42b5-9264-9862d5c64e5a"
     ],
     "filterType": "GMObject",
-    "folderName": "Block001",
+    "folderName": "BeamBlock",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
