@@ -1,5 +1,5 @@
 /// @description view movement
-if global.playing && tofol != noone
+if global.playing && tofol != noone && instance_exists(tofol)
 {
     __view_set( e__VW.XView, 0, tofol.x-__view_get( e__VW.WView, 0 )/3 )
     if global.yscroll
