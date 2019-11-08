@@ -71,6 +71,7 @@ if keyboard_check_released(vk_enter)
 		audio_play_sound(global.music, 1, true)
 
 	} else {
+		scr_reset_vars()
 		audio_stop_all()
 
 	}
