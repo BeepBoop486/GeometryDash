@@ -39,7 +39,7 @@ if version == 0 {
 		if objid != obj_ed_obj && objid != edit_buildBtn && objid != edit_buildBtn && objid != edit_deleteBtn
 		&& objid != obj_save && objid != obj_editorTab && objid != obj_editObj && objid != obj_editGroupID 
 		&& objid != obj_load && objid != obj_pagination && objid != obj_optionsBTN && objid != core
-		&& objid != obj_camera{
+		&& objid != obj_camera && objid != obj_player && objid != obj_ground{
 			obj_name = object_get_name(objid);
 			angle = obj.image_angle
 			xscale = obj.image_xscale

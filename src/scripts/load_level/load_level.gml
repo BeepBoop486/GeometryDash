@@ -9,6 +9,9 @@ file_text_readln(file)
 if version == 0 {
 	global.music = file_text_read_real(file)
 	file_text_readln(file)
+	
+	instance_destroy(obj_player)
+	
 	while(!file_text_eof(file)) {
 		var objid = file_text_read_string(file)
 		file_text_readln(file)

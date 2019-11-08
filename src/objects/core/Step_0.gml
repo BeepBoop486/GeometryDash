@@ -71,8 +71,6 @@ if keyboard_check_released(vk_enter)
 		audio_play_sound(global.music, 1, true)
 
 	} else {
-		__view_set(e__VW.XView, 0, 0)
-		__view_set(e__VW.YView, 0, 4070)
 		audio_stop_all()
 
 	}
