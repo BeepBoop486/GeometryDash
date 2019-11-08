@@ -1,0 +1,2 @@
+instance_destroy(ClickableMusicLess1)
+instance_destroy(ClickableMusicPlus1)
