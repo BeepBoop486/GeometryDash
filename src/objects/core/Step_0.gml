@@ -2,7 +2,16 @@ mouse_xx = floor(mouse_x/30)
 
 mouse_yy = floor(mouse_y/30)
 
-
+if global.playing
+{
+	if instance_exists(obj_player) {
+		obj_camera.tofol = obj_player
+	} else if instance_exists(obj_ship)
+	{
+		obj_camera.tofol = obj_ship
+	}
+	
+}
 
 if global.selected_mode == 1 //If we're in edit mode
 
@@ -223,6 +232,10 @@ if global.selected_obj != 0 //If we've selected an object
 			tt.image_xscale = global.selected_obj.image_xscale //Sets the image_xscale too
 
 			tt.image_yscale = global.selected_obj.image_yscale //Sets the image_yscale too
+			
+			global.selected_obj.image_blend = c_white
+			
+			tt.image_blend = c_lime
 
 			global.selected_obj = tt
 

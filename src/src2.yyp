@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "009bf12a-a9e1-4236-b08e-6e5545fae06e",
+            "Value": {
+                "id": "23cfab19-e985-46a8-abaa-7b72672c182e",
+                "resourcePath": "objects\\obj_fireboost\\obj_fireboost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "00d7a2c5-451e-4425-b7ce-feb027a4e7ab",
             "Value": {
                 "id": "0e896e02-5511-4ef2-910c-f030733ea4a4",
@@ -212,6 +220,14 @@
                 "id": "2a2d25bc-bd6e-4cde-8c71-c919b036f7fc",
                 "resourcePath": "sounds\\BaseAfterBase\\BaseAfterBase.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "10ab6af5-062e-4450-a49d-89030d6859a0",
+            "Value": {
+                "id": "1a9c4448-b2af-46bb-9b57-29408a7b25a0",
+                "resourcePath": "scripts\\scr_transform\\scr_transform.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2311,10 +2327,33 @@
             }
         },
         {
+            "Key": "e8f68d7c-93d4-4776-8c2a-a86749c08a24",
+            "Value": {
+                "id": "e8976a53-894f-46cb-9518-a76e6e922fd5",
+                "resourcePath": "objects\\obj_ship\\obj_ship.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea5e7a71-2ed2-4e23-b204-9a47f8bd18e9",
+            "Value": {
+                "id": "14450666-7574-475d-9c4d-b94a6bf58b58",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ead3d5e0-a077-471d-aaab-b1851ef13c97",
             "Value": {
                 "id": "d2c4f159-e6b5-411e-b396-5e7ca5f58844",
                 "resourcePath": "sprites\\spr_ring7\\spr_ring7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb00b4c4-92b3-4093-9b6c-e98e1c512a38",
+            "Value": {
+                "id": "35b8a83e-cc04-4cee-9b63-c68b9fa5ddb9",
+                "resourcePath": "sprites\\spr_fireboost\\spr_fireboost.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2506,7 +2545,8 @@
         "5698f816-eb53-4c59-9629-3c6f6f07b4d7",
         "1aef2603-1525-4b49-acbd-8a751f35f29f",
         "81138e53-0687-4610-9668-7cbb1bbd5566",
-        "cdaf84b1-df0f-4c31-a3d2-920da6f1881a"
+        "cdaf84b1-df0f-4c31-a3d2-920da6f1881a",
+        "10ab6af5-062e-4450-a49d-89030d6859a0"
     ],
     "tutorial": ""
 }

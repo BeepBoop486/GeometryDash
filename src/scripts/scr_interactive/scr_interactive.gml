@@ -68,3 +68,34 @@ if place_meeting(x, y, obj_ring7) and canring {
 	canring=0
 	trail=1
 }
+//portals
+//grav 1
+if place_meeting(x, y, obj_portal1)
+{
+	if gravdir =-1
+	{
+		vsp *= -0.5
+	}
+	gravdir = 1
+	trail = 1
+}
+//grav up
+if place_meeting(x, y, obj_portal2)
+{
+	if gravdir = 1
+	{
+		vsp *= -0.5
+	}
+	gravdir = -1
+	trail=1
+}
+//cube
+if place_meeting(x, y, obj_cube_portal)
+{
+	scr_transform(obj_player)
+}
+//ship
+if place_meeting(x, y, obj_ship_portal)
+{
+	scr_transform(obj_ship)
+}
