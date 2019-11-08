@@ -2338,6 +2338,7 @@
             "Key": "ea5e7a71-2ed2-4e23-b204-9a47f8bd18e9",
             "Value": {
                 "id": "14450666-7574-475d-9c4d-b94a6bf58b58",
+                "resourcePath": "objects\\obj_ground2\\obj_ground2.yy",
                 "resourceType": "GMObject"
             }
         },
