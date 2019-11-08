@@ -14,7 +14,7 @@ repeat 10
     ty2-=61
 }
 tya2 = ty2
-repeat 4 {
+repeat 3 {
 	tya2-=61
 }
 global.ylimit=ty2+((ty-ty2)/2)
