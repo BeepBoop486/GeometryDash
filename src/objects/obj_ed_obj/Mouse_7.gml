@@ -54,6 +54,10 @@ if global.selected_mode == 0{
 
 			global.toput = obj_solid1
 
+		} else if global.solidspage == 2 {
+		
+			global.toput = obj_solid2
+			
 		}
 
 	} if global.intab == 1 {

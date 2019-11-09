@@ -5,6 +5,8 @@ obj_orbs = obj_ring1
 obj_solid1 = obj_chippedBlock5
 obj_orbs1 = obj_robot_portal
 
+obj_solid2 = obj_brickblock5
+
 plusx = 288
 plusy = 580
 
