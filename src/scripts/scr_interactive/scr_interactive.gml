@@ -99,3 +99,59 @@ if place_meeting(x, y, obj_ship_portal)
 {
 	scr_transform(obj_ship)
 }
+//ball
+if place_meeting(x, y, obj_ball_portal)
+{
+	scr_transform(obj_ball)
+}
+//normal size
+if place_meeting(x, y, obj_normal_portal)
+{
+	mini=0
+}
+//Mini size
+if place_meeting(x, y, obj_mini_portal)
+{
+	mini=1
+}
+//Ufo
+if place_meeting(x, y, obj_ufo_portal)
+{
+	scr_transform(obj_ufo)
+}
+//Wave
+if place_meeting(x, y, obj_wave_portal)
+{
+	scr_transform(obj_wave)
+}
+//Robot
+if place_meeting(x, y, obj_robot_portal)
+{
+	scr_transform(obj_robot)
+}
+//Spider
+if place_meeting(x, y, obj_spider_portal)
+{
+	scr_transform(obj_spider)
+}
+///Speeds
+//x0.5
+if place_meeting(x,y,obj_speed1)
+{
+    global.spdboost=0.75
+}
+//x1
+if place_meeting(x,y,obj_speed2)
+{
+    global.spdboost=1
+}
+//x2
+if place_meeting(x,y,obj_speed3)
+{
+    global.spdboost=1.25
+}
+//x3
+if place_meeting(x,y,obj_speed4)
+{
+    global.spdboost=1.5
+}

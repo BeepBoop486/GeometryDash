@@ -104,11 +104,7 @@
 
 					scale = .5
 
-				} if obj_spr_w == 48 && obj_spr_h == 149 {
-
-					scale = .3
-
-				} if obj_spr_w == 68 && obj_spr_h == 169 {
+				} else {
 					scale = .3
 				}
 
@@ -128,11 +124,17 @@
 
 					scale = .5
 
-				} if obj_spr_w == 48 && obj_spr_h == 149 {
+				} else {
+					scale = .3
+				} /*if obj_spr_w == 48 && obj_spr_h == 149 {
 
 					scale = .3
 
-				}
+				} if obj_spr_w == 68 && obj_spr_h == 169 {
+					scale = .3
+				} if obj_spr_w == 60 && obj_spr_h == 175 {
+					scale = .3
+				}*/
 
 			}
 

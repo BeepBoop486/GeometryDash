@@ -9,6 +9,12 @@ if global.playing
 	} else if instance_exists(obj_ship)
 	{
 		obj_camera.tofol = obj_ship
+	} else if instance_exists(obj_ball)
+	{
+		obj_camera.tofol = obj_ball
+	} else if instance_exists(obj_ufo)
+	{
+		obj_camera.tofol = obj_ufo
 	}
 	
 }
@@ -58,6 +64,7 @@ if global.selected_mode == 2 /*&& mouse_y < 4592*/ && !position_meeting(mouse_x,
 && !global.playing
 
 //Undeleteable elements
+&&!position_meeting(mouse_x, mouse_y, obj_ground2)
 
 && mouse_x > 0
 
@@ -73,7 +80,9 @@ if keyboard_check_released(vk_enter)
 
 {
 
-	global.playing = !global.playing
+	if !instance_exists(BoxOpts) {
+		global.playing = !global.playing
+	}
 
 	if global.playing{
 
@@ -107,7 +116,7 @@ if !global.playing
 
 {
 
-	global.spdboost = 0
+	//global.spdboost = 0
 
 	global.gravdir = 0
 
@@ -115,7 +124,7 @@ if !global.playing
 
 } else {
 
-	global.spdboost = 1
+	//global.spdboost = 1
 
 }
 /* */

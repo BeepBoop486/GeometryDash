@@ -1,0 +1,1 @@
+global.levelspeed = 0.75

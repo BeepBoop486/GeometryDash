@@ -1,5 +1,5 @@
 /// @description Initializing variables
-
+global.spdboost=global.levelspeed
 hsp = 10.6 * global.spdboost //Speed
 
 ini_physics(5)

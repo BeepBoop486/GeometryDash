@@ -1,0 +1,1 @@
+fireboost=0

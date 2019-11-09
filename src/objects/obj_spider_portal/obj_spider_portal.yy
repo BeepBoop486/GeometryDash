@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_spider_portal",
     "eventList": [
-        
+        {
+            "id": "9c17228a-e14e-43a7-9223-3fa5ed84591c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c2aef03a-25ba-423e-b5f3-1e3b2d53c9cb",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "7ee88798-5cb1-42cd-a69d-da22c8759242"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
