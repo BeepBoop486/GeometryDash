@@ -1,5 +1,6 @@
 //obj = obj_spike1
 obj_solid = obj_grid5
+obj_solid1 = obj_blackblock4
 
 obj_orbs = obj_ring6
 obj_orbs1=obj_speed4
