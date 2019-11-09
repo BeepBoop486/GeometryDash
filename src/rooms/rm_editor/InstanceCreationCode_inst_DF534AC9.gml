@@ -1,5 +1,6 @@
 //obj = obj_spike1
 obj_solid = obj_tile07
+obj_solid1= obj_block001_07
 
 obj_orbs = obj_ball_portal
 plusx = 688
