@@ -2,6 +2,13 @@ mouse_xx = floor(mouse_x/30)
 
 mouse_yy = floor(mouse_y/30)
 
+if global.solidspage >= global.maxsolidspage
+{
+	global.solidspage = 0
+} if global.solidspage <= -1 {
+	global.solidspage = global.maxsolidspage-1
+}
+
 if global.playing
 {
 	if instance_exists(obj_player) {
