@@ -28,7 +28,7 @@ global.g2y = 0
 
 global.gcolor = merge_color(c_red, c_black, 0.3)
 
-global.ylimit = 0
+global.ylimit = 4076
 
 
 
