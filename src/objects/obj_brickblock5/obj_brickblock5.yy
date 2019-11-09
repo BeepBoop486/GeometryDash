@@ -1,8 +1,8 @@
 {
-    "id": "ecbccb67-1a07-4bbe-b926-14b94c799f94",
+    "id": "b7777798-5d54-446f-9c27-586865b6f8f1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_block001_01",
+    "name": "obj_brickblock5",
     "eventList": [
         
     ],
@@ -26,6 +26,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7e5ea487-747c-4648-9dae-1487e5cbbc09",
+    "spriteId": "044e69c8-25c2-4b30-964a-5faedcac67a4",
     "visible": true
 }

@@ -1,14 +1,14 @@
 {
-    "id": "ecbccb67-1a07-4bbe-b926-14b94c799f94",
+    "id": "df2b92df-6491-4f4f-a4ee-2dbc0a8246f7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_block001_01",
+    "name": "obj_brickblock3",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "a180b455-bfb2-40d3-a708-c6e824ce9a2e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -26,6 +26,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7e5ea487-747c-4648-9dae-1487e5cbbc09",
+    "spriteId": "51b65307-b6f5-41e4-bef3-04ce91e5b01d",
     "visible": true
 }
