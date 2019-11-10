@@ -2,7 +2,7 @@
     "id": "233a3067-e535-4b60-a799-3072b1c1a4da",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hspikes1",
+    "name": "obj_hspikes",
     "eventList": [
         
     ],

@@ -2,7 +2,7 @@
 obj_solid = obj_grid3
 obj_solid1 = obj_blackblock2
 
-obj_spike = obj_hspikes1
+obj_spike = obj_hspikes
 
 obj_orbs = obj_ring4
 obj_orbs1=obj_speed2
