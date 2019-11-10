@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "29eb75a1-bc89-4bdc-b72c-2c0f06d57035",
+            "Value": {
+                "id": "71f65fae-486c-4a26-a597-ae0eeaa1d5f3",
+                "resourcePath": "views\\29eb75a1-bc89-4bdc-b72c-2c0f06d57035.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2cbad6d1-1f7f-424f-8853-2e330c888b83",
             "Value": {
                 "id": "739892ed-d87f-4162-9170-f372c260c53f",
@@ -988,6 +996,14 @@
                 "id": "3b9de589-7013-4369-8452-4f544452c73c",
                 "resourcePath": "sounds\\TheoryOfEverything2\\TheoryOfEverything2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4866df4a-499a-4123-b62c-2c6e24cf9d3a",
+            "Value": {
+                "id": "8c587f70-b55b-4e2f-b6e1-dfd44a80c33a",
+                "resourcePath": "views\\4866df4a-499a-4123-b62c-2c6e24cf9d3a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1807,6 +1823,14 @@
             }
         },
         {
+            "Key": "9035e3a7-17dd-4905-9421-40a898cccecd",
+            "Value": {
+                "id": "5c281215-11c4-46d2-9e8c-63528e7afc3e",
+                "resourcePath": "views\\9035e3a7-17dd-4905-9421-40a898cccecd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "90e46fd8-6a97-4580-9c97-a3afd07bfb5d",
             "Value": {
                 "id": "d33f48fe-feba-46f5-a0eb-5b67cb76e86f",
@@ -1868,6 +1892,14 @@
                 "id": "020a80ea-ef23-4834-b5ea-afa54db21184",
                 "resourcePath": "sounds\\StereoMadness\\StereoMadness.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "988b3240-54f6-452f-a1d9-7ca53e50d0dd",
+            "Value": {
+                "id": "d6c1daa5-6168-407d-a445-29fa5ebc99e8",
+                "resourcePath": "views\\988b3240-54f6-452f-a1d9-7ca53e50d0dd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
