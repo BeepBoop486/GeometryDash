@@ -7,4 +7,4 @@ draw_set_valign(fa_center)
 draw_set_halign(fa_center)
 
 var name = audio_get_name(global.music)
-draw_text_outline(__view_get( e__VW.XView, 0 )+640, __view_get( e__VW.YView, 0 ) + (4592-4076), c_black, c_white, name)
+draw_text_outline(__view_get( e__VW.XView, 0 )+640, __view_get( e__VW.YView, 0 ) + (4592-4076), name, c_white, c_black)
