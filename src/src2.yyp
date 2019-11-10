@@ -1535,6 +1535,14 @@
             }
         },
         {
+            "Key": "6b9139dd-de23-43bc-923b-eeef0f4439cc",
+            "Value": {
+                "id": "113ef2d4-96ab-4ca7-a59a-f6757a0d3b8e",
+                "resourcePath": "objects\\iconshow\\iconshow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b98c4e2-5377-4f68-81e9-72093e170679",
             "Value": {
                 "id": "75df7921-38be-4604-ba3c-d0e36f7eab47",
@@ -2595,6 +2603,14 @@
             "Value": {
                 "id": "8cc7a402-fe67-427b-b782-555a1c3f4b5f",
                 "resourcePath": "objects\\obj_blackblock6\\obj_blackblock6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bdf8b69c-81fc-481c-9e3c-b5a74c9c9990",
+            "Value": {
+                "id": "f71c29fc-35e3-4ff3-aa3d-135359894af0",
+                "resourcePath": "objects\\obj_selcube\\obj_selcube.yy",
                 "resourceType": "GMObject"
             }
         },
