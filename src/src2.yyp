@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "2096a9ec-576c-46ec-b5b1-34fc8102d44a",
+            "Value": {
+                "id": "d97d16d9-64e0-41e6-9836-1d66d04fa9ed",
+                "resourcePath": "scripts\\draw_text_outline\\draw_text_outline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22160917-4dfa-4316-ac26-071e1494d7ee",
             "Value": {
                 "id": "cf3ab43d-ffb5-4c54-91b4-954a0bd07929",
@@ -3003,7 +3011,8 @@
         "1aef2603-1525-4b49-acbd-8a751f35f29f",
         "81138e53-0687-4610-9668-7cbb1bbd5566",
         "cdaf84b1-df0f-4c31-a3d2-920da6f1881a",
-        "10ab6af5-062e-4450-a49d-89030d6859a0"
+        "10ab6af5-062e-4450-a49d-89030d6859a0",
+        "2096a9ec-576c-46ec-b5b1-34fc8102d44a"
     ],
     "tutorial": ""
 }
