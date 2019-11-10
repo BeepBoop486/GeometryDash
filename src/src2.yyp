@@ -2559,6 +2559,14 @@
             }
         },
         {
+            "Key": "bb4793dd-0191-4c87-82e6-fd245b787b02",
+            "Value": {
+                "id": "b84e149f-7759-459b-b6a1-b1fc0b238ac3",
+                "resourcePath": "sprites\\spr_cubesel\\spr_cubesel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc438896-f32c-4cac-80c8-a1ab1243b2ec",
             "Value": {
                 "id": "43e1664d-6c81-4db8-8aea-ad55bd5bdded",

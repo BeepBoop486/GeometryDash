@@ -34,8 +34,10 @@ global.ylimit = 4076
 
 global.negrito = 0
 
+///Character vars
+//Cube
+global.cube = 0
 
-
+//colors
 global.col1 = c_yellow
-
 global.col2 = c_aqua

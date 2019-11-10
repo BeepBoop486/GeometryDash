@@ -7,6 +7,7 @@ ini_physics(5)
 sprite_set_offset(sprite_index, 30, 30)
 sprite_set_offset(sprite_index+1, 30, 30)
 
+image_speed = 0 //Sets the image speed to 0
 
 global.yscroll = 1
 
