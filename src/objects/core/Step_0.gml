@@ -25,6 +25,10 @@ if global.selected_mode == 1 //If we're in edit mode
 
 && !position_meeting(mouse_x, mouse_y, obj_ground)
 
+&& !position_meeting(mouse_x, mouse_y, BoxOpts)
+
+&& !position_meeting(mouse_x, mouse_y, obj_ground2)
+
 && !global.playing
 
 && mouse_check_button_released(mb_left)
