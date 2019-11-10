@@ -2647,6 +2647,14 @@
             }
         },
         {
+            "Key": "c04a4ac0-fbc1-4901-bc14-7e1bb597b18d",
+            "Value": {
+                "id": "d382bf70-5156-4607-bd89-bb78047f9628",
+                "resourcePath": "sprites\\B_ICONS_MENU\\B_ICONS_MENU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0ceb2a2-2d08-4141-b11f-0ada396b00df",
             "Value": {
                 "id": "393db359-c447-4402-8990-5554dd2379be",
