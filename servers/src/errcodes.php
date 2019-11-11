@@ -13,6 +13,9 @@
      * 
      * -180 - Passwords doesn't match
      * -181 - This username already exists
+     * 
+     * -90 This username doesn't exists
+     * -91 Wrong password
      */
 
 ?>
