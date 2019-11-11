@@ -1,5 +1,4 @@
 # TODO
-- Registration and logging in (using sessions)
 - Upload levels
 - Download levels
 - Play levels
