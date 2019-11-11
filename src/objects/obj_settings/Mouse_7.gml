@@ -1,6 +1,6 @@
 if global.negrito < 0.5
 {
-	alarm[0] = 0
+	upgrading = true
 	image_xscale=1
 	image_yscale=image_xscale
 }
