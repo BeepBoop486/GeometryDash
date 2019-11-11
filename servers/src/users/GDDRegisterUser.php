@@ -1,13 +1,13 @@
 <?php
 
     include "../inc/db.php";
-    if(isset($_GET["secret"])) {
-        $secret = $_GET["secret"];
+    if(isset($_POST["secret"])) {
+        $secret = $_POST["secret"];
         if($secret == GAME_REQ_SECRET) {
-            if(isset($_GET["uname"]) && isset($_GET["upass"]) && isset($_GET["upass2"])) {
-                $uname = $_GET["uname"];
-                $upass = $_GET["upass"];
-                $upass2= $_GET["upass2"];
+            if(isset($_POST["uname"]) && isset($_POST["upass"]) && isset($_POST["upass2"])) {
+                $uname = $_POST["uname"];
+                $upass = $_POST["upass"];
+                $upass2= $_POST["upass2"];
 
                 if($upass == $upass2) {
                     $finalpass = password_hash($upass, PASSWORD_BCRYPT);
