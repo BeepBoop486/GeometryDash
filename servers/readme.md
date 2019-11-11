@@ -1,3 +1,7 @@
+# Severs
+GeometryDash will have servers to save data from players and the levels created by them, the "servers" folder contains the code of... the servers derp.
+You can see 'em live by visiting  [This website](https://gddarkness.000webhostapp.com/)
+
 # TODO
 this'll be the folder containing the servers of the game, account creation, connection, cloud save and load, level upload,
 download and playback, mappacks, gauntlets, etc...
