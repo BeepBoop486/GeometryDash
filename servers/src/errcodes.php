@@ -3,6 +3,8 @@
     /**
      * All the posibles errcodes returned by the server
      * 
+     * -4 - Some fields missing
+     *
      * -404 - DB Error
      * 
      * 1 - The task todo was made properly

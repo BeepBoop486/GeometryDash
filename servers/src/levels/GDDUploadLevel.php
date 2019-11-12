@@ -13,11 +13,15 @@
 					$uploadern = "player";
 				}
 
-				$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt) VALUES(NULL, '$lvlname', '$lvlcnt')");
-				if ($query) {
-					echo "1";
+				if($lvlname != "" && $lvlcnt != "") {
+					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader) VALUES(NULL, '$lvlname', '$lvlcnt', '$uploadern')");
+					if ($query) {
+						echo "1";
+					} else {
+						echo "-1";
+					}
 				} else {
-					echo "-1";
+					echo "-4";
 				}
 
 			} else {
