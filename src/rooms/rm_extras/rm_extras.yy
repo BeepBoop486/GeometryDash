@@ -2,7 +2,7 @@
 {
     "name": "rm_extras",
     "id": "e64587a1-f09e-4012-94b0-dbfa47f32c4b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

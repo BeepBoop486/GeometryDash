@@ -2,7 +2,7 @@
 {
     "name": "rm_editor",
     "id": "7607902a-0b2d-440e-ac2f-c3fecd7e3e09",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -303,7 +303,7 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 6400
+        "Width": 12800
     },
     "mvc": "1.0",
     "views": [

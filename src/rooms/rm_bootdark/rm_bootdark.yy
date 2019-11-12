@@ -2,7 +2,7 @@
 {
     "name": "rm_bootdark",
     "id": "6bfad254-9e32-4904-92ba-e88b77e2e29c",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

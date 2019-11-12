@@ -2,7 +2,7 @@
 {
     "name": "rm_levelsel",
     "id": "0fe62f03-b328-469e-9cd7-b23f26d3ff82",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
