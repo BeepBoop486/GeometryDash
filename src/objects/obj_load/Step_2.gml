@@ -1,3 +1,3 @@
-y = __view_get( e__VW.YView, 0 )+abs(4076-4312)
+y = __view_get( e__VW.YView, 0 )+abs(4076-4320)
 
-x = __view_get( e__VW.XView, 0 )+1232
+x = __view_get( e__VW.XView, 0 )+1224
