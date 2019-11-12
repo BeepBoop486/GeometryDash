@@ -1,1 +1,1 @@
-global.negrito = 1
+instance_create(960, 540, obj_setswind)
