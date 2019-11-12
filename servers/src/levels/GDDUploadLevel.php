@@ -5,7 +5,21 @@
 		$secret = $_POST["secret"];
 		if ($secret == GAME_REQ_SECRET) {
 			if (isset($_POST["lvlname"]) && isset($_POST["lvlcnt"])) {
-				
+				$lvlname = str_replace("'", "\'", $_POST["lvlname"]);
+				$lvlcnt = str_replace("'", "\'", $_POST["lvlcnt"]);
+				if (isset($_SESSION["uname"])) {
+					$uploadern = str_replace("'", "\'", $_SESSION["uname"]);
+				} else {
+					$uploadern = "player";
+				}
+
+				$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt) VALUES(NULL, '$lvlname', '$lvlcnt')");
+				if ($query) {
+					echo "1";
+				} else {
+					echo "-1";
+				}
+
 			} else {
 				echo "-3";
 			}

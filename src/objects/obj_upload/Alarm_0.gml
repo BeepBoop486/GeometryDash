@@ -1,0 +1,1 @@
+req = http_post_string(global.serverUrl + "levels/GDDUploadLevel.php","secret="+global.serverSecret+"&lvlname="+global.lvlname+"&lvlcnt="+global.lvlcnt)
