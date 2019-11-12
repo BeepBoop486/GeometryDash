@@ -1,5 +1,6 @@
-if global.negrito < 0.5
-{
-	image_xscale += 0.02
-	image_yscale = image_xscale
-}
+/// @description Animacion
+if global.negrito = 0{
+if ahora = 1{
+paso = 1
+ahora = 0}}
+
