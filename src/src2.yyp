@@ -2799,6 +2799,14 @@
             }
         },
         {
+            "Key": "be87646e-7564-4046-8614-effa095c98f6",
+            "Value": {
+                "id": "15c036cd-340c-4a9d-be57-3b1197cbe288",
+                "resourcePath": "objects\\obj_exitsetswind\\obj_exitsetswind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bec407b8-cd9d-4c26-b964-d3e912b63a74",
             "Value": {
                 "id": "2f7faed0-5f4b-42fd-98f9-919936872f69",
