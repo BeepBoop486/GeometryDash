@@ -9,27 +9,35 @@
                 $upass = $_POST["upass"];
                 $upass2= $_POST["upass2"];
 
-                if($upass == $upass2) {
-                    $finalpass = password_hash($upass, PASSWORD_BCRYPT);
-                    $finalname = str_replace("'", "\'", $uname);
+                if($uname != "") {
+                    if($upass != "") {
+                        if($upass == $upass2) {
+                            $finalpass = password_hash($upass, PASSWORD_BCRYPT);
+                            $finalname = str_replace("'", "\'", $uname);
 
-                    $query = $conn->query("SELECT * FROM users WHERE uname='$finalname'");
-                    if($query) {
-                        if($query->num_rows > 0) {
-                            echo "-181";
-                        } else {
-                            $query = $conn->query("INSERT INTO users(id, uname, upass) VALUES(NULL, '$finalname', '$finalpass')");
+                            $query = $conn->query("SELECT * FROM users WHERE uname='$finalname'");
                             if($query) {
-                                echo "1";
+                                if($query->num_rows > 0) {
+                                    echo "-181";
+                                } else {
+                                    $query = $conn->query("INSERT INTO users(id, uname, upass) VALUES(NULL, '$finalname', '$finalpass')");
+                                    if($query) {
+                                        echo "1";
+                                    } else {
+                                        echo "-1";
+                                    }
+                                }
                             } else {
-                                echo "-1";
+                                echo "-404";
                             }
+                        } else {
+                            echo "-180";
                         }
                     } else {
-                        echo "-404";
+                        echo "-182";
                     }
                 } else {
-                    echo "-180";
+                    echo "-183";
                 }
             } else {
                 echo "-3";

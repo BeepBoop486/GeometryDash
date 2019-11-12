@@ -24,6 +24,12 @@ if ds_map_find_value(async_load, "id") == requiem
 		} else if response == -2
 		{
 			show_message("No secret was passed")
+		} else if response == -92
+		{
+			show_message("The username can't be empty")
+		} else if response == -93
+		{
+			show_message("The password can't be empty")
 		}
 	}
 	//show_message("Right obj")

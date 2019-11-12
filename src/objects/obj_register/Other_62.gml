@@ -19,6 +19,10 @@ if variable_instance_exists(instance_id, "req") {
 				show_message("The passwords doesn't match")
 			} else if response == -181 {
 				show_message("This username already exists")
+			} else if response == -182 {
+				show_message("The password can't be empty")
+			} else if response == -183 {
+				show_message("The username can't be empty")
 			}
 		}
 	}

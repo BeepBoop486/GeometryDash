@@ -6,25 +6,34 @@
         if($secret == GAME_REQ_SECRET) {
             if(isset($_POST["uname"]) && isset($_POST["upass"])) {
                 $uname = str_replace("'", "\'", $_POST["uname"]);
-                $query = $conn->query("SELECT * FROM users WHERE uname='$uname'");
-                if($query) {
-                    if($query->num_rows > 0) {
-                        $row = $query->fetch_array(MYSQLI_ASSOC);
+                if($uname != "") {
+                    $chkpass = $_POST["upass"];
+                    if($chkpass != "") {
+                        $query = $conn->query("SELECT * FROM users WHERE uname='$uname'");
+                        if($query) {
+                            if($query->num_rows > 0) {
+                                $row = $query->fetch_array(MYSQLI_ASSOC);
 
-                        $upass = $_POST["upass"];
-                        $dbpass = $row["upass"];
+                                $upass = $_POST["upass"];
+                                $dbpass = $row["upass"];
 
-                        if(password_verify($upass, $dbpass)) {
-                            $_SESSION["uname"] = $uname;
-                            echo "1";
+                                if(password_verify($upass, $dbpass)) {
+                                    $_SESSION["uname"] = $uname;
+                                    echo "1";
+                                } else {
+                                    echo "-91";
+                                }
+                            } else {
+                                echo "-90";
+                            }
                         } else {
-                            echo "-91";
+                            echo "-404";
                         }
                     } else {
-                        echo "-90";
+                        echo "-93";
                     }
                 } else {
-                    echo "-404";
+                    echo "-92";
                 }
             } else {
                 echo "-3";
