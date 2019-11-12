@@ -266,3 +266,4 @@ if global.selected_obj != 0 //If we've selected an object
 }
 /* */
 /*  */
+if keyboard_check_pressed(vk_escape) room_goto(rm_extras)
