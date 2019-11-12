@@ -1679,6 +1679,14 @@
             }
         },
         {
+            "Key": "736daebc-45aa-4bab-a572-bd2cae6e7a67",
+            "Value": {
+                "id": "3a8a2d41-47e2-4523-93dd-814ff5f97f28",
+                "resourcePath": "objects\\obj_login\\obj_login.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73c14e93-99d2-4b7a-b5f5-1fc39e6dffbb",
             "Value": {
                 "id": "ca7a5c36-9c0a-42c9-bc81-abd61520f13a",
@@ -2292,6 +2300,14 @@
                 "id": "55b42e8a-166d-4513-a54a-f6edcb970141",
                 "resourcePath": "objects\\ClickableMusicPlus1\\ClickableMusicPlus1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3287490-8f63-45ac-b475-22b8c94be828",
+            "Value": {
+                "id": "8c146107-7271-479e-a6c3-f8e1e4278b6e",
+                "resourcePath": "fonts\\InfoFnt\\InfoFnt.yy",
+                "resourceType": "GMFont"
             }
         },
         {

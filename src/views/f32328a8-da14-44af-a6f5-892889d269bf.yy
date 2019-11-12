@@ -8,7 +8,8 @@
         "7d298577-46ae-46c9-bae6-647870bff720",
         "b719c797-6236-45ba-a1e8-c9579ae28cec",
         "ad5c57ab-74ce-4894-a66c-1547430902cb",
-        "f37c3c25-8a78-4920-bc60-beb9bf2f47ab"
+        "f37c3c25-8a78-4920-bc60-beb9bf2f47ab",
+        "736daebc-45aa-4bab-a572-bd2cae6e7a67"
     ],
     "filterType": "GMObject",
     "folderName": "SettingsWindow",
