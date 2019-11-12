@@ -23,5 +23,5 @@ if variable_instance_exists(instance_id, "req") {
 		}
 	}
 } else {
-	show_message("Called the wrong object lel")
+	//show_message("Called the wrong object lel")
 }

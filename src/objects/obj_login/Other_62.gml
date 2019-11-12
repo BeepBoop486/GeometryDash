@@ -26,5 +26,5 @@ if ds_map_find_value(async_load, "id") == requiem
 			show_message("No secret was passed")
 		}
 	}
-	show_message("Right obj")
+	//show_message("Right obj")
 }
