@@ -1951,6 +1951,14 @@
             }
         },
         {
+            "Key": "87a8742b-dbb9-4ac1-a299-0cd4eb283e63",
+            "Value": {
+                "id": "4c79f4ee-3b96-4106-8571-67913048234b",
+                "resourcePath": "objects\\obj_upload\\obj_upload.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "881c5c97-32f7-43c2-8dd6-48c6c131ac00",
             "Value": {
                 "id": "dab4eb09-41b0-40b4-93da-80eeae6245c5",
