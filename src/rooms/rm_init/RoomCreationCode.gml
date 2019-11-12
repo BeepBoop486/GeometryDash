@@ -42,6 +42,10 @@ global.cube = 0
 global.col1 = c_yellow
 global.col2 = c_aqua
 
+//Accounts
+global.loggedin = false
+global.loggedname = ""
+
 //Servers
 global.serverUrl = "https://gddarkness.000webhostapp.com/"
 global.serverSecret = "4fd5b65e052e7bdfa0c7bc58e1744a74a2ecc5d7cd2936013fe8a15585c1f1c4"
