@@ -189,25 +189,25 @@ if global.selected_obj != 0 //If we've selected an object
 
 		if(!keyboard_check(vk_control)) {
 
-			if keyboard_check_released(ord("W")) {
+			if keyboard_check_pressed(ord("W")) {
 
 				//If we press the 'W' key
 
 				with(global.selected_obj) {y -= 61}
 
-			} if keyboard_check_released(ord("S")) {
+			} if keyboard_check_pressed(ord("S")) {
 
 				//If we press the 'S' key
 
 				with(global.selected_obj) {y += 61}
 
-			} if keyboard_check_released(ord("A")) {
+			} if keyboard_check_pressed(ord("A")) {
 
 				//If we press the 'A' key
 
 				with(global.selected_obj) {x -= 61}
 
-			} if keyboard_check_released(ord("D")) {
+			} if keyboard_check_pressed(ord("D")) {
 
 				//If we press the 'D' key
 
@@ -243,7 +243,7 @@ if global.selected_obj != 0 //If we've selected an object
 
 	{
 
-		if(keyboard_check_released(ord("D"))) {
+		if(keyboard_check_pressed(ord("D"))) {
 
 			tt = instance_create(global.selected_obj.x, global.selected_obj.y, global.selected_obj.object_index)
 
