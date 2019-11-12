@@ -1999,6 +1999,22 @@
             }
         },
         {
+            "Key": "84edf671-8c9e-4ac2-844c-2fadc934fd47",
+            "Value": {
+                "id": "607c0a2f-d595-4303-91c3-d4df7fc4e807",
+                "resourcePath": "sprites\\B_INTER_BG\\B_INTER_BG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85000128-0747-4bc8-8214-d9eb264ef802",
+            "Value": {
+                "id": "4a499ce6-e1ae-46e8-aa2f-a62b5c9fbcd1",
+                "resourcePath": "sprites\\spr_corners\\spr_corners.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87671f14-b07b-4b01-98a1-d9dcc1e5f0da",
             "Value": {
                 "id": "bf974307-ea6d-44fa-a291-2faaab9d66c3",

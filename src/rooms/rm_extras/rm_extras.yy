@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_724A6698","id": "482740ec-e03a-4b21-a522-672a3221c0ae","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_724A6698.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_724A6698","objId": "204a3447-b344-450f-9b17-05073c5f0d90","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 64,"y": 80}
+{"name": "inst_724A6698","id": "482740ec-e03a-4b21-a522-672a3221c0ae","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_724A6698.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_724A6698","objId": "204a3447-b344-450f-9b17-05073c5f0d90","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 96,"y": 96}
             ],
             "layers": [
 
@@ -43,7 +43,7 @@
             "id": "08c86464-e4d6-4f5b-abf4-a34bc908a544",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294953728 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "84edf671-8c9e-4ac2-844c-2fadc934fd47",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
