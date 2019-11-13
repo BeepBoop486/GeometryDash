@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_lvlfound",
     "eventList": [
-        
+        {
+            "id": "b0c55646-f865-49b3-b673-bbb3c0e2eeb7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d1a9d322-c148-4cdc-86f1-c6bccd3d1701"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
