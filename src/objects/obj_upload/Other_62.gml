@@ -17,5 +17,6 @@ var response = "";
 			{
 				show_message("No secret was passed")
 			}
+			show_message(response)
 		}
 	}
