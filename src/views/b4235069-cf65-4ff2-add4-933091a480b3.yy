@@ -14,7 +14,8 @@
         "ce8860b8-80c9-4a9a-a672-348cfd334cc2",
         "d4721351-2da0-4cd5-b4ee-5a472ec2fd45",
         "0bc7b7b9-7c11-42a8-a1e3-9c092ccee48f",
-        "94f5ff96-d343-4774-a3ab-d3a4502a825a"
+        "94f5ff96-d343-4774-a3ab-d3a4502a825a",
+        "d00362e2-8162-4a1b-bc6b-39684a68c304"
     ],
     "filterType": "GMObject",
     "folderName": "MenuExtras",
