@@ -3279,6 +3279,14 @@
             }
         },
         {
+            "Key": "d1ee6ea1-d828-4609-ae1a-b82eca50b79c",
+            "Value": {
+                "id": "f86288a2-7f6d-4971-a9b0-955adf466d07",
+                "resourcePath": "sprites\\spr_difficulty\\spr_difficulty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d2256222-fc93-4698-b228-23f64baa1f53",
             "Value": {
                 "id": "a3ca4474-9491-4ae6-bab5-e25e79f7390c",
