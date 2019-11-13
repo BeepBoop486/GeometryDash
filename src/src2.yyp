@@ -3967,6 +3967,14 @@
             }
         },
         {
+            "Key": "fd439535-8146-473a-816f-ba7f8f59d5b3",
+            "Value": {
+                "id": "5a5ad093-382b-4068-a934-dcc7c5eb3820",
+                "resourcePath": "objects\\obj_lilgrayxd\\obj_lilgrayxd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fe75dd2c-625c-4d75-94a3-cf37c15b2cc8",
             "Value": {
                 "id": "edad64d4-025c-4d79-acb7-6294ffe7bbb9",
