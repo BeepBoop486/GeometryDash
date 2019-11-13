@@ -20,9 +20,26 @@ if ds_map_find_value(async_load, "id") == req
 			tt.image_xscale = 19;
 			tt.image_yscale = 3.5;
 			
-			for(var i = 0; i < 10; i++) {
-				file_text_readln(file)
-			}
+			tt.lvlname = file_text_read_string(file)
+			file_text_readln(file)
+			tt.lvlid = file_text_read_real(file)
+			file_text_readln(file)
+			tt.rate = file_text_read_real(file)
+			file_text_readln(file)
+			tt.stars = file_text_read_real(file)
+			file_text_readln(file)
+			tt.downloads = file_text_read_real(file)
+			file_text_readln(file)
+			tt.likes = file_text_read_real(file)
+			file_text_readln(file)
+			tt.dislikes = file_text_read_real(file)
+			file_text_readln(file)
+			tt.isepic = file_text_read_real(file)
+			file_text_readln(file)
+			tt.isfeatured = file_text_read_real(file)
+			file_text_readln(file)
+			tt.isdemon = file_text_read_real(file)
+			file_text_readln(file)
 			
 			yy += 224
 		}
