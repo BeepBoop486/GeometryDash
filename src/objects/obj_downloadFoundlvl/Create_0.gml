@@ -6,7 +6,3 @@ image_yscale = image_xscale;
 
 yy=0
 lvlid = 0
-
-if file_exists(string(lvlid)+".gde") {
-	instance_destroy()
-}
