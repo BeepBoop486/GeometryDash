@@ -16,7 +16,9 @@ var response = "";
 			} else if response == -2
 			{
 				show_message("No secret was passed")
+			} else {
+				show_message(response)
 			}
-			show_message(response)
+			
 		}
 	}
