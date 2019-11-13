@@ -5,16 +5,22 @@ if ds_map_find_value(async_load, "id") == req
 	{
 		response = ds_map_find_value(async_load, "result")
 		show_message(response)
-		var file = file_text_open_from_string(response)
+		var tosave = file_text_open_write("dlevels");
+		file_text_write_string(tosave, response)
+		file_text_close(tosave)
+		var file = file_text_open_read("dlevels");
 		var yy = 288;
-		/*while(!file_text_eof(file))
+		while(!file_text_eof(file))
 		{
 			tt = instance_create(320, yy, obj_lvlfound)
 			tt.image_xscale = 19;
 			tt.image_yscale = 3.5;
 			
+			for(var i = 0; i < 10; i++) {
+				file_text_readln(file)
+			}
+			
 			yy += 224
-		}*/
-		file_text_close(file)
+		}
 	}
 }
