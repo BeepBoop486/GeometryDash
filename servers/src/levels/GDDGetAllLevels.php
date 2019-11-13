@@ -7,6 +7,8 @@
 		while($row = $query->fetch_assoc()) {
 			echo $row["lvlname"] . "\n";
 			echo $row["id"] . "\n";
+			echo $row["rate"] . "\n";
+			echo $row["stars"] . "\n";
 		}
 	}
 
