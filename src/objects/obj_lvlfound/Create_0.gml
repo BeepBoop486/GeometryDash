@@ -11,14 +11,4 @@ isdemon = 0
 
 yy = 0 
 
-tt = instance_create_layer(1456, y, "Instances", obj_downloadFoundlvl)
-tt.lvlname = ""
-tt.lvlid = 0
-tt.rate = 0
-tt.stars = 0
-tt.downloads = 0
-tt.likes = 0
-tt.dislikes = 0
-tt.isepic = 0
-tt.isfeatured = 0
-tt.isdemon = 0
+alarm[0] = 10
