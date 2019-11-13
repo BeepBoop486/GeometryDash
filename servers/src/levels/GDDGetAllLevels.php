@@ -12,6 +12,8 @@
 			echo $row["downloads"] . "\n";
 			echo $row["likes"] . "\n";
 			echo $row["dislikes"] . "\n";
+			echo $row["isepic"] . "\n";
+			echo $row["isfeatured"] . "\n";
 		}
 	}
 
