@@ -2791,6 +2791,14 @@
             }
         },
         {
+            "Key": "b22fd876-7e08-4406-961a-c13e8ca19e7a",
+            "Value": {
+                "id": "cc9a3535-0acd-4e29-8c25-b30b7349660a",
+                "resourcePath": "objects\\obj_upon\\obj_upon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b332e983-ded0-4735-a604-4216ac74ba29",
             "Value": {
                 "id": "b05d90d4-3883-4259-bbc6-d133f0fc49fc",
@@ -3588,6 +3596,14 @@
                 "id": "c732fe05-39a7-4f1f-b008-9b03ebaea47b",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e62cde8d-3569-45ff-9195-c721100f9ee5",
+            "Value": {
+                "id": "fd05d145-79e2-43e8-843b-52b4d294fea1",
+                "resourcePath": "sprites\\spr_bgupon\\spr_bgupon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
