@@ -2791,6 +2791,14 @@
             }
         },
         {
+            "Key": "b332e983-ded0-4735-a604-4216ac74ba29",
+            "Value": {
+                "id": "b05d90d4-3883-4259-bbc6-d133f0fc49fc",
+                "resourcePath": "sprites\\spr_browny\\spr_browny.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4225b90-62b2-4cbc-81c1-750a89531a04",
             "Value": {
                 "id": "5dacae11-4a6b-486a-9dae-6eb0851ff611",
