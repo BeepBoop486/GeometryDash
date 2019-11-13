@@ -22,6 +22,9 @@
      * -91 Wrong password
      * -92 The username can't be empty
      * -93 The password can't be empty
+     *
+     * -81 No id was passed
+     * -82 This level doesn't exist
      */
 
 ?>
