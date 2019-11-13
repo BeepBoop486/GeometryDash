@@ -1,0 +1,1 @@
+req = http_get(global.serverUrl + "levels/GDDGetAllLevels.php")
