@@ -14,6 +14,7 @@
 			echo $row["dislikes"] . "\n";
 			echo $row["isepic"] . "\n";
 			echo $row["isfeatured"] . "\n";
+			echo $row["isdemon"] . "\n";
 		}
 	}
 

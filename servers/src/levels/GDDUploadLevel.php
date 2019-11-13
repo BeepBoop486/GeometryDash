@@ -14,7 +14,7 @@
 				}
 
 				if($lvlname != "" && $lvlcnt != "") {
-					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader, rate, stars, downloads, likes, dislikes, isepic, isfeatured) VALUES(NULL, '$lvlname', '$lvlcnt', '$uploadern', NULL,NULL, NULL,NULL,NULL, NULL, NULL)");
+					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader, rate, stars, downloads, likes, dislikes, isepic, isfeatured, isdemon) VALUES(NULL, '$lvlname', '$lvlcnt', '$uploadern', NULL,NULL, NULL,NULL,NULL, NULL, NULL, NULL)");
 					if ($query) {
 						echo "1";
 					} else {
