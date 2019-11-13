@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 12-11-2019 a las 13:11:51
+-- Tiempo de generación: 12-11-2019 a las 19:37:55
 -- Versión del servidor: 10.3.16-MariaDB
 -- Versión de PHP: 7.3.10
 
@@ -31,7 +31,16 @@ SET time_zone = "+00:00";
 CREATE TABLE `levels` (
   `id` int(11) NOT NULL,
   `lvlname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `lvlcnt` longtext COLLATE utf8_unicode_ci NOT NULL
+  `lvlcnt` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `uploader` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `rate` int(255) NOT NULL,
+  `stars` int(2) NOT NULL,
+  `downloads` int(255) NOT NULL,
+  `likes` int(255) NOT NULL,
+  `dislikes` int(255) NOT NULL,
+  `isepic` int(2) NOT NULL,
+  `isfeatured` int(2) NOT NULL,
+  `isdemon` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
