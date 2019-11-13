@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "003c41fb-7f07-47fb-a0e6-adc034956517",
+            "Value": {
+                "id": "27de916e-9ac6-40a2-851d-7e573dd632d5",
+                "resourcePath": "views\\003c41fb-7f07-47fb-a0e6-adc034956517.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0076eba4-d3ab-47f5-abab-cdf2fe88faf4",
             "Value": {
                 "id": "d76ed4a6-4cbb-4ea4-af28-c1ed1557604a",
@@ -76,6 +84,14 @@
                 "id": "d3d7a355-91b1-42fc-838b-525229bf9a2e",
                 "resourcePath": "objects\\obj_grid2\\obj_grid2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "016290bd-638b-47a8-9c85-55e938f2b1b6",
+            "Value": {
+                "id": "63369440-2c37-4d57-bd70-be31a6392729",
+                "resourcePath": "sprites\\spr_starsIcon\\spr_starsIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -372,6 +388,14 @@
                 "id": "224ec84d-aad9-4e09-ae41-19a7cb3244fd",
                 "resourcePath": "views\\11f05eb4-fbad-4a07-86b3-ce7f5f886edb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11f1ff26-2c3a-4c03-8daa-bdc1360b14a1",
+            "Value": {
+                "id": "17598754-1af1-431b-86f7-0a7beae1ac63",
+                "resourcePath": "objects\\lvlfoundDrawName\\lvlfoundDrawName.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -684,6 +708,14 @@
                 "id": "71f65fae-486c-4a26-a597-ae0eeaa1d5f3",
                 "resourcePath": "views\\29eb75a1-bc89-4bdc-b72c-2c0f06d57035.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2abcca6c-5556-4ca1-86f8-9c825f5b0f1e",
+            "Value": {
+                "id": "8040f25d-fbc9-46f0-9b4b-d1237fef06e5",
+                "resourcePath": "objects\\lvlfoundDrawStars\\lvlfoundDrawStars.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1495,6 +1527,14 @@
             }
         },
         {
+            "Key": "5813f3d9-1dc8-4f3c-8840-49642257242b",
+            "Value": {
+                "id": "868a5a26-def8-4017-af11-1a22883ab708",
+                "resourcePath": "objects\\lvlfoundDrawUploadern\\lvlfoundDrawUploadern.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58b1df65-d8f0-4e52-b00a-c0a424263a47",
             "Value": {
                 "id": "4158870a-207a-4173-ba09-3e237d016b97",
@@ -1847,6 +1887,14 @@
             }
         },
         {
+            "Key": "72df44a4-164c-47fb-aac5-7c1036d20dba",
+            "Value": {
+                "id": "7beff658-fbec-40dc-a298-2f53d8fc7be9",
+                "resourcePath": "objects\\obj_foundLvlStarsIcon\\obj_foundLvlStarsIcon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7359900f-4d69-40c7-855a-88d4d67ed0e6",
             "Value": {
                 "id": "755dac5a-6c80-4a54-bb7a-f3cdb4d526c2",
@@ -1900,6 +1948,14 @@
                 "id": "2ab850ce-3de7-47e3-9fb4-8c208fb0b452",
                 "resourcePath": "objects\\obj_ship_portal\\obj_ship_portal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74eb39ed-08e3-497a-a60b-b835c6c5cad7",
+            "Value": {
+                "id": "db6f64ea-dc7b-48d2-b760-3fe1e8160be1",
+                "resourcePath": "fonts\\font2\\font2.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -3964,6 +4020,14 @@
                 "id": "db779a53-78d6-454a-89cc-5fd4696ede86",
                 "resourcePath": "sprites\\edit_rightBtn2_001\\edit_rightBtn2_001.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f83c2168-3306-438b-842f-6876d5fe35ed",
+            "Value": {
+                "id": "30a4bcdb-ef44-45dc-a36b-6c278a86804d",
+                "resourcePath": "fonts\\largePusab\\largePusab.yy",
+                "resourceType": "GMFont"
             }
         },
         {

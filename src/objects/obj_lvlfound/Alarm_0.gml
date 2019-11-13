@@ -9,6 +9,7 @@ tt.dislikes = dislikes
 tt.isepic = isepic
 tt.isfeatured = isfeatured
 tt.isdemon = isdemon
+tt.uploadern = uploadern
 tt.yy = yy
 
 if tt.yy == 0 {

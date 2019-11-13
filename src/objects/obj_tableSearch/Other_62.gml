@@ -35,6 +35,8 @@ if ds_map_find_value(async_load, "id") == req
 			file_text_readln(file)
 			tt.isdemon = file_text_read_real(file)
 			file_text_readln(file)
+			tt.uploadern = file_text_read_string(file)
+			file_text_readln(file)
 			tt.yy = yy
 			
 			yy += 224

@@ -17,6 +17,7 @@ if global.negrito == 0{
 	global.isepic = isepic
 	global.isfeatured = isfeatured
 	global.isdemon = isdemon
+	global.uploadern = uploadern
 	
 	room_goto(rm_dlevel)
 }
