@@ -2,7 +2,7 @@
 
 	include '../inc/db.php';
 
-	$query = $conn->query("SELECT * FROM levels");
+	$query = $conn->query("SELECT * FROM levels ORDER BY id DESC");
 	if ($query->num_rows > 0) {
 		while($row = $query->fetch_assoc()) {
 			echo $row["lvlname"] . "\n";
