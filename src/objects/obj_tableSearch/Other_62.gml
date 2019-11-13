@@ -9,16 +9,11 @@ if ds_map_find_value(async_load, "id") == req
 		file_text_write_string(tosave, response)
 		file_text_close(tosave)
 		var file = file_text_open_read("dlevels");
-		var yy = 288;
+		var yy = 416;
 		while(!file_text_eof(file))
 		{
 			
-			var lvlname, lvlid, rate, stars, downloads, likes, dislikes,
-			isepic, isfeatured, isdemon;
-			
-			tt = instance_create_layer(330, yy, "Instances", obj_lvlfound)
-			tt.image_xscale = 19;
-			tt.image_yscale = 3.5;
+			tt = instance_create_layer(944, yy, "Instances", obj_lvlfound)
 			
 			tt.lvlname = file_text_read_string(file)
 			file_text_readln(file)
@@ -40,6 +35,7 @@ if ds_map_find_value(async_load, "id") == req
 			file_text_readln(file)
 			tt.isdemon = file_text_read_real(file)
 			file_text_readln(file)
+			tt.yy = yy
 			
 			yy += 224
 		}
