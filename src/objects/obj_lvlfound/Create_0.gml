@@ -10,3 +10,6 @@ isfeatured = 0
 isdemon = 0
 
 yy = 0 
+
+tt = instance_create_layer(1456, y, "Instances", obj_downloadFoundlvl)
+tt.lvlid = lvlid

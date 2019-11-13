@@ -1,0 +1,1 @@
+y =  global.yy + yy
