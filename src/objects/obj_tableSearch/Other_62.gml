@@ -12,6 +12,10 @@ if ds_map_find_value(async_load, "id") == req
 		var yy = 288;
 		while(!file_text_eof(file))
 		{
+			
+			var lvlname, lvlid, rate, stars, downloads, likes, dislikes,
+			isepic, isfeatured, isdemon;
+			
 			tt = instance_create_layer(320, yy, "Instances", obj_lvlfound)
 			tt.image_xscale = 19;
 			tt.image_yscale = 3.5;
