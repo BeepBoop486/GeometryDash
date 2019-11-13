@@ -14,7 +14,7 @@
 				}
 
 				if($lvlname != "" && $lvlcnt != "") {
-					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader) VALUES(NULL, '$lvlname', '$lvlcnt', '$uploadern')");
+					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader, rate, stars) VALUES(NULL, '$lvlname', '$lvlcnt', '$uploadern', NULL,NULL)");
 					if ($query) {
 						echo "1";
 					} else {
