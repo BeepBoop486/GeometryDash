@@ -4,7 +4,7 @@ if ds_map_find_value(async_load, "id") == req
 	if ds_map_find_value(async_load, "status") == 0
 	{
 		response = ds_map_find_value(async_load, "result")
-		show_message(response)
+		
 		var tosave = file_text_open_write("dlevels");
 		file_text_write_string(tosave, response)
 		file_text_close(tosave)
