@@ -9,7 +9,7 @@ if ds_map_find_value(async_load, "id") == req
 		file_text_write_string(tosave, response)
 		file_text_close(tosave)
 		var file = file_text_open_read("dlevels");
-		var yy = 416;
+		var yy = 368;
 		while(!file_text_eof(file))
 		{
 			
