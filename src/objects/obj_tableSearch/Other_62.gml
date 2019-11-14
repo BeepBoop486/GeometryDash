@@ -41,5 +41,6 @@ if ds_map_find_value(async_load, "id") == req
 			
 			yy += 224
 		}
+		file_text_close(file)
 	}
 }

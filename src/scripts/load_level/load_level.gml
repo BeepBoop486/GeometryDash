@@ -13,7 +13,7 @@ if filename != "" {
 		global.levelspeed = file_text_read_real(file)
 		file_text_readln(file)
 	
-		instance_destroy(obj_player)
+		if instance_exists(obj_player) instance_destroy(obj_player)
 	
 		while(!file_text_eof(file)) {
 			var objid = file_text_read_string(file)
@@ -44,6 +44,10 @@ if filename != "" {
 			obj.image_blend = blend
 			obj.group = groupo
 		}
+	} else {
+		show_message("Version not zero")
 	}
 	file_text_close(file)
+} else {
+	show_message("The file you entered can't be empty")
 }

@@ -1,5 +1,10 @@
 /// @description Initializing variables
-global.spdboost=global.levelspeed
+if global.levelspeed != 0
+{
+	global.spdboost=global.levelspeed
+} else {
+	global.spdboost = 1
+}
 hsp = 10.6 * global.spdboost //Speed
 
 ini_physics(5)

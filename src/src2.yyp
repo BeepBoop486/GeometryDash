@@ -2959,6 +2959,14 @@
             }
         },
         {
+            "Key": "b275acd6-9c38-4d5d-84b4-0eab582d26be",
+            "Value": {
+                "id": "91b75839-fb12-49dd-9221-950a61a34846",
+                "resourcePath": "objects\\delayCreate\\delayCreate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b332e983-ded0-4735-a604-4216ac74ba29",
             "Value": {
                 "id": "b05d90d4-3883-4259-bbc6-d133f0fc49fc",
@@ -3855,14 +3863,6 @@
             }
         },
         {
-            "Key": "e79e4144-198d-4f19-b0ce-816d172f5c7e",
-            "Value": {
-                "id": "f5814924-a779-4d66-a34c-1c40b917f6c4",
-                "resourcePath": "scripts\\playFromCnt\\playFromCnt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "e7d71205-ee16-464c-a400-9a497c09e9b2",
             "Value": {
                 "id": "9cf8b2c4-33e2-4978-9e26-556a52673c7b",
@@ -4253,8 +4253,7 @@
         "cdaf84b1-df0f-4c31-a3d2-920da6f1881a",
         "10ab6af5-062e-4450-a49d-89030d6859a0",
         "2096a9ec-576c-46ec-b5b1-34fc8102d44a",
-        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e",
-        "e79e4144-198d-4f19-b0ce-816d172f5c7e"
+        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e"
     ],
     "tutorial": ""
 }
