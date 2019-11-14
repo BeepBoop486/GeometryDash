@@ -23,7 +23,7 @@ animation=0
 hmspd=0.4
 hmlength=4
 hmangle=0
-hmy=y
+//hmy=y
 hangle=0
 
 hjangle=18
@@ -33,7 +33,7 @@ hjdelay=9
 l1mspd=0.2
 l1mlength=40
 l1mangle=0
-l1my=y
+//l1my=y
 l1angle=0
 
 l1jangle=-22

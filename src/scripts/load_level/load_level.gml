@@ -20,7 +20,7 @@ if filename != "" {
 			file_text_readln(file)
 			objid = asset_get_index(objid)
 		
-			var angle, xscale, yscale, blend, groupo, xpos, ypos;
+			var angle, xscale, yscale, groupo, xpos, ypos;
 		
 			angle = file_text_read_real(file)
 			file_text_readln(file)

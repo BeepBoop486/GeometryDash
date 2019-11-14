@@ -36,4 +36,4 @@ pos = 0 // This'll be a very shitty system too xd // And starts from zero
 
 //This won't be modified
 
-tab = 0 // 0 - build, 1 - edit
+//tab = 0 // 0 - build, 1 - edit

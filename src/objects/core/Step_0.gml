@@ -1,7 +1,3 @@
-mouse_xx = floor(mouse_x/30)
-
-mouse_yy = floor(mouse_y/30)
-
 if global.solidspage >= global.maxsolidspage
 {
 	global.solidspage = 0
@@ -111,7 +107,7 @@ if keyboard_check_released(vk_enter)
 
 
 
-if global.dragging && !global.playing
+/*if global.dragging && !global.playing
 
 {
 
@@ -119,7 +115,7 @@ if global.dragging && !global.playing
 
 	__view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + drag_y - mouse_y )
 
-}
+}*/
 
 
 
