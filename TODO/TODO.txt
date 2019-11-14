@@ -18,3 +18,4 @@ Add editor pause
 Add editor vehicle switcher
 Modifiy all the show_message by the GD's blue box with the OK button
 Implement all the codes returned by the server in the GameMaker's project
+Optimize rm_dlevel (objects and room)

@@ -2,7 +2,7 @@
     "id": "4c7465e4-9646-438a-be14-5b49e52656d6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "postDownload",
+    "name": "reqManager",
     "eventList": [
         {
             "id": "405101bb-651e-47d7-9eae-27783fb4a71f",

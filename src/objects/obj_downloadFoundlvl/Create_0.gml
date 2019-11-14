@@ -6,7 +6,7 @@ image_yscale = image_xscale;
 
 yy=0
 
-lvlname = ""
+/*lvlname = ""
 lvlid = 0
 rate = 0
 stars = 0
@@ -16,4 +16,4 @@ dislikes = 0
 isepic = 0
 isfeatured = 0
 isdemon = 0
-uploadern = ""
+uploadern = ""*/

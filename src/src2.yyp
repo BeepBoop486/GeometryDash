@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "2a17ec44-1d3a-442d-a94f-0473ba0606e2",
+            "Value": {
+                "id": "630746c9-a554-4bc7-873c-41f06f36101e",
+                "resourcePath": "sprites\\spr_downloadsIcon\\spr_downloadsIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2abcca6c-5556-4ca1-86f8-9c825f5b0f1e",
             "Value": {
                 "id": "8040f25d-fbc9-46f0-9b4b-d1237fef06e5",
@@ -1274,7 +1282,7 @@
             "Key": "4c7465e4-9646-438a-be14-5b49e52656d6",
             "Value": {
                 "id": "41f06624-9ffe-43c3-8550-b6dbe7d859a8",
-                "resourcePath": "objects\\postDownload\\postDownload.yy",
+                "resourcePath": "objects\\reqManager\\reqManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1412,6 +1420,14 @@
                 "id": "90c14659-17d9-4f62-afba-5a2200665819",
                 "resourcePath": "sprites\\spr_brickblock3\\spr_brickblock3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5236234a-b96c-49f6-80b0-2b3dee24940d",
+            "Value": {
+                "id": "d0eb4d7a-2f3b-496e-9bc6-df9cd9c46316",
+                "resourcePath": "objects\\foundLvlDrawDownloads\\foundLvlDrawDownloads.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1948,6 +1964,14 @@
                 "id": "80da437a-4a33-447b-8e51-4f21ea4b20b8",
                 "resourcePath": "sounds\\ElectroFrontlines\\ElectroFrontlines.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "74b343ff-80b5-41e3-b2d2-91e30e3bb142",
+            "Value": {
+                "id": "83a9b556-597f-4e54-8152-46d6877f8791",
+                "resourcePath": "objects\\foundLvlDownloadIcon\\foundLvlDownloadIcon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
