@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "07dd575b-5f00-4602-ac34-e146a64e2487",
+            "Value": {
+                "id": "961b2814-3aee-4832-adb1-a8d4ef04d346",
+                "resourcePath": "views\\07dd575b-5f00-4602-ac34-e146a64e2487.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "08080565-911a-4a0f-ba52-dc50fac8ace8",
             "Value": {
                 "id": "c5e3fd31-4cc0-4971-8f38-14e516c830d3",
@@ -3103,6 +3111,14 @@
             }
         },
         {
+            "Key": "bb6f5990-52ca-4de8-bad2-9c5342202480",
+            "Value": {
+                "id": "5d420f9b-6ed0-4a56-8c1e-8645e7f901c2",
+                "resourcePath": "rooms\\rm_playFndLvlCnt\\rm_playFndLvlCnt.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bc438896-f32c-4cac-80c8-a1ab1243b2ec",
             "Value": {
                 "id": "43e1664d-6c81-4db8-8aea-ad55bd5bdded",
@@ -3839,6 +3855,14 @@
             }
         },
         {
+            "Key": "e79e4144-198d-4f19-b0ce-816d172f5c7e",
+            "Value": {
+                "id": "f5814924-a779-4d66-a34c-1c40b917f6c4",
+                "resourcePath": "scripts\\playFromCnt\\playFromCnt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e7d71205-ee16-464c-a400-9a497c09e9b2",
             "Value": {
                 "id": "9cf8b2c4-33e2-4978-9e26-556a52673c7b",
@@ -4229,7 +4253,8 @@
         "cdaf84b1-df0f-4c31-a3d2-920da6f1881a",
         "10ab6af5-062e-4450-a49d-89030d6859a0",
         "2096a9ec-576c-46ec-b5b1-34fc8102d44a",
-        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e"
+        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e",
+        "e79e4144-198d-4f19-b0ce-816d172f5c7e"
     ],
     "tutorial": ""
 }

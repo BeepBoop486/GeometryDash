@@ -13,6 +13,8 @@ if argument0 != "" {
 		file_text_writeln(file)
 		file_text_write_real(file, global.music)
 		file_text_writeln(file)
+		file_text_write_real(file, global.levelspeed)
+		file_text_writeln(file)
 		for(var i = 0; i < instance_count; i++) //We'll iterate for every instance in the room
 		{
 			var obj_name; //The name of the object

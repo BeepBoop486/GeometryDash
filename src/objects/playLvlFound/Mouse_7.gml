@@ -7,6 +7,6 @@ ahora = 1;}
 
 if global.negrito == 0{
 	global.fndLvlCnt = get_level_cnt(string(global.lvlid) + ".gde")
-	show_message(global.fndLvlCnt)
+	room_goto(rm_playFndLvlCnt)
 }
 
