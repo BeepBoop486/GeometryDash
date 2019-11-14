@@ -1,6 +1,7 @@
 TODO
 
 Adapt all the cubes of GD to the presets of the project (60x60)
+Auto sign in (If you've signed once)
 Attempt counter
 Cube selector, ball selector, wave selector, ship selector, ufo selector
 Color selector
