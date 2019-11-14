@@ -1543,6 +1543,14 @@
             }
         },
         {
+            "Key": "56223664-6015-4d34-a3d4-bc508913085a",
+            "Value": {
+                "id": "5a19633e-cfdd-44fa-9be1-92dddbca3c7b",
+                "resourcePath": "objects\\obj_setsTable\\obj_setsTable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "562f4264-d0fa-441c-9d31-2744815b940b",
             "Value": {
                 "id": "1fb12039-4baa-40d9-8c2d-7e1f7345d5fd",
