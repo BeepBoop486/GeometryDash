@@ -28,8 +28,8 @@ if filename != "" {
 			file_text_readln(file)
 			yscale = file_text_read_real(file)
 			file_text_readln(file)
-			blend = file_text_read_real(file)
-			file_text_readln(file)
+			//blend = file_text_read_real(file)
+			//file_text_readln(file)
 			groupo = file_text_read_real(file)
 			file_text_readln(file)
 			xpos = file_text_read_real(file)
@@ -41,7 +41,7 @@ if filename != "" {
 			obj.image_angle = angle
 			obj.image_xscale = xscale
 			obj.image_yscale = yscale
-			obj.image_blend = blend
+			obj.image_blend = c_white
 			obj.group = groupo
 		}
 	} else {
