@@ -43,7 +43,8 @@ if argument0 != "" {
 			&& objid != obj_save && objid != obj_editorTab && objid != obj_editObj && objid != obj_editGroupID 
 			&& objid != obj_load && objid != obj_pagination && objid != obj_optionsBTN && objid != core
 			&& objid != obj_camera && objid != obj_player && objid != obj_ground  && objid != edit_editBtn
-			&& objid != obj_player_deadbox && objid != obj_gaw_pagination && objid != edit_editBtn && objid!=obj_restart{
+			&& objid != obj_player_deadbox && objid != obj_gaw_pagination && objid != edit_editBtn && objid!=obj_restart
+			&& objid != obj_upload{
 				obj_name = object_get_name(objid);
 				angle = obj.image_angle
 				xscale = obj.image_xscale

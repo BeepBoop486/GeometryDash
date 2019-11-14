@@ -37,12 +37,14 @@ if filename != "" {
 			ypos = file_text_read_real(file)
 			file_text_readln(file)
 		
-			obj = instance_create(xpos, ypos, objid)
-			obj.image_angle = angle
-			obj.image_xscale = xscale
-			obj.image_yscale = yscale
-			obj.image_blend = c_white
-			obj.group = groupo
+			if objid != obj_upload {
+				obj = instance_create(xpos, ypos, objid)
+				obj.image_angle = angle
+				obj.image_xscale = xscale
+				obj.image_yscale = yscale
+				obj.image_blend = c_white
+				obj.group = groupo
+			}
 		}
 	} else {
 		show_message("Version not zero")
