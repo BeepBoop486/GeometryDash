@@ -5,7 +5,7 @@
 	{
 		while(!file_text_eof(file))
 		{
-			levelcnt += file_text_read_string(file) + chr(13)
+			levelcnt += file_text_read_string(file) + chr(10)
 			file_text_readln(file)
 		}
 	}
