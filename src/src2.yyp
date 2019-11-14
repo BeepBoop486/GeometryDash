@@ -1231,6 +1231,14 @@
             }
         },
         {
+            "Key": "47a8e3a8-927f-4498-9077-fb2b1264ff5c",
+            "Value": {
+                "id": "15d48bd1-ed3b-4d0a-8c3f-e1f87c8b62f6",
+                "resourcePath": "objects\\playLvlFound\\playLvlFound.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4866df4a-499a-4123-b62c-2c6e24cf9d3a",
             "Value": {
                 "id": "8c587f70-b55b-4e2f-b6e1-dfd44a80c33a",
