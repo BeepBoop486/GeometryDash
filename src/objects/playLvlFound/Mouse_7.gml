@@ -6,7 +6,7 @@ ahora = 1;}
 ///Alarma 0
 
 if global.negrito == 0{
-if global.lvlfndcnt != ""{
-
-}}
+	global.fndLvlCnt = get_level_cnt(string(global.lvlid) + ".gde")
+	show_message(global.fndLvlCnt)
+}
 
