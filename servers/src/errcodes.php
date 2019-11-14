@@ -6,6 +6,7 @@
      * -4 - Some fields missing
      *
      * -404 - DB Error
+     * -405 - Second query DB error
      * 
      * 1 - The task todo was made properly
      * -1 - The tast todo wasn't made properly

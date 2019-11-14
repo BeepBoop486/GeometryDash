@@ -16,3 +16,5 @@ Change the main menu's box for the table and add all the buttons left
 Change the level search system to make it faster and not so shitty xd
 Add editor pause
 Add editor vehicle switcher
+Modifiy all the show_message by the GD's blue box with the OK button
+Implement all the codes returned by the server in the GameMaker's project

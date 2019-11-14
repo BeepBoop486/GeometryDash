@@ -9,7 +9,15 @@
 				$query = $conn->query("SELECT * FROM levels WHERE id=$lvlid");
 				if ($query) {
 					if ($query->num_rows > 0) {
-						echo "1";
+						$row = $query->fetch_array(MYSQLI_ASSOC);
+						$lvldownloads = $row["downloads"];
+						$downstopost = $lvldownloads + 1;
+						$query = $conn->query("UPDATE levels SET downloads=$downstopost WHERE id=$lvlid");
+						if ($query) {
+							echo "1";
+						} else {
+							echo "-405";
+						}
 					} else {
 						echo "-82";
 					}
