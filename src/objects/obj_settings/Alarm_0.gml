@@ -1,1 +1,1 @@
-instance_create_layer(960, 540, "Instances_2", obj_setsTable)
+instance_create_layer(960, 540, "Instances_2", obj_setswind)

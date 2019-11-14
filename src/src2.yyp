@@ -407,14 +407,6 @@
             }
         },
         {
-            "Key": "132c82a3-ea80-44df-8720-90c545e877ca",
-            "Value": {
-                "id": "92b0b8b2-ac14-4262-963a-a618bf585a5c",
-                "resourcePath": "views\\132c82a3-ea80-44df-8720-90c545e877ca.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "13f2f8d2-e449-4216-8cf1-5758f534e809",
             "Value": {
                 "id": "06f01c18-61a7-4002-a398-1341c90553e0",
@@ -1327,6 +1319,14 @@
             }
         },
         {
+            "Key": "4c98ea30-d6fe-4d21-8d5a-7b342ff3fd77",
+            "Value": {
+                "id": "4e5ce293-b939-4a8d-b7a2-c302c2f58c9c",
+                "resourcePath": "sprites\\s_setts_accountBtn\\s_setts_accountBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c9e4ab1-affb-4d49-9178-a6f79ba30277",
             "Value": {
                 "id": "a1ba65ab-51d9-4309-b100-74b24abafe55",
@@ -1540,14 +1540,6 @@
                 "id": "62386a21-99fc-4518-9340-6382adf122a3",
                 "resourcePath": "sprites\\spr_tile04\\spr_tile04.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "56223664-6015-4d34-a3d4-bc508913085a",
-            "Value": {
-                "id": "5a19633e-cfdd-44fa-9be1-92dddbca3c7b",
-                "resourcePath": "objects\\obj_setsTable\\obj_setsTable.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1803,6 +1795,14 @@
             "Value": {
                 "id": "a98e26a2-5571-4cd5-8388-6cdf999710fa",
                 "resourcePath": "views\\6ad4dcfd-32d1-4518-a58c-87d9dd8c578a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6adb5f41-e1b2-4b5f-a16d-4fc9d37a0018",
+            "Value": {
+                "id": "2e23bf1b-7ea9-448f-9722-99f408a7a41e",
+                "resourcePath": "views\\6adb5f41-e1b2-4b5f-a16d-4fc9d37a0018.yy",
                 "resourceType": "GMFolder"
             }
         },
