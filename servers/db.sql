@@ -2,8 +2,8 @@
 -- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost:3306
--- Tiempo de generación: 12-11-2019 a las 19:37:55
+-- Servidor: localhost
+-- Tiempo de generación: 14-11-2019 a las 00:39:11
 -- Versión del servidor: 10.3.16-MariaDB
 -- Versión de PHP: 7.3.10
 
