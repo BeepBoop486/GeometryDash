@@ -11,7 +11,7 @@ if global.negrito == 0{
 	global.lvlid = lvlid
 	global.rate = rate
 	global.stars = stars
-	global.downloads = stars
+	global.downloads = downloads
 	global.likes = likes
 	global.dislikes = dislikes
 	global.isepic = isepic
