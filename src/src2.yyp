@@ -2847,6 +2847,14 @@
             }
         },
         {
+            "Key": "ab09fb98-6757-4f36-851b-76c9bc215ffe",
+            "Value": {
+                "id": "33123474-01c6-47b6-822e-09afec0a80ed",
+                "resourcePath": "scripts\\playFnd\\playFnd.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ab4e7a1d-5677-4c7b-9405-8d2d5a52ea12",
             "Value": {
                 "id": "32db3c48-f0f0-4127-9098-5296bb3cbfa2",
@@ -4253,7 +4261,8 @@
         "cdaf84b1-df0f-4c31-a3d2-920da6f1881a",
         "10ab6af5-062e-4450-a49d-89030d6859a0",
         "2096a9ec-576c-46ec-b5b1-34fc8102d44a",
-        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e"
+        "5918d4d2-56eb-43e9-b376-2c1c3ee29f0e",
+        "ab09fb98-6757-4f36-851b-76c9bc215ffe"
     ],
     "tutorial": ""
 }

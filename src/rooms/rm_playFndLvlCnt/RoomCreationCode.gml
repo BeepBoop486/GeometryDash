@@ -1,1 +1,1 @@
-load_level(string(global.lvlid) + ".gde")
+playFnd()

@@ -10,3 +10,4 @@
 		}
 	}
 	return levelcnt
+	file_text_close(file)
