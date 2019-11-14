@@ -1,8 +1,4 @@
 # TODO
-- Upload levels
-- Download levels
-- Play levels
-- Level rating
 - Accounts medals
 - Level tags for searcher
 - Mod accounts
