@@ -10,6 +10,8 @@ if filename != "" {
 	if version == 0 {
 		global.music = file_text_read_real(file)
 		file_text_readln(file)
+		global.levelspeed = file_text_read_real(file)
+		file_text_readln(file)
 	
 		instance_destroy(obj_player)
 	
