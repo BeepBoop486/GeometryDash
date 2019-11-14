@@ -1,6 +1,6 @@
 TODO
 
-Change the main menu's box for the table and add all the buttons left
+Change the main menu's box for the table and add all the buttons left - Working on it
 Auto sign in (If you've signed once)
 Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
