@@ -22,3 +22,4 @@ Modifiy all the show_message by the GD's blue box with the OK button
 Implement all the codes returned by the server in the GameMaker's project
 Optimize rm_dlevel (objects and room)
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
+Change all the old views by the new camera functions
