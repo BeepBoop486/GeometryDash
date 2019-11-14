@@ -1,7 +1,5 @@
 TODO
 
-Play the downloaded level
-
 Change the editor's view dragging by the drag gesture
 Change the main menu's box for the table and add all the buttons left
 Auto sign in (If you've signed once)
