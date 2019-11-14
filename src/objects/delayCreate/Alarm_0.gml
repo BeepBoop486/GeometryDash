@@ -1,4 +1,3 @@
-load_level(string(global.lvlid) + ".gde")
 /*instance_create(-60,4590, obj_player)
 global.playing = true
 audio_play_sound(global.music, 1, 1)
