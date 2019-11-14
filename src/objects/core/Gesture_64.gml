@@ -1,3 +1,5 @@
+
+//Build
 if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
 
 && !position_meeting(mouse_x, mouse_y, undel)
@@ -24,5 +26,28 @@ if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
 	with(boj) move_snap(30.5,30.5)
 
 }
-/* */
-/*  */
+
+//Edit
+if global.selected_mode == 1 //If we're in edit mode
+&& !position_meeting(event_data[? "posX"], event_data[? "posY"], undel)
+&& !position_meeting(event_data[? "posX"], event_data[? "posY"], obj_ground)
+&& !position_meeting(event_data[? "posX"], event_data[? "posY"], BoxOpts)
+&& !position_meeting(event_data[? "posX"], event_data[? "posY"], obj_ground2)
+&& !global.playing
+{
+
+	global.selected_obj = 0
+
+	with(all)
+	{
+		image_blend = c_white
+	}
+
+	global.selected_obj = instance_position(event_data[? "posX"], event_data[? "posY"], all)
+
+	with(global.selected_obj)
+	{
+		image_blend = c_lime
+	}
+
+}

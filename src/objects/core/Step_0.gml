@@ -22,48 +22,6 @@ if global.playing
 	
 }
 
-if global.selected_mode == 1 //If we're in edit mode
-
-&& !position_meeting(mouse_x, mouse_y, undel)
-
-&& !position_meeting(mouse_x, mouse_y, obj_ground)
-
-&& !position_meeting(mouse_x, mouse_y, BoxOpts)
-
-&& !position_meeting(mouse_x, mouse_y, obj_ground2)
-
-&& !global.playing
-
-&& mouse_check_button_released(mb_left)
-
-{
-
-	/* aaaaaaall this bullshit MUST be deleted later */
-
-	global.selected_obj = 0 //Forgot to set selected object to practically null xd
-
-	//Just to avoid bugs xd
-
-	with(all)
-
-	{
-
-		image_blend = c_white
-
-	}
-
-	global.selected_obj = instance_position(mouse_x, mouse_y, all)
-
-	with(global.selected_obj)
-
-	{
-
-		image_blend = c_lime
-
-	}
-
-}
-
 
 
 if global.selected_mode == 2 /*&& mouse_y < 4592*/ && !position_meeting(mouse_x, mouse_y, undel)
@@ -104,20 +62,6 @@ if keyboard_check_released(vk_enter)
 	hide_ui()
 
 }
-
-
-
-/*if global.dragging && !global.playing
-
-{
-
-	__view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + drag_x - mouse_x )
-
-	__view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + drag_y - mouse_y )
-
-}*/
-
-
 
 if !global.playing
 
