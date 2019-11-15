@@ -1,7 +1,6 @@
 TODO
 
 Change the main menu's box for the table and add all the buttons left - Working on it
-Auto sign in (If you've signed once)
 Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
 Cube selector, ball selector, wave selector, ship selector, ufo selector
@@ -12,8 +11,7 @@ Store
 Another store xd
 An official level for every song
 Delete all the GD songs and add custom
-Add all the hazards óts removing the faded part in the sprite editor
-Change cube's xscale and yscale to 0.85 in the cube selector room
+Add all the hazards pits removing the faded part in the sprite editor
 Change the level search system to make it faster and not so shitty xd
 Add editor pause
 Add editor vehicle switcher
