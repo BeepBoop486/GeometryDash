@@ -20,7 +20,7 @@
                                 if($query->num_rows > 0) {
                                     echo "-181";
                                 } else {
-                                    $query = $conn->query("INSERT INTO users(id, uname, upass) VALUES(NULL, '$finalname', '$finalpass')");
+                                    $query = $conn->query("INSERT INTO users(id, uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES(NULL, '$finalname', '$finalpass', 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
                                     if($query) {
                                         echo "1";
                                     } else {

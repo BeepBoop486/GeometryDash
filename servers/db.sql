@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 14-11-2019 a las 00:39:11
+-- Tiempo de generación: 15-11-2019 a las 16:30:36
 -- Versión del servidor: 10.3.16-MariaDB
 -- Versión de PHP: 7.3.10
 
@@ -52,7 +52,28 @@ CREATE TABLE `levels` (
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `uname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `upass` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+  `upass` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `stars` int(255) NOT NULL,
+  `demons` int(255) NOT NULL,
+  `icon` int(255) NOT NULL,
+  `color1` int(255) NOT NULL,
+  `color2` int(255) NOT NULL,
+  `coins` int(255) NOT NULL,
+  `userCoins` int(255) NOT NULL,
+  `ship` int(255) NOT NULL,
+  `ball` int(255) NOT NULL,
+  `ufo` int(255) NOT NULL,
+  `wave` int(255) NOT NULL,
+  `robot` int(255) NOT NULL,
+  `spider` int(255) NOT NULL,
+  `creatorPoints` int(255) NOT NULL,
+  `diamonds` int(255) NOT NULL,
+  `orbs` int(255) NOT NULL,
+  `completedLevels` int(255) NOT NULL,
+  `isAdmin` int(255) NOT NULL,
+  `isMod` int(255) NOT NULL,
+  `isBanned` int(255) NOT NULL,
+  `isCreatorBanned` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
