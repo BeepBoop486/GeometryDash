@@ -23,3 +23,5 @@ Optimize rm_dlevel (objects and room)
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
 Adapt the entire project to mobile devices
+At mod or admin rate first check if the siggned in user is really admin (stored in the server)
+if amiadmin is true and the server saved is false, the user will be banned

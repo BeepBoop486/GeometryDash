@@ -47,6 +47,25 @@ global.loggedin = false
 global.loggedname = ""
 global.loggedpass = ""
 
+global.accstars = 0
+global.demons = 0
+global.coins = 0
+global.userCoins = 0
+global.ship = 0
+global.ball = 0
+global.ufo = 0
+global.wave = 0
+global.robot = 0
+global.spider = 0
+global.cps = 0
+global.diamonds = 0
+global.orbs = 0
+global.completedLevels = 0
+global.amiadmin = 0
+global.amimod = 0
+global.amibanned = 0
+global.amicreatorbanned = 0
+
 //Servers
 global.serverUrl = "https://gddarkness.000webhostapp.com/"
 global.serverSecret = "4fd5b65e052e7bdfa0c7bc58e1744a74a2ecc5d7cd2936013fe8a15585c1f1c4"
