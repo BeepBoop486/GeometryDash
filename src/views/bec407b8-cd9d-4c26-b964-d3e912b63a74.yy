@@ -8,7 +8,8 @@
         "abae79da-ad54-494e-8511-0c91d710ca17",
         "759f1228-4784-4b8a-9ff5-fc92f5fca961",
         "da9c46bb-569a-484a-929f-4e37601a619b",
-        "5f8fa149-bf6c-476f-93ea-27b359e21154"
+        "5f8fa149-bf6c-476f-93ea-27b359e21154",
+        "75732152-38c3-4f76-b2e5-64eeed79aa32"
     ],
     "filterType": "GMObject",
     "folderName": "Scripts",

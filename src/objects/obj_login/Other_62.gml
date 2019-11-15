@@ -7,6 +7,7 @@ if ds_map_find_value(async_load, "id") == requiem
 		if response == 1 {
 			global.loggedin = true
 			global.loggedname = global.logingname
+			global.loggedpass = global.logingpass
 			show_message("Sign in successfully")
 		} else if response == -91
 		{

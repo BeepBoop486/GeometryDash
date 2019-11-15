@@ -45,7 +45,14 @@ global.col2 = c_aqua
 //Accounts
 global.loggedin = false
 global.loggedname = ""
+global.loggedpass = ""
 
 //Servers
 global.serverUrl = "https://gddarkness.000webhostapp.com/"
 global.serverSecret = "4fd5b65e052e7bdfa0c7bc58e1744a74a2ecc5d7cd2936013fe8a15585c1f1c4"
+
+if file_exists("player.dat") {
+	load_game()
+} else {
+	save_game()
+}
