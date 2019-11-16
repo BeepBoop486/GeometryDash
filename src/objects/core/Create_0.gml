@@ -25,6 +25,8 @@ global.color[global.colors] = c_white
 global.wallx = 0
 room_width = 5000
 
+previousMode = 0
+
 alarm[0] = 60
 
 ///Basic and shitty object pagination

@@ -1,6 +1,7 @@
 /// @description Initializing variables
 player = 0
 separated = 0
+
 if global.levelspeed != 0
 {
 	global.spdboost=global.levelspeed
@@ -10,6 +11,11 @@ if global.levelspeed != 0
 hsp = 10.6 * global.spdboost //Speed
 
 ini_physics(5)
+
+if player == -1
+{
+	gravdir = -1
+}
 
 sprite_set_offset(sprite_index, 30, 30)
 sprite_set_offset(sprite_index+1, 30, 30)
