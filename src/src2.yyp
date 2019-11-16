@@ -2255,6 +2255,14 @@
             }
         },
         {
+            "Key": "86ebd08a-c6ea-4d91-a7c6-aa24a7c7c3c7",
+            "Value": {
+                "id": "ed14ab02-05af-4ccd-9255-1186e43e2dfe",
+                "resourcePath": "objects\\obj_winWall1\\obj_winWall1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87a8742b-dbb9-4ac1-a299-0cd4eb283e63",
             "Value": {
                 "id": "4c79f4ee-3b96-4106-8571-67913048234b",
