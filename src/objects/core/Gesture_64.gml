@@ -24,6 +24,10 @@ if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
 	boj = instance_create(event_data[? "posX"], event_data[? "posY"], global.toput) //Bugs fixed
 
 	with(boj) move_snap(30.5,30.5)
+	
+	if boj.x > global.wallx {
+		global.wallx = boj.x
+	}
 
 }
 

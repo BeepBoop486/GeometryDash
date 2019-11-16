@@ -19,6 +19,11 @@ global.intab = 0 // 0 - solid, 1 - spike
 
 global.levelspeed = 1 // This is for the speed switcher
 
+global.wallx = 0
+room_width = 5000
+
+alarm[0] = 60
+
 ///Basic and shitty object pagination
 
 global.solidspage = 0
