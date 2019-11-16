@@ -17,7 +17,13 @@ if global.playing {
 	physics()
 	if keyboard_check(vk_up) and vsp > -maxfvsp
 	{
-		vsp-=fspd
+		if separated and instance_number(obj_ship) > 1 && player == 0 {
+			vsp-=fspd
+		} else if !separated {
+			vsp-=fspd
+		}
+	} else if mouse_check_button(mb_left) && player==1 && separated {
+		vsp -= fspd
 	} if vsp > maxfvsp {
 		vsp=maxfvsp
 	}
