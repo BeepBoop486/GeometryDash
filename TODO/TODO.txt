@@ -28,3 +28,4 @@ Reverse orbs in the editor
 Speed x0.25
 Speed x0
 Speed x5
+A server-made checking if you're mod when rating levels
