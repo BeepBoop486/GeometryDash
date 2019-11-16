@@ -18,7 +18,7 @@ if global.playing
 
 	physics()
 
-	if keyboard_check(vk_up)
+	if keyboard_check(vk_up) && player == 0
 
 	{
 
@@ -30,6 +30,11 @@ if global.playing
 
 		}
 
+	} else if mouse_check_button(mb_left) && player == 1 {
+		if place_meeting(x, y+gravdir, obj_wall)
+		{
+			vsp = -jumpspd
+		}
 	}
 
 } else {
