@@ -1,5 +1,6 @@
 /// @description Initializing variables
 player = 0
+separated = 0
 if global.levelspeed != 0
 {
 	global.spdboost=global.levelspeed

@@ -18,19 +18,21 @@ if global.playing
 
 	physics()
 
-	if keyboard_check(vk_up) && player == 0
+	if keyboard_check(vk_up)
 
 	{
 
-		if place_meeting(x, y+gravdir, obj_wall)
-
-		{
-
-			vsp = -jumpspd
-
+		if separated and instance_number(obj_player) > 1 && player == 0 {
+			if place_meeting(x, y+gravdir, obj_wall) {
+				vsp = -jumpspd
+			}
+		} else if !separated {
+			if place_meeting(x, y+gravdir, obj_wall) {
+				vsp = -jumpspd
+			}
 		}
 
-	} else if mouse_check_button(mb_left) && player == 1 {
+	} else if mouse_check_button(mb_left) && player == 1 && separated {
 		if place_meeting(x, y+gravdir, obj_wall)
 		{
 			vsp = -jumpspd
