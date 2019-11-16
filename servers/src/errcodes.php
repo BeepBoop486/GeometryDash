@@ -8,6 +8,8 @@
      * -404 - DB Error
      * -405 - Second query DB error
      * 
+     * 3 - You're not logged in
+     * 2 - You're banned
      * 1 - The task todo was made properly
      * -1 - The tast todo wasn't made properly
      * 0 - Wrong secret
