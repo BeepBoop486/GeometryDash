@@ -83,7 +83,8 @@ if !global.playing
 
 
 
-if global.selected_obj != 0 //If we've selected an object
+if global.selected_obj != 0 && global.selected_obj != undefined && global.selected_obj != noone
+//If we've selected an object
 
 {
 
@@ -99,25 +100,25 @@ if global.selected_obj != 0 //If we've selected an object
 
 		///Mini movements
 
-		if keyboard_check_released(ord("W")) {
+		if keyboard_check_pressed(ord("W")) {
 
 			//If we press the 'W' key
 
 			with(global.selected_obj) {y -= 2}
 
-		} if keyboard_check_released(ord("S")) {
+		} if keyboard_check_pressed(ord("S")) {
 
 			//If we press the 'S' key
 
 			with(global.selected_obj) {y += 2}
 
-		} if keyboard_check_released(ord("A")) {
+		} if keyboard_check_pressed(ord("A")) {
 
 			//If we press the 'A' key
 
 			with(global.selected_obj) {x -= 2}
 
-		} if keyboard_check_released(ord("D")) {
+		} if keyboard_check_pressed(ord("D")) {
 
 			//If we press the 'D' key
 
@@ -163,11 +164,11 @@ if global.selected_obj != 0 //If we've selected an object
 
 	///ROTATE
 
-	if keyboard_check_released(ord("Q")) {
+	if keyboard_check_pressed(ord("Q")) {
 
 		with(global.selected_obj) {image_angle += 90}
 
-	}  if keyboard_check_released(ord("E")) {
+	}  if keyboard_check_pressed(ord("E")) {
 
 		with(global.selected_obj) {image_angle -= 90}
 
@@ -183,7 +184,8 @@ if global.selected_obj != 0 //If we've selected an object
 
 	{
 
-		if(keyboard_check_pressed(ord("D"))) {
+		if(keyboard_check_pressed(ord("D")) && global.selected_obj != undefined && global.selected_obj != noone
+			&& global.selected_obj != 0 && global.selected_obj.object_index != undefined) {
 
 			tt = instance_create(global.selected_obj.x, global.selected_obj.y, global.selected_obj.object_index)
 

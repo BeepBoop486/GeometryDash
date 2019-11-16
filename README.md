@@ -3,8 +3,10 @@ Geometry dash (aka GDCommunity) is aimed to be an opensource clone of Geometry D
 
 Here's the actual game in action (This could change soon, so you better clone the repo and build it by yourself in GameMaker:Studio 2)
 ![Main menu](img/img1.PNG)
-![Editor](img/img2.PNG)
+![Editor](img/img4.PNG)
 ![Another image of the editor](img/img3.PNG)
+![The extras](img/img5.PNG)
+![An online level](img/img6.PNG)
 
 # Features
 - Powerful in-game editor

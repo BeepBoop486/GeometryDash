@@ -29,7 +29,7 @@ global.orbspage = 0
 
 
 
-global.maxsolidspage = 3
+global.maxsolidspage = 4
 
 global.maxspikepage = 2
 
