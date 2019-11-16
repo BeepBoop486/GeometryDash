@@ -24,4 +24,6 @@ repeat 45
 }
 with obj_player_deadbox {instance_destroy()}
 instance_destroy()
-instance_create(0,0,obj_restart)
+if player != 1 {
+	instance_create(0,0,obj_restart)
+}

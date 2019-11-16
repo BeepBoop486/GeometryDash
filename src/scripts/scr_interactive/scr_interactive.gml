@@ -138,7 +138,7 @@ if place_meeting(x, y, obj_spider_portal)
 if place_meeting(x, y, obj_dual_portal) {
 	var vehtc = get_vehicle()
 	create_dual(vehtc)
-	exit
+	//event_user(0)
 }
 ///Speeds
 //x0.5
