@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "2944b578-8e02-4c8c-9121-937df3738bfc",
+            "Value": {
+                "id": "10eb9cf4-4d1b-4bc5-a636-e00d57b92997",
+                "resourcePath": "objects\\obj_dual_portal1\\obj_dual_portal1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29eb75a1-bc89-4bdc-b72c-2c0f06d57035",
             "Value": {
                 "id": "71f65fae-486c-4a26-a597-ae0eeaa1d5f3",
@@ -1212,6 +1220,14 @@
                 "id": "c2229b00-f872-47ab-b16f-2c7c0f056aef",
                 "resourcePath": "sprites\\spr_ring5\\spr_ring5.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45c784b6-47ed-45f8-9681-e7399280597a",
+            "Value": {
+                "id": "44b10a4d-65da-41d1-b816-90d9d9317136",
+                "resourcePath": "objects\\obj_dual_portal\\obj_dual_portal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2575,6 +2591,14 @@
             }
         },
         {
+            "Key": "9f4274e7-ba64-4824-a095-76460bea9e2f",
+            "Value": {
+                "id": "c1495f50-ffa9-4239-a431-03155089a82e",
+                "resourcePath": "sprites\\spr_dual_portal\\spr_dual_portal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a025761e-f964-40ea-90d0-85617b115701",
             "Value": {
                 "id": "0bf4dee2-adab-48cf-9924-f84523142a4f",
@@ -3700,6 +3724,14 @@
                 "id": "96cb77e0-7b58-40a6-b7ca-dd1645b69136",
                 "resourcePath": "views\\e16c0e7a-0a3e-4441-8aad-a8a248944242.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1fb75ac-121d-40d3-b9c9-979ca127884e",
+            "Value": {
+                "id": "e692e0f2-deae-4caf-8a6a-9ed9c2a318f4",
+                "resourcePath": "sprites\\spr_dual_portal1\\spr_dual_portal1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

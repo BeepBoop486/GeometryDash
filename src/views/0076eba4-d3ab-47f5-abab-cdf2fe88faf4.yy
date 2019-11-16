@@ -14,7 +14,9 @@
         "c5804b31-4d76-4f90-b8b6-bb89ecf55c32",
         "2cbad6d1-1f7f-424f-8853-2e330c888b83",
         "893b355c-20ee-4678-8725-ae29a6b87c2b",
-        "7ee88798-5cb1-42cd-a69d-da22c8759242"
+        "7ee88798-5cb1-42cd-a69d-da22c8759242",
+        "45c784b6-47ed-45f8-9681-e7399280597a",
+        "2944b578-8e02-4c8c-9121-937df3738bfc"
     ],
     "filterType": "GMObject",
     "folderName": "Portals",

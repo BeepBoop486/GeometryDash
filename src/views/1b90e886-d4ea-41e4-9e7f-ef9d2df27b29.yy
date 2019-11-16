@@ -14,7 +14,9 @@
         "b90fdb8d-36f3-4777-ab2d-d9e74e403c0b",
         "3c2de40b-2f84-471d-9396-f77c136268a0",
         "813e60b1-564e-4ebb-bcc3-f23977eeb5d6",
-        "b02049ce-bc45-45fa-9a7a-6dbe76191687"
+        "b02049ce-bc45-45fa-9a7a-6dbe76191687",
+        "9f4274e7-ba64-4824-a095-76460bea9e2f",
+        "e1fb75ac-121d-40d3-b9c9-979ca127884e"
     ],
     "filterType": "GMSprite",
     "folderName": "Portals",
