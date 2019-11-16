@@ -13,7 +13,7 @@ if filename != "" {
 		global.levelspeed = file_text_read_real(file)
 		file_text_readln(file)
 	
-		if instance_exists(obj_player) instance_destroy(obj_player)
+		//if instance_exists(obj_player) instance_destroy(obj_player)
 	
 		while(!file_text_eof(file)) {
 			var objid = file_text_read_string(file)

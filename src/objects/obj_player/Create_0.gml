@@ -47,3 +47,7 @@ trail = 0
 scr_other_var()
 
 fbspd = 12
+
+if player == 1 {
+	gravdir = -1
+}
