@@ -61,6 +61,23 @@
 					scale = .5
 
 				}
+			} else if global.solidspage == 3 {
+
+				obj_spr = object_get_sprite(obj_solid3)
+
+				obj_spr_w = sprite_get_width(obj_spr)
+
+				obj_spr_h = sprite_get_height(obj_spr)
+
+				scale = 1
+
+				
+
+				if obj_spr_w == 61 && obj_spr_h == 61 {
+
+					scale = .5
+
+				}
 			}
 
 		} if global.intab == 1 {

@@ -22,6 +22,9 @@ obj_orbs1 = 0
 
 obj_solid2 = 0
 
+//Page 3
+obj_solid3 = 0
+
 
 
 plusx = 0
