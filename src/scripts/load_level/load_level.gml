@@ -12,6 +12,11 @@ if filename != "" {
 		file_text_readln(file)
 		global.levelspeed = file_text_read_real(file)
 		file_text_readln(file)
+		for(var i = 0; i < global.colors; i+=1)
+		{
+			global.color[i] = file_text_read_real(file)
+			file_text_readln(file)
+		}
 	
 		//if instance_exists(obj_player) instance_destroy(obj_player)
 	

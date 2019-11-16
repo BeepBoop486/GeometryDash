@@ -19,6 +19,9 @@ global.intab = 0 // 0 - solid, 1 - spike
 
 global.levelspeed = 1 // This is for the speed switcher
 
+global.colors = 999
+global.color[global.colors] = c_white
+
 global.wallx = 0
 room_width = 5000
 
