@@ -2183,6 +2183,14 @@
             }
         },
         {
+            "Key": "7b3a8972-6ea2-4a33-97b2-7e87794e331f",
+            "Value": {
+                "id": "780e114d-3366-49a6-bf46-b049a0833853",
+                "resourcePath": "sprites\\spr_garageRope\\spr_garageRope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7cedc11d-50c1-4ba0-b4ab-43f344bb6b93",
             "Value": {
                 "id": "67b41e5c-8509-4fc3-b2c3-b9530c0b8fab",
@@ -4043,6 +4051,14 @@
             "Value": {
                 "id": "6b4519ee-a3bd-45c6-ae57-d06ef986c386",
                 "resourcePath": "objects\\obj_par3\\obj_par3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e87369e7-b846-4712-a4b9-024a788437c8",
+            "Value": {
+                "id": "df68fbd6-a782-41fe-9290-226f1351ad44",
+                "resourcePath": "objects\\obj_garageRope\\obj_garageRope.yy",
                 "resourceType": "GMObject"
             }
         },
