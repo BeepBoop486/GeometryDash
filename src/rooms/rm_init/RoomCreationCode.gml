@@ -75,3 +75,6 @@ if file_exists("player.dat") {
 } else {
 	save_game()
 }
+
+global.colors = 999
+global.color[global.colors] = c_white
