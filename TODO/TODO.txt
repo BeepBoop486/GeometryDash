@@ -2,6 +2,7 @@ TODO
 
 Leaderboards - Working on it
 An online level gives you stars - Working on it
+All the groups in the project added to different texture groups (sprites smh)
 Change the main menu's box for the table and add all the buttons left - Working on it
 Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
