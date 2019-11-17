@@ -1,4 +1,6 @@
 /// @description Spider logic
+player=0
+separated=false
 ini_physics(3)
 global.yscroll=0
 fis=0.8

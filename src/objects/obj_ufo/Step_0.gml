@@ -16,6 +16,12 @@ if global.playing
 	physics()
 	if keyboard_check_pressed(vk_up)
 	{
+		if separated and instance_number(obj_ufo) > 1 && player == 0 {
+			vsp=-jumpspd
+		} else if !separated {
+			vsp=-jumpspd
+		}
+	} else if mouse_check_button_pressed(mb_left) && player == 1 && separated {
 		vsp=-jumpspd
 	}
 	if distance_to_object(instance_nearest(x, y, obj_ring_parent))<61

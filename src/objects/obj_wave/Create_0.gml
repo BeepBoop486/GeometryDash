@@ -1,3 +1,5 @@
+player = 0
+separated = false
 ini_physics(36.6)
 global.yscroll=0
 fis=1

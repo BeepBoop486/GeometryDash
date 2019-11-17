@@ -8,6 +8,12 @@ if global.playing
 	physics()
 	if keyboard_check(vk_up)
 	{
+		if separated and instance_number(obj_wave) > 1 && player == 0 {
+			vsp=-grav*2
+		} else if !separated {
+			vsp=-grav*2
+		}
+	} else if mouse_check_button(mb_left) && player == 1 && separated {
 		vsp=-grav*2
 	}
 	/*

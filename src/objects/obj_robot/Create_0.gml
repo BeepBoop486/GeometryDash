@@ -1,3 +1,5 @@
+player = 0
+separated = false
 hsp=10.6*global.spdboost
 ini_physics(6)
 global.yscroll=1
