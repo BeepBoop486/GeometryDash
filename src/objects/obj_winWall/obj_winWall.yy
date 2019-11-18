@@ -5,7 +5,7 @@
     "name": "obj_winWall",
     "eventList": [
         {
-            "id": "ece34c6d-6522-44da-80f2-394a7375d1ec",
+            "id": "7b48a53d-1c2f-4e45-9270-cd8065d065cc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "240517e9-a428-47d9-82fa-3e00b975cc9b"
         },
         {
-            "id": "3b0d4949-9598-4b76-8721-5a1fee009538",
+            "id": "a32cb52a-f520-4cc7-9791-fb69b5c699e9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -23,21 +23,11 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "240517e9-a428-47d9-82fa-3e00b975cc9b"
-        },
-        {
-            "id": "ecafc556-5ea7-437f-b175-ec746667a270",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "240517e9-a428-47d9-82fa-3e00b975cc9b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "699190f8-1ae7-4bd7-ac6e-864b6bccf078",
+    "parentObjectId": "7c99ce99-8932-4688-9bfb-18da956f0e5a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

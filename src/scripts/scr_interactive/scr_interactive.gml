@@ -176,12 +176,12 @@ if place_meeting(x, y, obj_winWall)
 			global.accstars = global.accstars + global.stars
 		}
 		room_goto(rm_dlevel)
+		audio_stop_all()
 	} else if room = rm_editor
 	{
-		global.playing = false
+		stop_playing()
 	} else {
 		//We assume you're in a future local level xd
 		room_goto(rm_levelsel)
 	}
-	show_message("Alsa")
 }
