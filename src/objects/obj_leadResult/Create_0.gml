@@ -1,5 +1,6 @@
 yy=0
 
+top=0
 name=""
 stars=0
 diamonds=0

@@ -11,7 +11,9 @@ if ds_map_find_value(async_load, "id") == req
 		var yy = 389;
 		while(!file_text_eof(file2))
 		{
-			var name, stars, diamonds, coins, userCoins, demons, cps, icon, col1, col2;
+			var top, name, stars, diamonds, coins, userCoins, demons, cps, icon, col1, col2;
+			top = file_text_read_real(file2)
+			file_text_readln(file2)
 			name = file_text_read_string(file2)
 			file_text_readln(file2)
 			stars = file_text_read_real(file2)
@@ -34,6 +36,7 @@ if ds_map_find_value(async_load, "id") == req
 			file_text_readln(file2)
 			
 			tt = instance_create_layer(944, yy, "Instances_2",obj_leadResult)
+			tt.top = top
 			tt.name = name
 			tt.stars = stars
 			tt.diamonds = diamonds

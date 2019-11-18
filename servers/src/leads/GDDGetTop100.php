@@ -6,7 +6,10 @@
 	if($query)
 	{
 		if ($query->num_rows > 0) {
+			$top = 0;
 			while($row = $query->fetch_assoc()) {
+				$top += 1;
+				echo $top . "\n";
 				echo $row["uname"] . "\n";
 				echo $row["stars"] . "\n";
 				echo $row["diamonds"] . "\n";
