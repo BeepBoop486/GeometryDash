@@ -1,5 +1,10 @@
 /// @description I dont' want to do this in every object so...
 
+if player == 1
+{
+	gravdir = -1
+}
+
 //paths
 if place_meeting(x, y, obj_path1)
 {
