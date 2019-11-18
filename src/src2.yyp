@@ -3639,14 +3639,6 @@
             }
         },
         {
-            "Key": "d0c51545-198f-4e93-87c0-2951b9271938",
-            "Value": {
-                "id": "ea52d5ec-e658-4e0a-9902-998f701e1e4f",
-                "resourcePath": "objects\\obj_leadIcon\\obj_leadIcon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d0d94c66-8cd0-44c5-be35-71d0653837bd",
             "Value": {
                 "id": "9f75fd9b-042a-46d6-a62f-691687162cf5",
