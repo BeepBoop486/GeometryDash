@@ -166,7 +166,6 @@ if place_meeting(x,y,obj_speed4)
 
 
 
-
 if place_meeting(x, y, obj_winWall)
 {
 	if room = rm_playFndLvlCnt

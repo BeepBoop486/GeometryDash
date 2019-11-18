@@ -1223,6 +1223,14 @@
             }
         },
         {
+            "Key": "4151a5a6-4586-461d-a27c-b17c4c9750f7",
+            "Value": {
+                "id": "31771613-b6cc-4fbc-af07-56e003eb8c49",
+                "resourcePath": "views\\4151a5a6-4586-461d-a27c-b17c4c9750f7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4157cd2f-03c2-4426-b931-b7867adc0b4d",
             "Value": {
                 "id": "0ad59385-c726-42a3-b8b2-024a0548b75d",
@@ -1723,6 +1731,14 @@
             "Value": {
                 "id": "98b1186b-62ad-494a-93ee-dac5905b9c1f",
                 "resourcePath": "objects\\ClickableMusicLess1\\ClickableMusicLess1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5d3dbc27-e9cd-4a0d-b221-c25076c863a5",
+            "Value": {
+                "id": "0cca22b5-c777-49c7-b461-cd3dfd699737",
+                "resourcePath": "objects\\obj_leadsTable\\obj_leadsTable.yy",
                 "resourceType": "GMObject"
             }
         },
