@@ -1,0 +1,1 @@
+req = http_get(global.serverUrl+"leads/GDDGetTop100.php")
