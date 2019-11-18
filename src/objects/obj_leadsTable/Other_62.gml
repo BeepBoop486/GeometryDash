@@ -31,6 +31,7 @@ if ds_map_find_value(async_load, "id") == req
 			col1=file_text_read_real(file2)
 			file_text_readln(file2)
 			col2=file_text_read_real(file2)
+			file_text_readln(file2)
 			
 			tt = instance_create_layer(944, yy, "Instances_2",obj_leadResult)
 			tt.name = name
