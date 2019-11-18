@@ -161,3 +161,27 @@ if place_meeting(x,y,obj_speed4)
 {
     global.spdboost=1.5
 }
+
+
+
+
+
+
+if place_meeting(x, y, obj_winWall)
+{
+	if room = rm_playFndLvlCnt
+	{
+		if global.stars != 0 && global.stars < 15 {
+			//global.stars < 15 - just to avoid possible star hacks
+			global.accstars = global.accstars + global.stars
+		}
+		room_goto(rm_dlevel)
+	} else if room = rm_editor
+	{
+		global.playing = false
+	} else {
+		//We assume you're in a future local level xd
+		room_goto(rm_levelsel)
+	}
+	show_message("Alsa")
+}
