@@ -7,7 +7,6 @@ if ds_map_find_value(async_load, "id") == req
 		var file = file_text_open_write("leads")
 		file_text_write_string(file, result)
 		file_text_close(file)
-		show_message("Top 100 downloaded")
 		var file2 = file_text_open_read("leads")
 		var yy = 389;
 		while(!file_text_eof(file2))
@@ -34,6 +33,7 @@ if ds_map_find_value(async_load, "id") == req
 			col2=file_text_read_real(file2)
 			
 			tt = instance_create_layer(944, yy, "Instances_2",obj_leadResult)
+			tt.name = name
 			tt.stars = stars
 			tt.diamonds = diamonds
 			tt.coins = coins
