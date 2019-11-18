@@ -2,10 +2,9 @@ if !instance_exists(BoxOpts) {
 		global.playing = !global.playing
 	}
 
-		with(obj_player) {
-			if player == 1 {
-				instance_destroy()
-			}
+		if instance_exists(obj_player) && !global.playing {
+			instance_destroy(obj_player)
+			instance_create(0,0,obj_restart)
 		}
 
 	if global.playing{
