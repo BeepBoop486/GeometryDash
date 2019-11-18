@@ -29,4 +29,3 @@ Speed x0.25
 Speed x0
 Speed x5
 A server-made checking if you're mod when rating levels
-Fix the duals bug that is fixed only when the player dies
