@@ -3743,6 +3743,14 @@
             }
         },
         {
+            "Key": "d607434c-9e5c-45e8-8d8a-bf48b2017be3",
+            "Value": {
+                "id": "9a81878a-1bdb-43cc-a478-86b4d4838a1c",
+                "resourcePath": "sounds\\StereoMadness\\StereoMadness.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d64d7572-f07c-47b2-aaaf-a93970531519",
             "Value": {
                 "id": "c051776f-a55a-41dd-b5d8-e1cf61f1da21",
