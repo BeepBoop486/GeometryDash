@@ -88,6 +88,10 @@ if global.selected_mode == 0{
 
 		}
 
+	} if global.intab == 3 {
+		if global.platformspage == 0 {
+			global.toput = obj_platform
+		}
 	}
 
 }

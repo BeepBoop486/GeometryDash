@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "1ceaf2d1-8509-4275-81d4-53fe4b5e9201",
+            "Value": {
+                "id": "62193dc7-9774-4152-83e8-0a942e86282e",
+                "resourcePath": "sprites\\spr_regularPlatform1\\spr_regularPlatform1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d8e6d77-3ac9-4340-b1ec-33c6d4f0f00d",
             "Value": {
                 "id": "a2b09641-cb66-4cc8-bf60-1396c5dd45eb",
@@ -1735,6 +1743,14 @@
             }
         },
         {
+            "Key": "59ff5da0-6fb5-44c3-b446-b86afa1ce05a",
+            "Value": {
+                "id": "a3a052ef-340e-4ad4-baf3-07c2dd433284",
+                "resourcePath": "sprites\\spr_regularPlatform3\\spr_regularPlatform3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a71351b-5280-4fbc-872a-ba4a8c418ba7",
             "Value": {
                 "id": "a5e268dc-2c0d-4a70-b327-53630103ac27",
@@ -2727,6 +2743,14 @@
             }
         },
         {
+            "Key": "973e320a-80e4-4621-a5f3-b6f0c0d34b89",
+            "Value": {
+                "id": "b9b2ffb5-d659-484d-95d3-fb7ced234278",
+                "resourcePath": "objects\\obj_regularPlatform3\\obj_regularPlatform3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "975ee303-422c-4754-8d0a-47dc7d18db9e",
             "Value": {
                 "id": "f14bf608-837c-4c94-8753-c39c29dc1b7f",
@@ -3284,6 +3308,14 @@
                 "id": "4828002a-3549-41f8-82f1-462329ac0926",
                 "resourcePath": "sprites\\spr_block001_02\\spr_block001_02.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b586bdcc-aa6a-42a9-83ee-9cd0eb184e2c",
+            "Value": {
+                "id": "284f1348-b7df-4a8a-a022-361fae5ce892",
+                "resourcePath": "objects\\obj_regularPlatform1\\obj_regularPlatform1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4527,6 +4559,14 @@
             }
         },
         {
+            "Key": "f62ef142-0dab-464a-8f9d-1a9a866540f2",
+            "Value": {
+                "id": "547204b8-2599-4dfc-bd7b-02f5b27c706f",
+                "resourcePath": "objects\\obj_regularPlatform2\\obj_regularPlatform2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f66fb5a2-f3f9-44c5-b5b6-1a9a504a8712",
             "Value": {
                 "id": "5d06e421-cb60-47de-b146-a7b424e54de7",
@@ -4548,6 +4588,14 @@
                 "id": "d4cbb56e-11bb-4726-8a43-d73bfb520ef1",
                 "resourcePath": "scripts\\physics\\physics.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f74f6975-5fbf-4ae1-87c5-a1c5dd0df93c",
+            "Value": {
+                "id": "d349ef74-6a4a-4191-b0e4-dc4b77256fc0",
+                "resourcePath": "sprites\\spr_regularPlatform2\\spr_regularPlatform2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

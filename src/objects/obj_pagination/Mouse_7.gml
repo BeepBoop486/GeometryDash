@@ -34,4 +34,10 @@ if global.intab == 0
 	if global.orbspage >= global.maxorbspage {
 		global.orbspage = 0
 	}
+} else if global.intab == 3 {
+	//If we're in platforms' tab
+	global.platformspage += toadd
+	if global.platformspage >= global.maxplatformspage {
+		global.platformspage = 0
+	}
 }

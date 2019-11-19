@@ -1,8 +1,9 @@
 //obj = obj_spike1
 obj_solid = obj_grid2
 obj_solid1 = obj_blackblock1
-
 obj_solid2 = obj_brickblock7
+
+obj_platform = obj_regularPlatform3
 
 obj_spike = obj_spike3
 

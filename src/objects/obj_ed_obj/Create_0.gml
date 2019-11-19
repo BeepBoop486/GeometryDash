@@ -5,9 +5,8 @@
 //Page 0
 
 obj_solid = 0
-
+obj_platform = 0
 obj_spike = 0
-
 obj_orbs = 0
 
 //Page 1

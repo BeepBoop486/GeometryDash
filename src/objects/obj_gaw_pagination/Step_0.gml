@@ -47,4 +47,18 @@ if global.intab == 0
 	} else {
 		visible = false
 	}
+} else if global.intab == 3
+{
+	//Orbs tab
+	if toshow < global.maxplatformspage {
+		visible = true
+		if global.platformspage == toshow
+		{
+			image_blend = c_white
+		} else {
+			image_blend = c_gray
+		}
+	} else {
+		visible = false
+	}
 }

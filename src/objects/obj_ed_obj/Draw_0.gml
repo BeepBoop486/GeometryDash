@@ -160,15 +160,29 @@
 
 				} else {
 					scale = .3
-				} /*if obj_spr_w == 48 && obj_spr_h == 149 {
+				}
 
-					scale = .3
+			}
 
-				} if obj_spr_w == 68 && obj_spr_h == 169 {
-					scale = .3
-				} if obj_spr_w == 60 && obj_spr_h == 175 {
-					scale = .3
-				}*/
+		} if global.intab == 3 {
+
+			if global.platformspage == 0 {
+
+				obj_spr = object_get_sprite(obj_platform)
+
+				obj_spr_w = sprite_get_width(obj_spr)
+
+				obj_spr_h = sprite_get_height(obj_spr)
+
+				scale = 1
+
+				
+
+				if obj_spr_w == 61 {
+
+					scale = .5
+
+				}
 
 			}
 
