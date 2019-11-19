@@ -2,7 +2,9 @@ if !instance_exists(BoxOpts) {
 		global.playing = !global.playing
 	}
 
-		if instance_exists(obj_player) && !global.playing {
+global.ylimit = 4076
+
+if instance_exists(obj_player) && !global.playing {
 			instance_destroy(obj_player)
 			instance_create(0,0,obj_restart)
 		}

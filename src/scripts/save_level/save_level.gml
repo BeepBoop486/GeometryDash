@@ -53,7 +53,8 @@ if argument0 != "" {
 			&& objid != obj_load && objid != obj_pagination && objid != obj_optionsBTN && objid != core
 			&& objid != obj_camera && objid != obj_player && objid != obj_ground  && objid != edit_editBtn
 			&& objid != obj_player_deadbox && objid != obj_gaw_pagination && objid != edit_editBtn && objid!=obj_restart
-			&& objid != obj_upload && objid != obj_saver{
+			&& objid != obj_upload && objid != obj_saver && objid != obj_winWall && objid != obj_winWall1 && objid != obj_ground2
+			&& objid != obj_ground{
 				obj_name = object_get_name(objid);
 				angle = obj.image_angle
 				xscale = obj.image_xscale
@@ -67,22 +68,22 @@ if argument0 != "" {
 				xpos = obj.x
 				ypos = obj.y
 		
-				file_text_write_string(file, obj_name)
-				file_text_writeln(file)
-				file_text_write_real(file, angle)
-				file_text_writeln(file)
-				file_text_write_real(file, xscale)
-				file_text_writeln(file)
-				file_text_write_real(file, yscale)
-				file_text_writeln(file)
-				//file_text_write_real(file, blend)
-				//file_text_writeln(file)
-				file_text_write_real(file, groupo)
-				file_text_writeln(file)
-				file_text_write_real(file, xpos)
-				file_text_writeln(file)
-				file_text_write_real(file, ypos)
-				file_text_writeln(file)
+				if xpos > 0 {
+					file_text_write_string(file, obj_name)
+					file_text_writeln(file)
+					file_text_write_real(file, angle)
+					file_text_writeln(file)
+					file_text_write_real(file, xscale)
+					file_text_writeln(file)
+					file_text_write_real(file, yscale)
+					file_text_writeln(file)
+					file_text_write_real(file, groupo)
+					file_text_writeln(file)
+					file_text_write_real(file, xpos)
+					file_text_writeln(file)
+					file_text_write_real(file, ypos)
+					file_text_writeln(file)
+				}
 			}
 		}
 	}
