@@ -2,6 +2,8 @@
 obj_solid = obj_grid7
 obj_solid1 = obj_blackblock6
 
+obj_platform = obj_wavyPlatform5
+
 obj_spike = obj_colourSpike1
 
 obj_orbs=obj_path1
