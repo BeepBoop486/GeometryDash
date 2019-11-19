@@ -1,6 +1,11 @@
 TODO
 
+Fix the ylimit bug
+The obj_winWall won't be saved
 Implement leaderboards - Working on it
+Make the project fully compatible for android
+Work in optimization
+
 All the groups in the project added to different texture groups (sprites smh)
 Change the main menu's box for the table and add all the buttons left - Working on it
 Adapt all the cubes of GD to the presets of the project (60x60)
