@@ -7,6 +7,8 @@ Level liking
 Level disliking
 Level rating
 Level comment
+Added all the left GUI to the editor
+Edit object
 
 All the groups in the project added to different texture groups (sprites smh)
 Change the main menu's box for the table and add all the buttons left - Working on it
