@@ -3,6 +3,10 @@ TODO
 Two pages of icons - Working on it
 Fix the ylimit bug
 Make the project fully compatible for android
+Level liking
+Level disliking
+Level rating
+Level comment
 
 All the groups in the project added to different texture groups (sprites smh)
 Change the main menu's box for the table and add all the buttons left - Working on it
