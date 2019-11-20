@@ -12,7 +12,11 @@
         "4d8c942e-52a5-4e89-9c28-585acc348e8f",
         "c2959809-66be-41f0-9de7-e75ccdf1a4ad",
         "36a28c7a-6971-4680-9a83-c38b7abc4299",
-        "58d5523c-97e3-4547-bf10-cf0c4ea20182"
+        "58d5523c-97e3-4547-bf10-cf0c4ea20182",
+        "1a323706-2e74-465e-991f-1dc5da82c9fd",
+        "af8dfc3a-1931-45dd-8bb0-ecff53f0c83f",
+        "8944aca3-ac1c-4a9b-87ee-60574d2898e2",
+        "0d467dfc-afe2-40a0-aead-917afb968577"
     ],
     "IsDnD": false,
     "layers": [
@@ -48,13 +52,42 @@
             "visible": true
         },
         {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances_1",
+            "id": "7a33d5ed-3683-4051-90d9-7f7710995558",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_A9966EA","id": "1a323706-2e74-465e-991f-1dc5da82c9fd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_A9966EA","objId": "b22fd876-7e08-4406-961a-c13e8ca19e7a","properties": null,"rotation": 0,"scaleX": 30,"scaleY": 4,"mvc": "1.1","x": 0,"y": 832},
+{"name": "inst_30C74F47","id": "af8dfc3a-1931-45dd-8bb0-ecff53f0c83f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_30C74F47","objId": "b22fd876-7e08-4406-961a-c13e8ca19e7a","properties": null,"rotation": 0,"scaleX": 30,"scaleY": 4,"mvc": "1.1","x": 0,"y": 0},
+{"name": "inst_1ABA53B3","id": "8944aca3-ac1c-4a9b-87ee-60574d2898e2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1ABA53B3","objId": "b22fd876-7e08-4406-961a-c13e8ca19e7a","properties": null,"rotation": 0,"scaleX": 4.999998,"scaleY": 9.5,"mvc": "1.1","x": 0,"y": 256},
+{"name": "inst_1E178CA7","id": "0d467dfc-afe2-40a0-aead-917afb968577","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1E178CA7","objId": "b22fd876-7e08-4406-961a-c13e8ca19e7a","properties": null,"rotation": 0,"scaleX": 4.999998,"scaleY": 9.5,"mvc": "1.1","x": 1600,"y": 256}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "d24c82d4-194a-4f33-b85b-bc6f10964c6c",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294919979 },
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
