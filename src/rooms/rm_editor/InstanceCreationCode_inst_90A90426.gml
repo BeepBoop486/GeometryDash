@@ -3,6 +3,7 @@ obj_solid = obj_grid6
 obj_solid1 = obj_blackblock5
 
 obj_platform = obj_wavyPlatform4
+obj_outline = obj_platformOutline2
 
 obj_spike = obj_wavep3
 

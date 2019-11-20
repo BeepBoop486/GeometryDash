@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "1571ac0a-4ee9-4528-96fd-14056a63c1c9",
+            "Value": {
+                "id": "2bb7f1c3-de6e-4cfb-94af-40b325be92e4",
+                "resourcePath": "sprites\\spr_platformOutline3\\spr_platformOutline3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "166380f4-8fd0-4a11-abd8-7fc24682db9a",
             "Value": {
                 "id": "d6c37d58-befe-4315-af6f-b0993db49b33",
@@ -700,6 +708,14 @@
                 "id": "c97023d9-eca9-417f-ab1f-d13ac5ee5552",
                 "resourcePath": "sprites\\spr_brickblock2\\spr_brickblock2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "218257ea-e5d3-4079-9d9e-6f031ba0be8e",
+            "Value": {
+                "id": "81db1619-049a-415d-bdb8-a9abb38b908a",
+                "resourcePath": "objects\\obj_platformOutline2\\obj_platformOutline2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1399,6 +1415,14 @@
             }
         },
         {
+            "Key": "4469b4ca-ab74-4291-9967-afd761dd4698",
+            "Value": {
+                "id": "2a9d6cd0-67e8-40ad-bb70-075c341ab4d8",
+                "resourcePath": "objects\\obj_platformOutline1\\obj_platformOutline1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "446eb249-d4cc-4043-83ac-0713cf6212f8",
             "Value": {
                 "id": "a8043fd3-65fb-4313-9bd6-15382616171f",
@@ -1927,6 +1951,14 @@
             }
         },
         {
+            "Key": "5f46cbb4-4c25-4362-986d-1a0edb9bceeb",
+            "Value": {
+                "id": "ca9a55f5-8882-4c3a-b06f-c1d11d6eb39e",
+                "resourcePath": "objects\\obj_platformOutline3\\obj_platformOutline3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f52c169-c191-43a5-ba22-3c75d83dd63b",
             "Value": {
                 "id": "f1497c48-7fd3-46d3-a334-ffcc740bce37",
@@ -2059,6 +2091,14 @@
             "Value": {
                 "id": "0d369f55-d774-4fb5-83b5-86fd2d756609",
                 "resourcePath": "sprites\\spr_dailybtn\\spr_dailybtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a369e9c-24e4-4be1-a930-6938978f4c73",
+            "Value": {
+                "id": "78becaa3-2e36-4fa5-9170-d276a76cd986",
+                "resourcePath": "sprites\\spr_platformOutline2\\spr_platformOutline2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2204,6 +2244,14 @@
                 "id": "75e95155-977a-44ce-86c5-1a8f5244db1b",
                 "resourcePath": "views\\7019efc9-717c-453a-82f2-3f692b467093.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7094fa18-5715-4a39-a670-37958356b694",
+            "Value": {
+                "id": "e858da9c-531b-4fd0-a39f-d136c2cffa83",
+                "resourcePath": "sprites\\spr_slopeOutline1\\spr_slopeOutline1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4343,6 +4391,14 @@
             }
         },
         {
+            "Key": "de09f995-2f6f-4978-a55d-07fa67289aa6",
+            "Value": {
+                "id": "02250ee9-d376-41dc-b951-d9f4ac416dac",
+                "resourcePath": "sprites\\spr_platformOutline1\\spr_platformOutline1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de62cb4e-36a0-4115-a712-f2603ec21194",
             "Value": {
                 "id": "0226a9b8-fe53-41e2-a2a7-77184cd92570",
@@ -4436,6 +4492,14 @@
                 "id": "96cb77e0-7b58-40a6-b7ca-dd1645b69136",
                 "resourcePath": "views\\e16c0e7a-0a3e-4441-8aad-a8a248944242.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1e333b8-ad32-4476-985a-7a91430f4236",
+            "Value": {
+                "id": "89f68585-b02e-43fd-ab93-27fc900af1d3",
+                "resourcePath": "objects\\obj_slopeOutline\\obj_slopeOutline.yy",
+                "resourceType": "GMObject"
             }
         },
         {
