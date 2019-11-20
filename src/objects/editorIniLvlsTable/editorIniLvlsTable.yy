@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "editorIniLvlsTable",
     "eventList": [
-        
+        {
+            "id": "c5acbaec-589c-44d7-b12f-98b1e1629bb0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "951c46a2-b5eb-488e-8e4a-4b5b771e4e8b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
