@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "42ba422b-e528-406e-9d12-5621c20c5f95",
+            "Value": {
+                "id": "a3587f42-f69c-4d9a-bf9c-6ed3ede73024",
+                "resourcePath": "objects\\obj_charasSelManager\\obj_charasSelManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42bc9d1b-0c0d-4bf6-a86b-dbd90073b165",
             "Value": {
                 "id": "3076c7c6-cf69-4a39-b77a-be75cbe3d3d6",
@@ -1588,6 +1596,14 @@
                 "id": "860952a3-fcb5-46b1-8a2f-56981f3217fb",
                 "resourcePath": "views\\5050f674-f4b9-4193-bc32-e9e49c962b69.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "50a04661-9f48-4325-8603-a5ea86dd4248",
+            "Value": {
+                "id": "36cccdbe-3a6c-4a33-b964-751c2c14b25e",
+                "resourcePath": "sprites\\spr_paginationMirrored\\spr_paginationMirrored.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2028,6 +2044,14 @@
                 "id": "2e23bf1b-7ea9-448f-9722-99f408a7a41e",
                 "resourcePath": "views\\6adb5f41-e1b2-4b5f-a16d-4fc9d37a0018.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6b3eb99f-3f22-4e16-951d-40d8a7499f30",
+            "Value": {
+                "id": "b43b11b3-f3f4-4ed4-89a9-bfc360df7584",
+                "resourcePath": "objects\\coloursPagination1\\coloursPagination1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3716,6 +3740,14 @@
                 "id": "d382bf70-5156-4607-bd89-bb78047f9628",
                 "resourcePath": "sprites\\B_ICONS_MENU\\B_ICONS_MENU.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c09bd4b6-91a7-437d-a2a3-7a3b247b89d8",
+            "Value": {
+                "id": "2b52a262-6470-4737-8bdd-01556ba9962a",
+                "resourcePath": "objects\\coloursPagination\\coloursPagination.yy",
+                "resourceType": "GMObject"
             }
         },
         {
