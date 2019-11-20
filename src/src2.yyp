@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "13d10454-f3de-41af-9a8e-5a42544d439e",
+            "Value": {
+                "id": "4a9a6000-4764-43e1-b707-13a3b3a8d06f",
+                "resourcePath": "sprites\\spr_hammerIcon\\spr_hammerIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13f2f8d2-e449-4216-8cf1-5758f534e809",
             "Value": {
                 "id": "06f01c18-61a7-4002-a398-1341c90553e0",
