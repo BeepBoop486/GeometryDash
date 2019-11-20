@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "135d2737-239a-467a-9476-c5575ab7aef9",
+            "Value": {
+                "id": "3bff0471-ed06-4363-bdbf-d545907f7d55",
+                "resourcePath": "objects\\invehAdder\\invehAdder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13d10454-f3de-41af-9a8e-5a42544d439e",
             "Value": {
                 "id": "4a9a6000-4764-43e1-b707-13a3b3a8d06f",
@@ -1903,6 +1911,14 @@
             }
         },
         {
+            "Key": "5a91506d-eba6-481d-a3e8-b95fa6aad9ce",
+            "Value": {
+                "id": "6b56a00d-57db-4926-9401-4d33bc17e227",
+                "resourcePath": "objects\\invehSustractor\\invehSustractor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ab7212c-77ae-43a0-94c6-648965d97d2a",
             "Value": {
                 "id": "a83145f8-bf9b-43f5-98ab-7a985dee35b7",
@@ -2143,6 +2159,14 @@
             }
         },
         {
+            "Key": "6b4239fd-a54d-4fdd-8d5e-a8bd266ee054",
+            "Value": {
+                "id": "8b0e1c62-6118-411e-9cc6-30e105ca9696",
+                "resourcePath": "sprites\\spr_pagination2_1\\spr_pagination2_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b9139dd-de23-43bc-923b-eeef0f4439cc",
             "Value": {
                 "id": "113ef2d4-96ab-4ca7-a59a-f6757a0d3b8e",
@@ -2164,6 +2188,14 @@
                 "id": "8b9375fd-ce54-40cd-b84f-6ae1f0cc22e2",
                 "resourcePath": "scripts\\create_dual\\create_dual.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6be210bd-bfcd-4db8-9f4d-22a1e9bec518",
+            "Value": {
+                "id": "a51a59a5-141a-433f-baea-36888cc0ca04",
+                "resourcePath": "sprites\\spr_pagination2\\spr_pagination2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
