@@ -9,6 +9,7 @@
 			$top = 0;
 			while($row = $query->fetch_assoc()) {
 				$top += 1;
+				$uname = $row["uname"];
 				echo $top . "\n";
 				echo $row["uname"] . "\n";
 				echo $row["stars"] . "\n";
@@ -16,7 +17,7 @@
 				echo $row["coins"] . "\n";
 				echo $row["userCoins"] . "\n";
 				echo $row["demons"] . "\n";
-				echo $row["creatorPoints"] . "\n";
+				echo file_get_contents("https://gddarkness.000webhostapp.com/levels/GDDCalculeCPS.php?uname=".$uname) . "\n";
 				echo $row["icon"] . "\n";
 				echo $row["color1"] . "\n";
 				echo $row["color2"] . "\n";
