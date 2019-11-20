@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "338d660f-3f9c-4702-9864-91fd65fef1ae",
+            "Value": {
+                "id": "823adaea-e7d6-4371-abc0-49203ca20f15",
+                "resourcePath": "objects\\obj_editorIniShare\\obj_editorIniShare.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33fe4e5b-8fa0-4429-8ad5-ae4a427c8275",
             "Value": {
                 "id": "420763a8-1107-4871-874b-500668cebace",

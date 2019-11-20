@@ -7,7 +7,8 @@
         "951c46a2-b5eb-488e-8e4a-4b5b771e4e8b",
         "550eb278-a681-4a42-8562-f4610f103f48",
         "8cadb2d0-47d2-49ac-8016-53025f4d317d",
-        "d8f181f8-6254-4363-8e5f-8fc4cb5913f3"
+        "d8f181f8-6254-4363-8e5f-8fc4cb5913f3",
+        "338d660f-3f9c-4702-9864-91fd65fef1ae"
     ],
     "filterType": "GMObject",
     "folderName": "editorIni",
