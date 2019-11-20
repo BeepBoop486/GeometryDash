@@ -4,6 +4,7 @@ obj_solid1 = obj_blackblock1
 obj_solid2 = obj_brickblock7
 
 obj_platform = obj_regularPlatform3
+obj_outline = obj_blockOutline3
 
 obj_spike = obj_spike3
 
