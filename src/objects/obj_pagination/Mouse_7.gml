@@ -40,4 +40,10 @@ if global.intab == 0
 	if global.platformspage >= global.maxplatformspage {
 		global.platformspage = 0
 	}
+} else if global.intab == 4 {
+	//IF we're in the outlines' tab
+	global.outlinespage += toadd
+	if global.outlinespage >= global.maxoutlinespage {
+		global.outlinespage = 0
+	}
 }

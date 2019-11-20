@@ -65,7 +65,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Instances_Depth_-100",
+            "name": "ed_btn",
             "id": "03a26d2d-33cd-4fbd-891f-4644b96d7a84",
             "depth": -100,
             "grid_x": 16,

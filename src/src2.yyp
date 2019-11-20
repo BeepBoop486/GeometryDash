@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "18b0b90e-8bad-4dd6-9b2a-e10ef5b94a8b",
+            "Value": {
+                "id": "ae181082-fdfe-4b8b-9c95-70e1b9109547",
+                "resourcePath": "objects\\obj_blockOutline\\obj_blockOutline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19c733a5-b3e3-4030-b4b9-c64cd3a97b93",
             "Value": {
                 "id": "58a3f30d-b4a3-44a5-8a0a-2935a4b32bc7",

@@ -49,7 +49,7 @@ if global.intab == 0
 	}
 } else if global.intab == 3
 {
-	//Orbs tab
+	//Platform tab
 	if toshow < global.maxplatformspage {
 		visible = true
 		if global.platformspage == toshow
@@ -60,5 +60,16 @@ if global.intab == 0
 		}
 	} else {
 		visible = false
+	}
+} else if global.intab == 4 {
+	//Outlines tab
+	if toshow < global.maxoutlinespage {
+		visible = true
+		if global.maxoutlinespage == toshow
+		{
+			image_blend = c_white
+		} else {
+			image_blend = c_gray
+		}
 	}
 }

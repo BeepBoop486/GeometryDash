@@ -165,27 +165,25 @@
 			}
 
 		} if global.intab == 3 {
-
 			if global.platformspage == 0 {
-
 				obj_spr = object_get_sprite(obj_platform)
-
 				obj_spr_w = sprite_get_width(obj_spr)
-
 				obj_spr_h = sprite_get_height(obj_spr)
-
 				scale = 1
-
-				
-
 				if obj_spr_w == 61 {
-
 					scale = .5
-
 				}
-
 			}
-
+		} if global.intab == 4 {
+			if global.outlinespage == 0 {
+				obj_spr = object_get_sprite(obj_outline)
+				obj_spr_w = sprite_get_width(obj_spr)
+				obj_spr_h = sprite_get_height(obj_spr)
+				scale = 1
+				if obj_spr_w == 61 {
+					scale = .5
+				}
+			}
 		}
 
 		

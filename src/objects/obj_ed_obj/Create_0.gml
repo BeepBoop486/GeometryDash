@@ -6,24 +6,20 @@
 
 obj_solid = 0
 obj_platform = 0
+obj_outline = 0
 obj_spike = 0
 obj_orbs = 0
 
 //Page 1
 
 obj_solid1 = 0
-
 obj_spikes1 = 0
-
 obj_orbs1 = 0
 
 //Page 2
-
 obj_solid2 = 0
-
 //Page 3
 obj_solid3 = 0
-
 
 
 plusx = 0
