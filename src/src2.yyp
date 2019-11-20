@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "2b8aacb4-88ed-44af-804a-9fa8e7902a7f",
+            "Value": {
+                "id": "832aa05c-3821-47fc-8f2c-e423d59211c0",
+                "resourcePath": "sprites\\spr_buildEditBtn\\spr_buildEditBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c9593a9-de7b-43ec-8a4f-1c14065cb421",
             "Value": {
                 "id": "ab5eb051-e8d5-4623-a2b7-bd2213e1b4e8",
@@ -1660,6 +1668,14 @@
                 "id": "464f103a-4872-4721-b50b-dc01e047a107",
                 "resourcePath": "sprites\\spr_brickblock4\\spr_brickblock4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "550eb278-a681-4a42-8562-f4610f103f48",
+            "Value": {
+                "id": "27441e56-3eba-42d1-b48f-a743c0bf92e5",
+                "resourcePath": "objects\\editorIniNewLvl\\editorIniNewLvl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2636,6 +2652,14 @@
                 "id": "d051f93e-7425-48a9-b7a1-0542c3e2d04b",
                 "resourcePath": "sprites\\spr_settings\\spr_settings.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8cadb2d0-47d2-49ac-8016-53025f4d317d",
+            "Value": {
+                "id": "1ce6295f-2d54-4573-8c71-2237c98f8182",
+                "resourcePath": "objects\\obj_buildEditBtn\\obj_buildEditBtn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3772,6 +3796,14 @@
                 "id": "f38e2842-ee5f-4dd9-870a-a23b5d2af635",
                 "resourcePath": "fonts\\font0\\font0.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "ca767d4c-6dc4-4a9d-b5cf-576af0826db0",
+            "Value": {
+                "id": "fef583b2-78dd-4e3f-be56-98538e338145",
+                "resourcePath": "rooms\\rm_editingSelectedLvl\\rm_editingSelectedLvl.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
