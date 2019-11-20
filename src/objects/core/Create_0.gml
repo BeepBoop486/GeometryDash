@@ -41,3 +41,12 @@ global.maxsolidspage = 4
 global.maxplatformspage=1
 global.maxspikepage = 2
 global.maxorbspage = 2
+
+//For the new UI
+
+if global.notexists {
+	save_level(0, "l" + string(global.editingLvl) + ".gdl")
+	global.notexists = false
+} else {
+	load_level("l" + string(global.editingLvl) + ".gdl")
+}
