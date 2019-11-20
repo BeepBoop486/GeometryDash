@@ -27,6 +27,8 @@ if global.playing
 	instance_activate_object(obj_player)
 	instance_activate_object(obj_camera)
 	
+} else {
+	instance_activate_all()
 }
 
 
