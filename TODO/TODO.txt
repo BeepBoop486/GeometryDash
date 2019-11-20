@@ -1,5 +1,6 @@
 TODO
 
+Two pages of icons - Working on it
 Fix the ylimit bug
 Make the project fully compatible for android
 
