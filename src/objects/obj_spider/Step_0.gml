@@ -31,6 +31,7 @@ if global.playing
 	        tlppar2=instance_create(x+30*global.spdboost,y,obj_par1)
 	        tlppar2.spd2=0.03
 	        gravdir*=-1
+			
 	    }
 	}
 } else {

@@ -1,4 +1,5 @@
-gravdir = 1
+global.gravdir = 1
+gravdir = global.gravdir
 hsp = 0
 vsp = 0
 spd = 0.1

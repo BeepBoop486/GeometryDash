@@ -16,11 +16,11 @@ if instance_exists(obj_player) {
 	}
 } else if instance_exists(obj_ship) {
 	with(obj_ship) {
-		gravdir = 1
+		gravdir = abs(global.gravdir)
 		mini = 0
 		
 		if player == 1 {
-			gravdir = -1
+			gravdir = global.gravdir * -1
 		}
 	}
 } else if instance_exists(obj_ball) {

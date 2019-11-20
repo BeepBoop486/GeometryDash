@@ -2831,6 +2831,14 @@
             }
         },
         {
+            "Key": "9ae194ce-1c55-45b2-bdf5-34b1bb2617b0",
+            "Value": {
+                "id": "cc3ba807-ffb2-471a-a33f-c5bf592221c7",
+                "resourcePath": "objects\\obj_duals\\obj_duals.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b0d6c7e-dec1-41aa-aa9e-5c664f3316ed",
             "Value": {
                 "id": "72e0f07f-7766-4138-bb4d-f933a5b98e68",

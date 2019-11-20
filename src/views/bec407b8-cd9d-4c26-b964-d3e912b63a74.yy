@@ -11,7 +11,8 @@
         "5f8fa149-bf6c-476f-93ea-27b359e21154",
         "75732152-38c3-4f76-b2e5-64eeed79aa32",
         "0b3148dc-91b7-427d-aacc-1739b8745f34",
-        "7c99ce99-8932-4688-9bfb-18da956f0e5a"
+        "7c99ce99-8932-4688-9bfb-18da956f0e5a",
+        "9ae194ce-1c55-45b2-bdf5-34b1bb2617b0"
     ],
     "filterType": "GMObject",
     "folderName": "Scripts",

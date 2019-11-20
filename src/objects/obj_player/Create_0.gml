@@ -12,10 +12,10 @@ hsp = 10.6 * global.spdboost //Speed
 
 ini_physics(5)
 
-if player == -1
+/*if player == -1
 {
-	gravdir = -1
-}
+	gravdir = global.gravdir * -1
+}*/
 
 sprite_set_offset(sprite_index, 30, 30)
 sprite_set_offset(sprite_index+1, 30, 30)
