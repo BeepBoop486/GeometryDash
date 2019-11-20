@@ -4079,6 +4079,14 @@
             }
         },
         {
+            "Key": "d8f181f8-6254-4363-8e5f-8fc4cb5913f3",
+            "Value": {
+                "id": "9d219885-224c-4f49-a9df-b735b12f0336",
+                "resourcePath": "objects\\obj_editorIniLvl\\obj_editorIniLvl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d93b39b3-13f3-43c2-ba7e-febb86970c93",
             "Value": {
                 "id": "ef1b73f0-a073-4c8b-a4f2-6f2e4952e479",
