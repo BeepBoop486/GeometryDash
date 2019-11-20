@@ -3559,6 +3559,14 @@
             }
         },
         {
+            "Key": "ba0b0f2a-f790-42ce-b496-d96b7fa66d2a",
+            "Value": {
+                "id": "72ff215f-8dec-4393-9fd0-c1c065569f7d",
+                "resourcePath": "sprites\\spr_blockOutline\\spr_blockOutline.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ba337f9b-a3bc-4529-a879-64acbf4f56fd",
             "Value": {
                 "id": "e8948ec4-161d-463b-bf28-7f55827e9e5e",
