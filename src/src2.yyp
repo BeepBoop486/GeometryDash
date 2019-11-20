@@ -2007,14 +2007,6 @@
             }
         },
         {
-            "Key": "632d28fb-3c4d-4dea-a8db-e3c7317bec40",
-            "Value": {
-                "id": "8136474b-23c6-4153-89dc-9c0b478d61bc",
-                "resourcePath": "sprites\\spr_bluwy\\spr_bluwy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "643c0eff-8507-4953-b61d-cf7a64f259a1",
             "Value": {
                 "id": "3cf7dbfe-28d6-45f4-b490-9ad9c441ec14",
