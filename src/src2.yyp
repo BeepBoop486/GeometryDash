@@ -3751,6 +3751,14 @@
             }
         },
         {
+            "Key": "c978d142-f500-4318-983d-6de3fb5c0881",
+            "Value": {
+                "id": "e06518d6-8a34-4abb-a4a0-4b116db10793",
+                "resourcePath": "sprites\\spr_newBtn\\spr_newBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca25421e-1116-42f1-a0e5-77f3dca20e93",
             "Value": {
                 "id": "3524ffe0-0e72-48c1-9679-d28e5e53057e",
