@@ -41,7 +41,7 @@ if global.playing
 
 } else {
 
-	x = -61
+	x = -182
 
 	y = 4572
 
