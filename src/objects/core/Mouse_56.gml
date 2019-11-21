@@ -1,4 +1,4 @@
-if downx == mouse_x and downy == mouse_y and timedown < 1
+if downx == mouse_x and downy == mouse_y and timedown < 1.2
 {
 	//Build
 	if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
@@ -17,6 +17,31 @@ if downx == mouse_x and downy == mouse_y and timedown < 1
 		if boj.x > global.wallx {
 			global.wallx = boj.x
 		}
+	}
+	
+	//Edit
+	if global.selected_mode == 1 //If we're in edit mode
+	&& !position_meeting(mouse_x, mouse_y, undel)
+	&& !position_meeting(mouse_x, mouse_y, obj_ground)
+	&& !position_meeting(mouse_x, mouse_y, BoxOpts)
+	&& !position_meeting(mouse_x, mouse_y, obj_ground2)
+	&& !global.playing
+	{
+
+		global.selected_obj = 0
+
+		with(all)
+		{
+			image_blend = c_white
+		}
+
+		global.selected_obj = instance_position(mouse_x, mouse_y, all)
+
+		with(global.selected_obj)
+		{
+			image_blend = c_lime
+		}
+
 	}
 }
 //show_message(timedown)
