@@ -10,7 +10,7 @@ scr_mini_set()
 if global.playing
 {
 	physics()
-	if keyboard_check_pressed(vk_up)
+	if keyboard_check_pressed(vk_up) or mouse_check_button_pressed(mb_left)
 	{
 		if separated and instance_number(obj_ship) > 1 && player == 0 {
 			if place_meeting(x,y+gravdir,obj_wall)

@@ -15,7 +15,7 @@ jumpspd=12*((image_xscale+0.2)*sb)
 fspd=(grav*2.2)
 if global.playing {
 	physics()
-	if keyboard_check(vk_up) and vsp > -maxfvsp
+	if keyboard_check(vk_up) or mouse_check_button(mb_left) and vsp > -maxfvsp
 	{
 		if separated and instance_number(obj_ship) > 1 && player == 0 {
 			vsp-=fspd

@@ -7,14 +7,14 @@ jetspd=14*s_jboost()
 if global.playing
 {
 	physics()
-	if keyboard_check(vk_up)
+	if mouse_check_button(mb_left) or keyboard_check(vk_up)
 	{
 	    if cangh=1
 	    {
 	        vsp=-jetspd
 	    }
 	}
-	if keyboard_check_pressed(vk_up)
+	if mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_up)
 	{
 	    if place_meeting(x,y+gravdir,obj_wall)
 	    {

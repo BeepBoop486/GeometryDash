@@ -6,7 +6,7 @@ scr_mini_set()
 if global.playing
 {
 	physics()
-	if keyboard_check(vk_up)
+	if keyboard_check(vk_up) or mouse_check_button(mb_left)
 	{
 		if separated and instance_number(obj_wave) > 1 && player == 0 {
 			vsp=-grav*2

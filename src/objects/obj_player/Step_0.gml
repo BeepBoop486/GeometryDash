@@ -18,7 +18,7 @@ if global.playing
 
 	physics()
 
-	if keyboard_check(vk_up)
+	if keyboard_check(vk_up) or mouse_check_button(mb_left)
 
 	{
 

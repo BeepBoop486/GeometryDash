@@ -14,7 +14,7 @@ jumpspd=10*((image_xscale+0.2)*sb)
 if global.playing
 {
 	physics()
-	if keyboard_check_pressed(vk_up)
+	if keyboard_check_pressed(vk_up) or mouse_check_button_pressed(mb_left)
 	{
 		if separated and instance_number(obj_ufo) > 1 && player == 0 {
 			vsp=-jumpspd
