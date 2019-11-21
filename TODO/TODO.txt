@@ -17,15 +17,12 @@ Another vault xd
 Store
 Another store xd
 An official level for every song
-Change the level search system to make it faster and not so shitty xd
 Add editor pause
 Add editor vehicle switcher
 Modifiy all the show_message by the GD's blue box with the OK button
 Implement all the codes returned by the server in the GameMaker's project
-Optimize rm_dlevel (objects and room)
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
-Adapt the entire project to mobile devices
 At mod or admin rate first check if the siggned in user is really admin (stored in the server)
 if amiadmin is true and the server saved is false, the user will be banned
 Change all the editor btns and add the btn parent as its parent and modify basically all xd
