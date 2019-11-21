@@ -1,6 +1,7 @@
 /// @description var init
 
-timedown = 0
+downx=0
+downy=0
 dragging=false
 
 global.toput = noone
