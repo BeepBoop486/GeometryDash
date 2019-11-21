@@ -1,1 +1,1 @@
-global.colourspage += toadd
+global.colourspage -=1

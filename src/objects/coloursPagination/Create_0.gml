@@ -4,4 +4,4 @@ paso = 0;
 image_xscale = 0.85;
 image_yscale = image_xscale;
 
-toadd=0
+toadd=1
