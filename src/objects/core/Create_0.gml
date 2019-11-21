@@ -2,6 +2,9 @@
 
 downx=0
 downy=0
+drag_x=0
+drag_y=0
+timedown=0
 dragging=false
 
 global.toput = noone
