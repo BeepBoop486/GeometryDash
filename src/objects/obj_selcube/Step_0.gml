@@ -17,6 +17,12 @@ image_xscale += .02} else {paso = 0} }
 
 toput1=toput+60
 
+if global.cubepage == 1 && toput1 > image_number {
+	visible=false
+} if global.cubepage == 0 {
+	visible=true
+}
+
 image_yscale = image_xscale;
 
 
