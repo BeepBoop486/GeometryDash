@@ -52,3 +52,7 @@ if global.notexists {
 } else {
 	load_level("l" + string(global.editingLvl) + ".gdl")
 }
+
+if room_width > 10000 {
+	__view_set(e__VW.XView, 0, room_width - 1280)
+}
