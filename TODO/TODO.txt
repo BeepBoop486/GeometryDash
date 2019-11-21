@@ -19,7 +19,6 @@ Another vault xd
 Store
 Another store xd
 An official level for every song
-Add all the hazards pits removing the faded part in the sprite editor
 Change the level search system to make it faster and not so shitty xd
 Add editor pause
 Add editor vehicle switcher
