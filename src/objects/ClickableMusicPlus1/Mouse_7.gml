@@ -1,4 +1,4 @@
-if global.music < 7
+if global.music < 32
 //If the selected song isn't snd_dead
 {
 	global.music += 1
