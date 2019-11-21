@@ -1,7 +1,7 @@
 TODO
 
+Make the project fully compatible for android - working on it
 Fix the ylimit bug
-Make the project fully compatible for android
 Level liking
 Level disliking
 Level rating
