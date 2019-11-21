@@ -1,4 +1,4 @@
-if downx == mouse_x and downy == mouse_y and timedown < 2
+if downx == mouse_x and downy == mouse_y and timedown < 1
 {
 	//Build
 	if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
@@ -19,6 +19,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 2
 		}
 	}
 }
+//show_message(timedown)
 timedown=0
 if dragging {
 	dragging = false
