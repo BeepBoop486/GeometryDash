@@ -1,3 +1,8 @@
+if file_exists("player.dat")
+{
+	file_delete("player.dat")
+}
+
 var file = file_text_open_write("player.dat")
 //To save - cube, col1 and col2
 /*file_text_write_real(file, global.cube)

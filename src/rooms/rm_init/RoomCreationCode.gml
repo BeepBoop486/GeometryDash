@@ -65,6 +65,8 @@ global.amiadmin = 0
 global.amimod = 0
 global.amibanned = 0
 global.amicreatorbanned = 0
+global.displaywidth=1280
+global.displayheight=720
 
 //Servers
 global.serverUrl = "https://gddarkness.000webhostapp.com/"
