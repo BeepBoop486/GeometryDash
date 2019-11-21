@@ -146,6 +146,11 @@ if place_meeting(x, y, obj_dual_portal) {
 	//event_user(0)
 }
 ///Speeds
+//x0
+if place_meeting(x, y, obj_speedx0)
+{
+	global.spdboost=0
+}
 //x0.5
 if place_meeting(x,y,obj_speed1)
 {
@@ -166,7 +171,11 @@ if place_meeting(x,y,obj_speed4)
 {
     global.spdboost=1.5
 }
-
+//x4
+if place_meeting(x, y, obj_speedx4)
+{
+	global.spdboost=1.75
+}
 
 
 

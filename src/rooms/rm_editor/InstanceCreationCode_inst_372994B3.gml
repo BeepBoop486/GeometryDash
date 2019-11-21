@@ -6,6 +6,8 @@ obj_spike = obj_colourSpike2
 obj_outline = obj_slopeOutline
 
 obj_orbs = obj_path2
+obj_orbs1 = obj_speedx0
+
 plusx = 928
 plusy = 580
 
