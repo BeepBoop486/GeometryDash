@@ -1,6 +1,7 @@
 /// @description var init
 
 timedown = 0
+dragging=false
 
 global.toput = noone
 
@@ -12,11 +13,6 @@ global.playing = false //Checks if we're in test mode
 
 //global.dragging= false //Variable that determines wether we're dragging or not
 
-//new dragging system
-global.camera = view_camera[0]
-global.drag_room_x = 0
-global.drag_room_y = 0
-
 global.intab = 0 // 0 - solid, 1 - spike
 
 global.levelspeed = 1 // This is for the speed switcher
@@ -25,8 +21,6 @@ global.levelspeed = 1 // This is for the speed switcher
 
 global.wallx = 0
 room_width = 5000
-
-previousMode = 0
 
 alarm[0] = 60
 
