@@ -8,7 +8,8 @@ Level comment
 Added all the left GUI to the editor
 Edit object
 
-Change the main menu's box for the table and add all the buttons left - Working on it
+Add a new room for every PopUp in the main menu (except the daily)
+
 Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
 Cube selector, ball selector, wave selector, ship selector, ufo selector
