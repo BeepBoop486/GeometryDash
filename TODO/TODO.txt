@@ -1,6 +1,5 @@
 TODO
 
-Make the project fully compatible for android - working on it
 Fix the ylimit bug
 Level liking
 Level disliking
