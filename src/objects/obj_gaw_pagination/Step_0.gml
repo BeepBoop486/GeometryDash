@@ -72,4 +72,15 @@ if global.intab == 0
 			image_blend = c_gray
 		}
 	}
+} else if global.intab == 5 {
+	//Slopes' tab
+	if toshow < global.maxslopespage {
+		visible = true
+		if global.maxslopespage == toshow
+		{
+			image_blend = c_white
+		} else {
+			image_blend = c_gray
+		}
+	}
 }

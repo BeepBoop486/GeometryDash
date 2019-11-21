@@ -5,6 +5,7 @@ obj_solid2 = obj_brickblock7
 
 obj_platform = obj_regularPlatform3
 obj_outline = obj_blockOutline3
+obj_slope = obj_chippedSlope1
 
 obj_spike = obj_spike3
 

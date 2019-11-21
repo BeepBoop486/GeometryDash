@@ -7,6 +7,7 @@
 obj_solid = 0
 obj_platform = 0
 obj_outline = 0
+obj_slope = 0
 obj_spike = 0
 obj_orbs = 0
 

@@ -46,4 +46,10 @@ if global.intab == 0
 	if global.outlinespage >= global.maxoutlinespage {
 		global.outlinespage = 0
 	}
+} else if global.intab == 5 {
+	//If we're in the slopes' tab
+	global.slopespage += toadd
+	if global.slopespage >= global.maxslopespage {
+		global.maxslopespage = 0
+	}
 }

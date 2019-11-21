@@ -1,6 +1,7 @@
 obj_solid = obj_wall
 obj_platform = obj_regularPlatform1
 obj_outline = obj_blockOutline
+obj_slope = obj_gridSlope1
 obj_spike = obj_spike1
 obj_orbs = obj_ring1
 

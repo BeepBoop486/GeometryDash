@@ -4,6 +4,7 @@ obj_solid1 = obj_blackblock2
 
 obj_platform = obj_wavyPlatform1
 obj_outline = obj_blockOutline4
+obj_slope = obj_blackSlope1
 
 obj_spike = obj_hspikes
 

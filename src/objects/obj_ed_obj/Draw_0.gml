@@ -184,6 +184,16 @@
 					scale = .5
 				}
 			}
+		} if global.intab == 5 {
+			if global.slopespage == 0 {
+				obj_spr = object_get_sprite(obj_slope)
+				obj_spr_w = sprite_get_width(obj_spr)
+				obj_spr_h = sprite_get_height(obj_spr)
+				scale = 1
+				if obj_spr_w == 61 {
+					scale = .5
+				}
+			}
 		}
 
 		

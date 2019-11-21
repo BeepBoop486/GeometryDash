@@ -33,6 +33,7 @@ alarm[0] = 60
 global.solidspage = 0
 global.platformspage = 0
 global.outlinespage = 0
+global.slopespage = 0
 global.spikepage = 0
 global.orbspage = 0
 
@@ -41,6 +42,7 @@ global.orbspage = 0
 global.maxsolidspage = 4
 global.maxplatformspage=1
 global.maxoutlinespage =1
+global.maxslopespage = 1
 global.maxspikepage = 2
 global.maxorbspage = 2
 

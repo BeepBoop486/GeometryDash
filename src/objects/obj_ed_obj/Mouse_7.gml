@@ -96,6 +96,10 @@ if global.selected_mode == 0{
 		if global.outlinespage == 0 {
 			global.toput = obj_outline
 		}
+	} if global.intab == 5 {
+		if global.slopespage == 0 {
+			global.toput = obj_slope
+		}
 	}
 
 }
