@@ -1,7 +1,5 @@
 TODO
 
-All the groups in the project added to different texture groups (sprites smh) - working on it
-
 Fix the ylimit bug
 Level liking
 Level disliking
