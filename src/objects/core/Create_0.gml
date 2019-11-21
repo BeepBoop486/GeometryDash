@@ -1,5 +1,7 @@
 /// @description var init
 
+timedown = 0
+
 global.toput = noone
 
 global.selected_obj = noone //Selected object
