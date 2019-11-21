@@ -205,6 +205,7 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 /*  */
 if keyboard_check_pressed(vk_escape) 
 {
+	instance_activate_all()
 	save_level(0, "l" + string(global.editingLvl) + ".gdl")
 	room_goto(rm_editingSelectedLvl)
 }
