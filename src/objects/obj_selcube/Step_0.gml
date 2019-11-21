@@ -18,7 +18,7 @@ image_xscale += .02} else {paso = 0} }
 toput1=toput+60
 
 if global.inveh == 0 {
-	if global.cubepage == 1 && toput1 > image_number {
+	if global.cubepage == 1 && toput1 > image_number - 1 {
 		visible=false
 	} if global.cubepage == 0 {
 		visible=true
