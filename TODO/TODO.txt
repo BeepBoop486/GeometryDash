@@ -1,5 +1,7 @@
 TODO
 
+Remove the GameMaker studio's dragging functions (so buggy)
+
 Fix the ylimit bug
 Level liking
 Level disliking
