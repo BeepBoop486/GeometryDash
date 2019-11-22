@@ -1919,6 +1919,14 @@
             }
         },
         {
+            "Key": "5589549f-5e6b-416d-b031-6e15512188ee",
+            "Value": {
+                "id": "72142cc9-82b9-4106-bac2-2986f7d18cb6",
+                "resourcePath": "views\\5589549f-5e6b-416d-b031-6e15512188ee.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "559e5743-515a-40fb-84a4-5febc2da2cb4",
             "Value": {
                 "id": "50f6f772-ed56-4b46-85f3-909a05c0f1be",
@@ -3887,6 +3895,14 @@
             }
         },
         {
+            "Key": "b655d258-64dc-4d5a-93e5-d4584fe0edd4",
+            "Value": {
+                "id": "d847b42e-85b8-4124-935e-e0b4321d2d0b",
+                "resourcePath": "scripts\\ed_edRings\\ed_edRings.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b719c797-6236-45ba-a1e8-c9579ae28cec",
             "Value": {
                 "id": "7e6bd812-112c-4336-b376-30acefd54e21",
@@ -5459,7 +5475,8 @@
         "1795891e-eb5e-45a2-8e93-76af5df9c18b",
         "908aad4e-01b8-49c7-a539-b242d58d8833",
         "6bace3cc-c2f9-4fc8-b9e6-82a7fbf65b2c",
-        "dbe6e95d-e75e-4b86-ac80-dedd80d1a181"
+        "dbe6e95d-e75e-4b86-ac80-dedd80d1a181",
+        "b655d258-64dc-4d5a-93e5-d4584fe0edd4"
     ],
     "tutorial": ""
 }
