@@ -39,7 +39,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.2
 
 		with(global.selected_obj)
 		{
-			image_blend = c_lime
+			image_blend = c_aqua
 		}
 
 	}
