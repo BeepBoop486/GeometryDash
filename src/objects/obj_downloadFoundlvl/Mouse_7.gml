@@ -18,6 +18,7 @@ if global.negrito == 0{
 	global.isfeatured = isfeatured
 	global.isdemon = isdemon
 	global.uploadern = uploadern
+	global.lvllikes = 0
 	
 	room_goto(rm_dlevel)
 }
