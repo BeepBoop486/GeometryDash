@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "091d7b6d-8f59-46c1-8353-2a3fdca0135f",
+            "Value": {
+                "id": "a9dbf945-1f0b-40d9-abf0-338737947b93",
+                "resourcePath": "objects\\ed_edRingsobj\\ed_edRingsobj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09705efc-0f49-46a2-8ee0-e466330da66f",
             "Value": {
                 "id": "8d2514b1-ad4a-4bb6-bb5e-7113f754637f",
@@ -1059,6 +1067,14 @@
             "Value": {
                 "id": "c4e1941c-6d71-4f80-a715-fa84b7cb2030",
                 "resourcePath": "views\\30ea4777-e34c-4052-919e-51bc13e08527.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "312d9252-fbe3-41d3-bfce-8f3f452de240",
+            "Value": {
+                "id": "444a05e0-d84d-4d54-8dc3-21b5a1ef12ad",
+                "resourcePath": "views\\312d9252-fbe3-41d3-bfce-8f3f452de240.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -4964,6 +4980,14 @@
                 "id": "df68fbd6-a782-41fe-9290-226f1351ad44",
                 "resourcePath": "objects\\obj_garageRope\\obj_garageRope.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e8c64da2-8ed5-4c90-ae05-5918b0b06dc8",
+            "Value": {
+                "id": "ef608d27-d3d8-4d6a-ab81-7af0ca73377e",
+                "resourcePath": "views\\e8c64da2-8ed5-4c90-ae05-5918b0b06dc8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
