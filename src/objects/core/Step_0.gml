@@ -211,7 +211,7 @@ if dragging
 	}
 }
 
-if keyboard_check_pressed(vk_escape) 
+if keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_backspace)
 {
 	instance_activate_all()
 	save_level(0, "l" + string(global.editingLvl) + ".gdl")
