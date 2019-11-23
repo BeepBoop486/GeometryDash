@@ -26,7 +26,9 @@
         "2b8aacb4-88ed-44af-804a-9fa8e7902a7f",
         "13d10454-f3de-41af-9a8e-5a42544d439e",
         "6be210bd-bfcd-4db8-9f4d-22a1e9bec518",
-        "6b4239fd-a54d-4fdd-8d5e-a8bd266ee054"
+        "6b4239fd-a54d-4fdd-8d5e-a8bd266ee054",
+        "8b48d644-c5ce-4bdd-ad58-b7e7d8d838f6",
+        "3781ded0-7bae-4632-870a-9995cf0d2240"
     ],
     "filterType": "GMSprite",
     "folderName": "Utils",

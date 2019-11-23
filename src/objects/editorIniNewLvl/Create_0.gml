@@ -18,6 +18,7 @@ if file_exists("llevels")
 		tt = instance_create(945, yy, obj_editorIniLvl)
 		tt.lvlid = lvlid
 		tt.lvlname = lvlname
+		tt.yy = yy
 		
 		yy += 224
 	}

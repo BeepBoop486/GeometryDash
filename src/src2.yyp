@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "3781ded0-7bae-4632-870a-9995cf0d2240",
+            "Value": {
+                "id": "315b1dc0-be16-41d1-9a63-690484615560",
+                "resourcePath": "sprites\\spr_chatBtnDown\\spr_chatBtnDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "379f1e3d-1fa2-4cb7-b01a-790da6cc1f35",
             "Value": {
                 "id": "49f61f7b-e359-427a-a06e-b8e75621098e",
@@ -2199,6 +2207,14 @@
             }
         },
         {
+            "Key": "64b59fc4-7393-4d14-ad4e-c64811b8cb74",
+            "Value": {
+                "id": "4daebfc7-ab03-41f4-a85b-0304b329ef31",
+                "resourcePath": "objects\\obj_editorIniYYDown\\obj_editorIniYYDown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64b7324c-40df-405b-8c84-1d179f62eae7",
             "Value": {
                 "id": "aabd5047-ffc9-4d9f-8f5f-dc21b58a7364",
@@ -3068,6 +3084,22 @@
                 "id": "d051f93e-7425-48a9-b7a1-0542c3e2d04b",
                 "resourcePath": "sprites\\spr_settings\\spr_settings.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b48d644-c5ce-4bdd-ad58-b7e7d8d838f6",
+            "Value": {
+                "id": "989123a1-98c3-4ce4-ac27-87978192c897",
+                "resourcePath": "sprites\\spr_chatBtnUp\\spr_chatBtnUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c339904-98c3-45e3-b0ad-c2387af0dc83",
+            "Value": {
+                "id": "2490d9a0-e6d0-438f-b0f9-96e32257c7f6",
+                "resourcePath": "objects\\obj_editorIniYYUp\\obj_editorIniYYUp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
