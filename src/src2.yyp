@@ -3543,6 +3543,14 @@
             }
         },
         {
+            "Key": "a5d3a9e2-0f16-4ac5-8207-781cc42afffb",
+            "Value": {
+                "id": "19ab9855-0aa8-4c26-8d66-8b45e5b7a959",
+                "resourcePath": "objects\\ed_edRingsClickableExit\\ed_edRingsClickableExit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5eeb288-a30e-4cd6-8a13-a0c21bbe9d76",
             "Value": {
                 "id": "7a244169-7940-46f6-9449-5f0eca45d5e2",
