@@ -1,5 +1,7 @@
 /// @description I dont' want to do this in every object so...
 
+var __obj;
+
 if player == 1
 {
 	gravdir = -1
@@ -34,6 +36,11 @@ if place_meeting(x, y, obj_ring1) and canring
 	vsp=-jumpspd
 	canring=0
 	trail=1
+	
+	__obj = instance_nearest(x, y, obj_ring1)
+	if __obj.reverse {
+		global.spdboost *= -1
+	}
 }
 if place_meeting(x, y, obj_ring2) and canring
 {
