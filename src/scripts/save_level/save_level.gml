@@ -84,7 +84,9 @@ if argument0 != "" {
 					file_text_write_real(file, ypos)
 					file_text_writeln(file)
 					
-					if objid == obj_ring1 {
+					if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
+					or objid == obj_ring4
+					{
 						file_text_write_real(file, objid.reverse)
 						file_text_writeln(file)
 					}

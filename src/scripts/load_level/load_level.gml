@@ -46,7 +46,8 @@ if filename != "" {
 		
 			if objid != obj_upload {
 				
-				if objid == obj_ring1
+				if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
+				or objid == obj_ring4
 				{
 					var reverse;
 					reverse = file_text_read_real(file)
