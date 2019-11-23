@@ -45,12 +45,21 @@ if filename != "" {
 			file_text_readln(file)
 		
 			if objid != obj_upload {
+				
+				if objid == obj_ring1
+				{
+					var reverse;
+					reverse = file_text_read_real(file)
+					file_text_readln(file)
+				}
+				
 				obj = instance_create(xpos, ypos, objid)
 				obj.image_angle = angle
 				obj.image_xscale = xscale
 				obj.image_yscale = yscale
 				obj.image_blend = c_white
 				obj.group = groupo
+				obj.reverse = reverse
 			}
 		}
 	} else {
