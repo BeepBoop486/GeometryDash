@@ -14,25 +14,27 @@
 				}
 
 				if($lvlname != "" && $lvlcnt != "") {
-					$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader, rate, stars, downloads, likes, dislikes, isepic, isfeatured, isdemon) VALUES(NULL, '$lvlname', '', '$uploadern', 0,0, 0,0,0, 0, 0, 0)");
+					//$query = $conn->query("INSERT INTO levels(id, lvlname, lvlcnt, uploader, rate, stars, downloads, likes, dislikes, isepic, isfeatured, isdemon) VALUES(NULL, '$lvlname', '', '$uploadern', 0,0, 0,0,0, 0, 0, 0)");
+					$stmt = $conn->prepare("INSERT INTO levels(lvlname, uploader, rate, stars, downloads, likes, dislikes, isepic, isfeatured, isdemon) VALUES(?,?,?,?,?,?,?,?,?,?)");
+					$blank_int = 0;
+					$stmt->bind_param("ssiiiiiiii", $lvlname, $uploadern, $blank_int,$blank_int,$blank_int,$blank_int,$blank_int,$blank_int,$blank_int,$blank_int);
+					$stmt->execute();
+					$stmt->close();
+
+					$query = $conn->query("SELECT * FROM levels ORDER BY id DESC LIMIT 1");
 					if ($query) {
-						$query = $conn->query("SELECT * FROM levels ORDER BY id DESC LIMIT 1");
-						if ($query) {
-							if ($query->num_rows > 0) {
-								$row = $query->fetch_array(MYSQLI_ASSOC);
-								$previousId=$row["id"];
-								$flvl = fopen("saved/".$previousId.".gdl", "w");
-								fwrite($flvl, $lvlcnt);
-								fclose($flvl);
-								echo "1";
-							} else {
-								echo "-405#2";
-							}
+						if ($query->num_rows > 0) {
+							$row = $query->fetch_array(MYSQLI_ASSOC);
+							$previousId=$row["id"];
+							$flvl = fopen("saved/".$previousId.".gdl", "w");
+							fwrite($flvl, $lvlcnt);
+							fclose($flvl);
+							echo "1";
 						} else {
-							echo "-405";
+							echo "-405#2";
 						}
 					} else {
-						echo mysqli_error($conn);
+						echo "-405";
 					}
 				} else {
 					echo "-4";

@@ -1,2 +1,1 @@
-global.playing = !global.playing
-hide_ui()
+stop_playing()

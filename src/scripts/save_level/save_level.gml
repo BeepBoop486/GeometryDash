@@ -54,7 +54,7 @@ if argument0 != "" {
 			&& objid != obj_camera && objid != obj_player && objid != obj_ground  && objid != edit_editBtn
 			&& objid != obj_player_deadbox && objid != obj_gaw_pagination && objid != edit_editBtn && objid!=obj_restart
 			&& objid != obj_upload && objid != obj_saver && objid != obj_winWall && objid != obj_winWall1 && objid != obj_ground2
-			&& objid != obj_ground{
+			&& objid != obj_ground && objid != obj_playEditorBtn && objid != BoxOpts{
 				obj_name = object_get_name(objid);
 				angle = obj.image_angle
 				xscale = obj.image_xscale

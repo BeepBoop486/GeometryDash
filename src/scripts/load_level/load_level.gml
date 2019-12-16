@@ -44,7 +44,7 @@ if filename != "" {
 			ypos = file_text_read_real(file)
 			file_text_readln(file)
 		
-			if objid != obj_upload {
+			if objid != obj_upload && objid != obj_playEditorBtn {
 				
 				if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
 				or objid == obj_ring4
@@ -60,7 +60,6 @@ if filename != "" {
 				obj.image_yscale = yscale
 				obj.image_blend = c_white
 				obj.group = groupo
-				obj.reverse = reverse
 			}
 		}
 	} else {

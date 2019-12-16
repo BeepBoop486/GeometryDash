@@ -15,11 +15,17 @@
                             $finalpass = password_hash($upass, PASSWORD_BCRYPT);
                             $finalname = str_replace("'", "\'", $uname);
 
-                            $query = $conn->query("SELECT * FROM users WHERE uname='$finalname'");
+                            //$query = $conn->query("SELECT * FROM users WHERE uname='$finalname'");
+                            $stmt = $conn->query("SELECT * FROM users WHERE uname=?");
+                            $stmt->bind_param("s", $uname);
+                            $stmt->execute();
+                            $query = $stmt->get_result();
+                            $stmt->close();
                             if($query) {
                                 if($query->num_rows > 0) {
                                     echo "-181";
                                 } else {
+                                    //TODO: Change this
                                     $query = $conn->query("INSERT INTO users(id, uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES(NULL, '$finalname', '$finalpass', 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
                                     if($query) {
                                         echo "1";

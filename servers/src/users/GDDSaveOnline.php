@@ -26,6 +26,7 @@
 					$orbs = $_POST["orbs"];
 					$completedLevels = $_POST["completedLevels"];
 
+					//TODO: Change this
 					$query = $conn->query("UPDATE users SET stars=$stars,
 															demons=$demons,
 															icon=$icon,
