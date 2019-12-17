@@ -1559,6 +1559,14 @@
             }
         },
         {
+            "Key": "4358bde5-49f5-49b4-b95a-477727952fb5",
+            "Value": {
+                "id": "2cd86197-6ecd-4348-8ab6-8fb5eabcc056",
+                "resourcePath": "views\\4358bde5-49f5-49b4-b95a-477727952fb5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "43d557dd-f550-4982-aca1-f06b0de395f6",
             "Value": {
                 "id": "69288bc4-518e-4655-aed5-ae6bffd7863d",
@@ -4308,6 +4316,14 @@
                 "id": "a12edd53-deff-48e9-8f98-0d16fd4834ee",
                 "resourcePath": "objects\\obj_ufo_portal\\obj_ufo_portal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c602cad5-e130-480a-a4ed-89f8f0409210",
+            "Value": {
+                "id": "ac1bb03f-2d60-440f-98ad-ad01b892ca85",
+                "resourcePath": "rooms\\rm_mainSets\\rm_mainSets.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
