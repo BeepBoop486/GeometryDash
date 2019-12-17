@@ -9,6 +9,8 @@ if argument0 != "" {
 
 	//This'll be to avoid mistakes in the future
 	if version == 0 {
+		file_text_write_string(file, global.toputname);
+		file_text_writeln(file)
 		file_text_write_real(file, version) //This'll be used for loading
 		file_text_writeln(file)
 		file_text_write_real(file, global.music)

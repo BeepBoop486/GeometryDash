@@ -4,6 +4,8 @@ var filename = argument0;
 if filename != "" {
 	var file = file_text_open_read(filename)
 
+	file_text_readln(file)
+
 	var version = file_text_read_real(file)
 	file_text_readln(file)
 
