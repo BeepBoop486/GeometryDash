@@ -194,7 +194,8 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 			
 			tt.image_blend = c_aqua
 			
-			if global.selected_obj.object_index == obj_ring_parent {
+			if global.selected_obj.object_index == obj_ring1 or global.selected_obj.object_index == obj_ring2
+			or global.selected_obj.object_index == obj_ring3 or global.selected_obj.object_index == obj_ring4{
 				tt.reverse = global.selected_obj.reverse
 			}
 
