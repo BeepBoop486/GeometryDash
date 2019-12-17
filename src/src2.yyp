@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "13facf99-71e0-4cdd-9162-481699a7c398",
+            "Value": {
+                "id": "27871f15-4edd-4379-b028-3faf78b8d21e",
+                "resourcePath": "objects\\obj_setswind\\obj_setswind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14a7e32b-9d25-4e67-9489-8fc9042e8956",
             "Value": {
                 "id": "43b1e8ae-e81a-4127-b64e-4d273bbb5e9b",
@@ -1563,14 +1571,6 @@
             "Value": {
                 "id": "3076c7c6-cf69-4a39-b77a-be75cbe3d3d6",
                 "resourcePath": "views\\42bc9d1b-0c0d-4bf6-a86b-dbd90073b165.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4358bde5-49f5-49b4-b95a-477727952fb5",
-            "Value": {
-                "id": "2cd86197-6ecd-4348-8ab6-8fb5eabcc056",
-                "resourcePath": "views\\4358bde5-49f5-49b4-b95a-477727952fb5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -3271,6 +3271,14 @@
             }
         },
         {
+            "Key": "9670396b-2dc9-4ba8-ab21-17808ec991a8",
+            "Value": {
+                "id": "fbf0b332-ada6-4e78-86c9-d805cf3ab41c",
+                "resourcePath": "objects\\obj_exitsetswind\\obj_exitsetswind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "973e320a-80e4-4621-a5f3-b6f0c0d34b89",
             "Value": {
                 "id": "b9b2ffb5-d659-484d-95d3-fb7ced234278",
@@ -4303,14 +4311,6 @@
             }
         },
         {
-            "Key": "c602cad5-e130-480a-a4ed-89f8f0409210",
-            "Value": {
-                "id": "ac1bb03f-2d60-440f-98ad-ad01b892ca85",
-                "resourcePath": "rooms\\rm_mainSets\\rm_mainSets.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "c61d2f2f-dc16-49fb-bd74-b3c6c25cb767",
             "Value": {
                 "id": "79620451-3a73-4ec3-b4b7-afeb0628270e",
@@ -4980,6 +4980,14 @@
                 "id": "c732fe05-39a7-4f1f-b008-9b03ebaea47b",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e4eeefe5-ee1d-4c72-8a27-31c8e046e3f3",
+            "Value": {
+                "id": "88a2c900-ad42-471d-9256-0cec49abde5f",
+                "resourcePath": "objects\\obj_regtext\\obj_regtext.yy",
+                "resourceType": "GMObject"
             }
         },
         {
