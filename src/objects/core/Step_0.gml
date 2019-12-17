@@ -192,7 +192,7 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 			
 			global.selected_obj.image_blend = c_white
 			
-			tt.image_blend = c_lime
+			tt.image_blend = c_aqua
 
 			global.selected_obj = tt
 

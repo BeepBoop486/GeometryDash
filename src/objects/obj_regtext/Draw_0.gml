@@ -1,5 +1,0 @@
-draw_set_color(c_white)
-draw_set_font(font0)
-draw_text_outline(x, y, "Register", c_white, c_black)
-draw_text_outline(x, y+64, "Username", c_white, c_black)
-draw_text_outline(x, y+195, "Password", c_white, c_black)

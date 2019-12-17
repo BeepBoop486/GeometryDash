@@ -2799,14 +2799,6 @@
             }
         },
         {
-            "Key": "7d298577-46ae-46c9-bae6-647870bff720",
-            "Value": {
-                "id": "4ca4cfe9-3df6-429d-a9bb-6ba1747f3115",
-                "resourcePath": "objects\\obj_regtext\\obj_regtext.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7d3f66ef-10a4-47b1-bd5e-f7bb1dbaca9e",
             "Value": {
                 "id": "9b0795e1-d50d-4559-b95a-62c9aeba7836",
@@ -2948,14 +2940,6 @@
                 "id": "e297966e-d061-4e30-8c36-d8c4c6123795",
                 "resourcePath": "sprites\\spr_wave_b\\spr_wave_b.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "82885502-4b95-4502-aa68-abee16db12e4",
-            "Value": {
-                "id": "97ea2034-5b87-45bb-b260-98d529d15cee",
-                "resourcePath": "objects\\obj_setswind\\obj_setswind.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -4183,14 +4167,6 @@
             }
         },
         {
-            "Key": "be87646e-7564-4046-8614-effa095c98f6",
-            "Value": {
-                "id": "15c036cd-340c-4a9d-be57-3b1197cbe288",
-                "resourcePath": "objects\\obj_exitsetswind\\obj_exitsetswind.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "be90b4b7-e6be-4f80-bfd5-ccdce47f40f3",
             "Value": {
                 "id": "899f0983-df6d-43d2-9bad-009159e3f3ea",
@@ -4388,6 +4364,14 @@
                 "id": "fef583b2-78dd-4e3f-be56-98538e338145",
                 "resourcePath": "rooms\\rm_editingSelectedLvl\\rm_editingSelectedLvl.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ca83d0fe-da37-4c5c-8908-9c03de93c16c",
+            "Value": {
+                "id": "86d94510-3891-43b9-b2c7-f56e9cc105e4",
+                "resourcePath": "objects\\mainSetsMan\\mainSetsMan.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4988,6 +4972,14 @@
                 "id": "c732fe05-39a7-4f1f-b008-9b03ebaea47b",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e629778f-aea9-40fb-957b-2583024936dc",
+            "Value": {
+                "id": "fc530d06-2f62-45d8-913f-0ae95322e905",
+                "resourcePath": "views\\e629778f-aea9-40fb-957b-2583024936dc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

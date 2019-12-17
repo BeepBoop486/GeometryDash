@@ -1,5 +1,7 @@
 TODO
 
+Add a new room for every PopUp in the main menu (except the daily) - Working on it
+
 Adapt the editor to android - Working on it
 
 Fix the ylimit bug
@@ -9,8 +11,6 @@ Level rating
 Level comment
 Added all the left GUI to the editor
 Edit object
-
-Add a new room for every PopUp in the main menu (except the daily) - Working on it
 
 Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
