@@ -1,6 +1,6 @@
 TODO
 
-Add a new room for every PopUp in the main menu (except the daily) - Working on it
+Add a new room for every PopUp in the main menu (except the daily) - This'll be made later, working in login
 
 Adapt the editor to android - Working on it
 
