@@ -193,6 +193,10 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 			global.selected_obj.image_blend = c_white
 			
 			tt.image_blend = c_aqua
+			
+			if global.selected_obj.object_index == obj_ring_parent {
+				tt.reverse = global.selected_obj.reverse
+			}
 
 			global.selected_obj = tt
 

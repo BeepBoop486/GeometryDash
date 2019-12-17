@@ -46,20 +46,22 @@ if filename != "" {
 		
 			if objid != obj_upload && objid != obj_playEditorBtn {
 				
-				if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
-				or objid == obj_ring4
-				{
-					var reverse;
-					reverse = file_text_read_real(file)
-					file_text_readln(file)
-				}
-				
 				obj = instance_create(xpos, ypos, objid)
 				obj.image_angle = angle
 				obj.image_xscale = xscale
 				obj.image_yscale = yscale
 				obj.image_blend = c_white
 				obj.group = groupo
+			
+				if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
+				or objid == obj_ring4
+				{
+					var reverse;
+					reverse = file_text_read_real(file)
+					file_text_readln(file)
+					obj.reverse = reverse
+				}
+			
 			}
 		}
 	} else {
