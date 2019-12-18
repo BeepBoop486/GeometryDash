@@ -19,3 +19,8 @@ Here's the actual game in action (This could change soon, so you better clone th
 - Rings
 - Paths
 - Fully customizable project, you can clone it, and modify it as you want, isn't neccessary to gimmie credits, you can even sell it if you want without any problem ('least with me, with RobTop maybe xd)
+- Top 100 leaderboard
+- Fully functional upload, download and play online levels
+- Create many levels as you want
+- More than one hundred GeometryDash icons
+- All the Geometry Dash vehicles (The swing copter won't be added still)
