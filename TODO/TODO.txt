@@ -33,6 +33,7 @@ if amiadmin is true and the server saved is false, the user will be banned
 Change all the editor btns and add the btn parent as its parent and modify basically all xd
 Speed x5
 A server-made checking if you're mod when rating levels
+Add a reverse for the portals too
 
 A better account handling system (Profile photo, add posts etc...)
 A more beautiful top 100
