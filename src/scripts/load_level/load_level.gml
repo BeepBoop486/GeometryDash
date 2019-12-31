@@ -56,7 +56,8 @@ if filename != "" {
 				obj.group = groupo
 			
 				if objid == obj_ring1 or objid == obj_ring2 or objid == obj_ring3
-				or objid == obj_ring4
+				or objid == obj_ring4 or objid == obj_path1 or objid == obj_path2
+				or objid == obj_path3 or objid == obj_path4
 				{
 					var reverse;
 					reverse = file_text_read_real(file)
