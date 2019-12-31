@@ -12,22 +12,42 @@ if place_meeting(x, y, obj_path1)
 {
 	vsp=-jumpspd*1.5
 	trail=1
+	
+	__obj = instance_nearest(x, y, obj_path1)
+	if __obj.reverse {
+		global.spdboost *= -1
+	}
 }
 if place_meeting(x, y, obj_path2)
 {
 	vsp=-jumpspd+2
 	trail=1
+	
+	__obj = instance_nearest(x, y, obj_path2)
+	if __obj.reverse {
+		global.spdboost *= -1
+	}
 }
 if place_meeting(x, y, obj_path3)
 {
 	gravdir*=-1
 	vsp=20
 	trail=1
+	
+	__obj = instance_nearest(x, y, obj_path3)
+	if __obj.reverse {
+		global.spdboost *= -1
+	}
 }
 if place_meeting(x, y, obj_path4)
 {
 	vsp=-jumpspd-16
 	trail=1
+	
+	__obj = instance_nearest(x, y, obj_path4)
+	if __obj.reverse {
+		global.spdboost *= -1
+	}
 }
 
 //rings

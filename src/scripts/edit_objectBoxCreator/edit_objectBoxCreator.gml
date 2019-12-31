@@ -3,7 +3,11 @@ and global.selected_obj != undefined{
 	if global.selected_obj.object_index == obj_ring1
 	or global.selected_obj.object_index == obj_ring2
 	or global.selected_obj.object_index == obj_ring3
-	or global.selected_obj.object_index == obj_ring4{
+	or global.selected_obj.object_index == obj_ring4
+	or global.selected_obj.object_index == obj_path1
+	or global.selected_obj.object_index == obj_path2
+	or global.selected_obj.object_index == obj_path3
+	or global.selected_obj.object_index == obj_path4{
 		ed_edRings()
 	}
 }
