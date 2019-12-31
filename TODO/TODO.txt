@@ -1,5 +1,7 @@
 TODO
 
+Add default values for a registered account 
+
 Add a new room for every PopUp in the main menu (except the daily) - This'll be made later, working in login
 
 Adapt the editor to android - Working on it
@@ -31,3 +33,6 @@ if amiadmin is true and the server saved is false, the user will be banned
 Change all the editor btns and add the btn parent as its parent and modify basically all xd
 Speed x5
 A server-made checking if you're mod when rating levels
+
+A better account handling system (Profile photo, add posts etc...)
+A more beautiful top 100
