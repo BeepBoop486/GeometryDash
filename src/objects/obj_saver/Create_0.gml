@@ -1,7 +1,4 @@
 global.deflogged = false
-if global.loggedin = true && global.deflogged == false {
-	instance_create(0,0,obj_logger)
-}
 
 if os_type == os_windows
 {
