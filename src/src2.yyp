@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "14fcb952-fc96-4b63-aa9b-20d1d80b0045",
+            "Value": {
+                "id": "c7d8282d-4669-42f2-972c-5cbef353fbc6",
+                "resourcePath": "objects\\oMainSetsPassTxt\\oMainSetsPassTxt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1532c8c0-e40d-4cdd-84ea-10d20de6482c",
             "Value": {
                 "id": "07883379-4442-48ff-b855-4b57409d2630",
@@ -916,6 +924,14 @@
                 "id": "3509a6b0-83f6-48f9-a47a-cc5e30574af7",
                 "resourcePath": "objects\\obj_tile04\\obj_tile04.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "284c61b9-f2a4-4d7c-aa99-2bfb45fc0fed",
+            "Value": {
+                "id": "2526134f-ef76-4fe0-835e-21cf78a779ae",
+                "resourcePath": "sprites\\sMainPopsLogin\\sMainPopsLogin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1439,6 +1455,14 @@
             }
         },
         {
+            "Key": "3e1bcb5a-fe7c-42a8-9787-bacd3fdaca12",
+            "Value": {
+                "id": "fb64957e-b6bf-4051-87f6-5d1cb04e76d5",
+                "resourcePath": "sprites\\sMainPopsFName\\sMainPopsFName.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3e50c778-f9dd-4c40-9b1d-fab692e84216",
             "Value": {
                 "id": "773cd986-cf48-40b8-a6d2-8d0acd137d15",
@@ -1652,6 +1676,14 @@
                 "id": "84641d09-3d07-4b63-b67d-e041271c5fec",
                 "resourcePath": "objects\\obj_colourSpike1\\obj_colourSpike1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4652a04a-973d-4cf9-8407-7640fe2a44f5",
+            "Value": {
+                "id": "92303504-6116-489d-93c8-879b507a7e38",
+                "resourcePath": "views\\4652a04a-973d-4cf9-8407-7640fe2a44f5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2935,6 +2967,14 @@
             }
         },
         {
+            "Key": "81b6c011-e9bc-4cd6-b437-1d06fdcff938",
+            "Value": {
+                "id": "f149def9-a72a-4912-8fe4-a5082f7e752e",
+                "resourcePath": "sprites\\sMainPopsFRegBtn\\sMainPopsFRegBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8234b1dd-a30d-4fb0-a175-03d7872f1665",
             "Value": {
                 "id": "d9e68ff9-09b6-40bb-b0c8-f78af9836d4f",
@@ -3215,6 +3255,14 @@
             }
         },
         {
+            "Key": "92b991df-b213-4e4f-8ab9-2d0568aea20d",
+            "Value": {
+                "id": "c28eb16f-85d5-4785-8e67-8ba83f744561",
+                "resourcePath": "sprites\\sMainPopsFLogBtn\\sMainPopsFLogBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "801bb1be-ff39-403c-93e6-d3155760aa1f",
@@ -3412,6 +3460,14 @@
                 "id": "d0a6b8a9-e9ae-46fd-8e07-6074bbc82074",
                 "resourcePath": "views\\9cba1f39-2464-471a-8ba3-959a977fc227.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e0470c0-8e28-40d6-8942-3cc62be4111d",
+            "Value": {
+                "id": "9e32d6f5-fff3-463b-b856-84abe76f0559",
+                "resourcePath": "objects\\oMainSetsNameTxt\\oMainSetsNameTxt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4607,6 +4663,14 @@
             }
         },
         {
+            "Key": "d373ea9c-891f-426d-a7da-ced19315ff79",
+            "Value": {
+                "id": "e1d8b829-634e-46f7-a619-e116c0dab3bb",
+                "resourcePath": "objects\\oMainSetsLoginTxt\\oMainSetsLoginTxt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d3dbffe0-2678-41a5-a1a7-8ace02f7bddf",
             "Value": {
                 "id": "83240713-e3df-448e-b760-5a826cba3c7c",
@@ -5004,6 +5068,14 @@
                 "id": "c732fe05-39a7-4f1f-b008-9b03ebaea47b",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e4d86523-3725-4369-a46b-3f72a328a833",
+            "Value": {
+                "id": "6be0a8db-0651-4c71-ab7b-0b216e393867",
+                "resourcePath": "sprites\\sMainPopsFPass\\sMainPopsFPass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
