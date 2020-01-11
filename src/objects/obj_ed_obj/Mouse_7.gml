@@ -1,45 +1,3 @@
-/*
-
-	if global.selected_mode == 0 {
-
-		if global.intab == 0 {
-
-			global.toput = obj_solid
-
-		} if global.intab == 1 {
-
-			global.toput = obj_spike
-
-		}
-
-	} if global.selected_mode == 1 && global.selected_obj != 0 {
-
-		if pos == 1 {
-
-			with(global.selected_obj) {
-
-				x -= 61
-
-			}
-
-		} if pos == 2 {
-
-			with(global.selected_obj)
-
-			{
-
-				x += 61
-
-			}
-
-		}
-
-	}
-
-*/
-
-
-
 ///Select an object depending the pagination
 
 if global.selected_mode == 0{
@@ -104,7 +62,9 @@ if global.selected_mode == 0{
 
 } else if global.selected_mode == 1 and global.selected_obj != 0 and global.selected_obj != noone {
 	if pos == 1 {
-		
+		global.selected_obj.x -= 61
+	} else if pos == 2 {
+		global.selected_obj.x += 61
 	}
 }
 /* */
