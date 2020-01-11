@@ -26,6 +26,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.2
 	&& !position_meeting(mouse_x, mouse_y, BoxOpts)
 	&& !position_meeting(mouse_x, mouse_y, obj_ground2)
 	&& !global.playing
+	&& mouse_x > 0
 	{
 
 		global.selected_obj = 0
