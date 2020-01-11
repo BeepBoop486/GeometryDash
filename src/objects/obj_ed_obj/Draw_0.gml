@@ -233,5 +233,11 @@
 		} else if pos == 10 {
 			draw_sprite_ext(edit_flipYBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
 		}
+		
+		else if pos == 11 {
+			draw_sprite_ext(edit_rotate45lBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
+		} else if pos == 12 {
+			draw_sprite_ext(edit_rotate45rBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
+		}
 
 	}

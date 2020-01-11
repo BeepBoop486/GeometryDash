@@ -13,7 +13,9 @@
         "32905d88-58d0-4628-b24e-372c940a55d0",
         "b1113fec-0e2a-4db9-a2cd-eb2bfa366754",
         "618c3fbb-6f33-4741-87de-23eb236a9894",
-        "f9b61ecc-0518-4fee-80b4-1875fb62b897"
+        "f9b61ecc-0518-4fee-80b4-1875fb62b897",
+        "5045bea6-83b6-4ca7-ba08-ecf338f3f457",
+        "ba9e6b7b-236a-4aac-9d13-a5bf15f37d4d"
     ],
     "filterType": "GMSprite",
     "folderName": "Edit",

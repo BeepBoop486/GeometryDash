@@ -86,6 +86,12 @@ if global.selected_mode == 0{
 	} else if pos == 10 {
 		global.selected_obj.image_yscale *= -1
 	}
+	
+	else if pos == 11 {
+		global.selected_obj.image_angle += 90
+	} else if pos == 12 {
+		global.selected_obj.image_angle -= 90
+	}
 }
 /* */
 /*  */
