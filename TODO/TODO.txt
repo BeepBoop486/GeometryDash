@@ -1,6 +1,7 @@
 TODO
 
 Add default values for a registered account 
+Change all the "if os_type != os_window" get string to show a keyboard
 
 Adapt the editor to android - There's only the edit tab left
 
