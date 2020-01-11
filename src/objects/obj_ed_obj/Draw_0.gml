@@ -227,5 +227,11 @@
 		} else if pos == 8 {
 			draw_sprite_ext(edit_downBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
 		}
+		
+		else if pos == 9 {
+			draw_sprite_ext(edit_flipXBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
+		} else if pos == 10 {
+			draw_sprite_ext(edit_flipYBtn_001, 0, x, y, .7, .7, 0, c_white, 100)
+		}
 
 	}

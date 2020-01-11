@@ -80,6 +80,12 @@ if global.selected_mode == 0{
 	} else if pos == 8 {
 		global.selected_obj.y += 2
 	}
+	
+	else if pos == 9 {
+		global.selected_obj.image_xscale *= -1
+	} else if pos == 10 {
+		global.selected_obj.image_yscale *= -1
+	}
 }
 /* */
 /*  */
