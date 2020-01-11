@@ -65,6 +65,10 @@ if global.selected_mode == 0{
 		global.selected_obj.x -= 61
 	} else if pos == 2 {
 		global.selected_obj.x += 61
+	} else if pos == 3 {
+		global.selected_obj.y -= 61
+	} else if pos == 4 {
+		global.selected_obj.y += 61
 	}
 }
 /* */

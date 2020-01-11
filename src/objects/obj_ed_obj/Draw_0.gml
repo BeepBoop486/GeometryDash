@@ -209,13 +209,13 @@
 		
 
 		if pos == 1 {
-
 			draw_sprite_ext(edit_leftBtn2_001, 0, x, y, .7, .7, 0, c_white, 100)
-
 		} else if pos == 2 {
-
 			draw_sprite_ext(edit_rightBtn2_001, 0, x, y, .7, .7, 0, c_white, 100)
-
+		} else if pos == 3 {
+			draw_sprite_ext(edit_upBtn2_001, 0, x, y, .7, .7, 0, c_white, 100)
+		} else if pos == 4 {
+			draw_sprite_ext(edit_downBtn2_001, 0, x, y, .7, .7, 0, c_white, 100)
 		}
 
 	}
