@@ -70,6 +70,16 @@ if global.selected_mode == 0{
 	} else if pos == 4 {
 		global.selected_obj.y += 61
 	}
+	
+	else if pos == 5 {
+		global.selected_obj.x -= 2
+	} else if pos == 6 {
+		global.selected_obj.x += 2
+	} else if pos == 7 {
+		global.selected_obj.y -= 2
+	} else if pos == 8 {
+		global.selected_obj.y += 2
+	}
 }
 /* */
 /*  */
