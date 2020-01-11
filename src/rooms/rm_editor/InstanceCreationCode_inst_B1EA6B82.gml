@@ -10,4 +10,4 @@ obj_orbs1= obj_speedx4
 plusx = 1008
 plusy = 580
 
-pos = 9
+pos = 10

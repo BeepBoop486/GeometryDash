@@ -12,4 +12,4 @@ obj_orbs1 = obj_dual_portal
 plusx = 768
 plusy = 580
 
-pos = 5
+pos = 7

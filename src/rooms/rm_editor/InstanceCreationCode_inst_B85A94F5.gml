@@ -13,4 +13,4 @@ obj_orbs1=obj_speed3
 plusx = 608
 plusy = 580
 
-pos = 3
+pos = 5

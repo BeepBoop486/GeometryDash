@@ -102,6 +102,10 @@ if global.selected_mode == 0{
 		}
 	}
 
+} else if global.selected_mode == 1 and global.selected_obj != 0 and global.selected_obj != noone {
+	if pos == 1 {
+		
+	}
 }
 /* */
 /*  */
