@@ -19,7 +19,7 @@ if ds_map_find_value(async_load, "id") == req2
 	if ds_map_find_value(async_load, "status") == 0 {
 		if !file_exists( string(global.lvlid) + ".gdl")
 		{
-			show_message(ds_map_find_value(async_load, "status"))
+			show_message_async(ds_map_find_value(async_load, "status"))
 		}
 	}
 } if ds_map_find_value(async_load, "id") == reqLikes {

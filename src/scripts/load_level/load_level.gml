@@ -68,9 +68,9 @@ if filename != "" {
 			}
 		}
 	} else {
-		show_message("Version not zero")
+		show_message_async("Version not zero")
 	}
 	file_text_close(file)
 } else {
-	show_message("The file you entered can't be empty")
+	show_message_async("The file you entered can't be empty")
 }
