@@ -3,7 +3,7 @@
 	{
 		writing = false
 	} else {
-		keyboard_virtual_show(kbv_type_ascii, kbv_returnkey_default, kbv_autocapitalize_none, false)
+		keyboard_virtual_show(kbv_type_ascii, kbv_returnkey_go, kbv_autocapitalize_none, false)
 		text = ""
 		keyboard_string = ""
 		writing = true
