@@ -6,23 +6,23 @@ if variable_instance_exists(instance_id, "req") {
 		{
 			response = ds_map_find_value(async_load, "result")
 			if response == 1 {
-				show_message("Register successfully, now you can sign in")
+				show_message_async("Register successfully, now you can sign in")
 			} else if response == -1 {
-				show_message("Unusuccessfull sign up")
+				show_message_async("Unusuccessfull sign up")
 			} else if response == 0 {
-				show_message("The server's secret ain't right, maybe you're using an old version of this distro")
+				show_message_async("The server's secret ain't right, maybe you're using an old version of this distro")
 			} else if response == -2 {
-				show_message("The request wasn't made properly, there's the secret left")
+				show_message_async("The request wasn't made properly, there's the secret left")
 			} else if response == -3 {
-				show_message("The request wasn't made properly")
+				show_message_async("The request wasn't made properly")
 			} else if response == -180 {
-				show_message("The passwords doesn't match")
+				show_message_async("The passwords doesn't match")
 			} else if response == -181 {
-				show_message("This username already exists")
+				show_message_async("This username already exists")
 			} else if response == -182 {
-				show_message("The password can't be empty")
+				show_message_async("The password can't be empty")
 			} else if response == -183 {
-				show_message("The username can't be empty")
+				show_message_async("The username can't be empty")
 			}
 		}
 	}

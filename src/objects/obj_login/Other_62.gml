@@ -8,31 +8,31 @@ if ds_map_find_value(async_load, "id") == requiem
 			global.loggedin = true
 			global.loggedname = global.logingname
 			global.loggedpass = global.logingpass
-			show_message("Sign in successfully")
+			show_message_async("Sign in successfully")
 		} else if response == -91
 		{
-			show_message("Wrong password")
+			show_message_async("Wrong password")
 		} else if response == -90
 		{
-			show_message("This username doesn't exists")
+			show_message_async("This username doesn't exists")
 		} else if response == -404
 		{
-			show_message("There's an error with the Database")
+			show_message_async("There's an error with the Database")
 		} else if response == -3
 		{
-			show_message("Passed the incorrect arguments number")
+			show_message_async("Passed the incorrect arguments number")
 		} else if response == 0
 		{
-			show_message("Wrong secret")
+			show_message_async("Wrong secret")
 		} else if response == -2
 		{
-			show_message("No secret was passed")
+			show_message_async("No secret was passed")
 		} else if response == -92
 		{
-			show_message("The username can't be empty")
+			show_message_async("The username can't be empty")
 		} else if response == -93
 		{
-			show_message("The password can't be empty")
+			show_message_async("The password can't be empty")
 		}
 	}
 	//show_message("Right obj")
