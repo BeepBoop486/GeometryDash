@@ -21,7 +21,7 @@ Another store xd
 An official level for every song
 Add editor pause
 Add editor vehicle switcher
-Modifiy all the show_message by the GD's blue box with the OK button
+Modifiy all the show_message_async by the GD's blue box with the OK button
 Implement all the codes returned by the server in the GameMaker's project
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
