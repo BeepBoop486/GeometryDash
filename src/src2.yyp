@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "108f58c4-43da-43e3-9b47-03b5510536a4",
+            "Value": {
+                "id": "710a9e10-4f7f-4b5b-ae94-80009ffbaccc",
+                "resourcePath": "sprites\\s_charSel_sel_spider\\s_charSel_sel_spider.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "10ab6af5-062e-4450-a49d-89030d6859a0",
             "Value": {
                 "id": "1a9c4448-b2af-46bb-9b57-29408a7b25a0",
@@ -492,6 +500,14 @@
                 "id": "17598754-1af1-431b-86f7-0a7beae1ac63",
                 "resourcePath": "objects\\lvlfoundDrawName\\lvlfoundDrawName.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "133f8078-ca97-4fec-ace5-6c651c1643f5",
+            "Value": {
+                "id": "60d62bdc-8d65-47b4-b93e-95ca479c2f58",
+                "resourcePath": "sprites\\s_charSel_sel_ship\\s_charSel_sel_ship.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -756,6 +772,14 @@
                 "id": "9261469a-6c5b-4bf0-a7df-779d5b328f20",
                 "resourcePath": "objects\\obj_back_menu\\obj_back_menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2075dc39-ec37-4412-afa5-bd067785fd4d",
+            "Value": {
+                "id": "6b68f20f-570c-4f32-b16e-a274e42c1155",
+                "resourcePath": "sprites\\s_charSel_sel_ball\\s_charSel_sel_ball.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1567,6 +1591,14 @@
             }
         },
         {
+            "Key": "40e61569-3e6f-43bd-8a76-b6021ba44181",
+            "Value": {
+                "id": "9dfbcbfd-0576-4ffd-9965-cad352e7236b",
+                "resourcePath": "sprites\\s_charSel_sel_ufo\\s_charSel_sel_ufo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4151a5a6-4586-461d-a27c-b17c4c9750f7",
             "Value": {
                 "id": "31771613-b6cc-4fbc-af07-56e003eb8c49",
@@ -1612,6 +1644,14 @@
                 "id": "3076c7c6-cf69-4a39-b77a-be75cbe3d3d6",
                 "resourcePath": "views\\42bc9d1b-0c0d-4bf6-a86b-dbd90073b165.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "43458a67-5340-4785-8ff1-a9f9aac9f66c",
+            "Value": {
+                "id": "295f8c34-e920-4bd6-ab1b-5a2b7f84c181",
+                "resourcePath": "sprites\\s_charSel_sel_cube\\s_charSel_sel_cube.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2235,6 +2275,14 @@
             "Value": {
                 "id": "f1497c48-7fd3-46d3-a334-ffcc740bce37",
                 "resourcePath": "sprites\\spr_chippedBlock1\\spr_chippedBlock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f7836dd-ded0-4dc5-b330-78088dbe9cf2",
+            "Value": {
+                "id": "8b44328d-8fd0-4dd5-b919-611f2810a8f9",
+                "resourcePath": "sprites\\s_charSel_sel_wave\\s_charSel_sel_wave.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3439,6 +3487,14 @@
             }
         },
         {
+            "Key": "9b6d7132-0ed0-4b70-8dd3-39be5359afad",
+            "Value": {
+                "id": "1426d14c-56b1-4bc9-a55b-4ef180b1b9fe",
+                "resourcePath": "sprites\\s_charSel_sel_robot\\s_charSel_sel_robot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9be0a068-7c68-4d4b-8cee-b0a093467e15",
             "Value": {
                 "id": "c7355149-60b7-4ffd-8f52-24640feade52",
@@ -4452,6 +4508,14 @@
                 "id": "a48186f7-48ba-4b5b-b635-f6f741ea75da",
                 "resourcePath": "objects\\obj_wavep1\\obj_wavep1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c808592f-0dc7-4067-ac3f-5befc627eecf",
+            "Value": {
+                "id": "0f1c0aa7-d59f-4de2-b43e-8b2b0306040a",
+                "resourcePath": "sprites\\s_charSel_sel_swing\\s_charSel_sel_swing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
