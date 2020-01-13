@@ -6,5 +6,4 @@ req = http_post_string(global.serverUrl+"users/GDDSaveOnline.php", "secret="+glo
 "&ufo="+string(global.ufo)+"&wave="+string(global.wave)+"&robot="+string(global.robot)+"&spider="+
 string(global.spider)+"&cps="+string(global.cps)+"&diamonds="+string(global.diamonds)+"&orbs="+
 string(global.orbs)+"&completedLevels="+string(global.completedLevels))
-show_message_async("Checking if you're mod")
 amimodcheck = http_get(global.serverUrl+"users/GDDAmIMod.php")

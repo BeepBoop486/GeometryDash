@@ -26,7 +26,7 @@
                                     echo "-181";
                                 } else {
                                     //TODO: Change this
-                                    $query = $conn->query("INSERT INTO users(id, uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES(NULL, '$finalname', '$finalpass', 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
+                                    $query = $conn->query("INSERT INTO users(id, uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES(NULL, '$finalname', '$finalpass', 0,0,0,65535,16777000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
                                     if($query) {
                                         echo "1";
                                     } else {
