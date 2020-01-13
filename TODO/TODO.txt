@@ -1,9 +1,7 @@
 TODO
 
-Add default values for a registered account 
-Change all the "if os_type != os_window" get string to show a keyboard
-
-Adapt the editor to android - There's only the edit tab left
+Ground and background selector to the editor
+Vehicle selector to the editor
 
 Fix the ylimit bug
 Level liking
