@@ -187,6 +187,17 @@ if place_meeting(x, y, obj_dual_portal) {
 	create_dual(vehtc)
 	//event_user(0)
 }
+//Dual 1
+if place_meeting(x, y, obj_dual_portal1) {
+	if instance_number(obj_player) > 1 {
+		with(obj_player) {
+			if player == 1 {
+				instance_destroy()
+				scr_reset_vars()
+			}
+		}
+	}
+}
 ///Speeds
 //x0
 if place_meeting(x, y, obj_speedx0)

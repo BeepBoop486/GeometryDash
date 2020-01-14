@@ -31,3 +31,4 @@ Here's the actual game in action (This could change soon, so you better clone th
 - An online creator points calculator
 - There can be mod users
 - You can change the background of a level in the editor
+- Duals (available in editor too)
