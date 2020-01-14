@@ -20,7 +20,7 @@ if file_exists("llevels")
 		file_text_readln(file1)
 		file_text_close(file1)
 		
-		tt = instance_create(945, yy, obj_editorIniLvl)
+		tt = instance_create_layer(945, yy, "Instances", obj_editorIniLvl)
 		tt.lvlid = lvlid
 		tt.lvlname = lvlname
 		tt.yy = yy
