@@ -17,12 +17,12 @@ Here's the actual game in action (This could change soon, so you better clone th
 - Powerful in-game editor
 - A very similar playability to the original Geometry Dash
 - All the vehicles
-- All the speeds
+- All the speeds (and x0 speed)
 - A very good-lookin' editor
 - A lot of objects in game (in the editor too)
 - Rings
 - Paths
-- Fully customizable project, you can clone it, and modify it as you want, isn't neccessary to gimmie credits, you can even sell it if you want without any problem ('least with me, with RobTop maybe xd)
+- Fully customizable project, you can clone it, and modify it as you want, isn't neccessary to gimmie credits, you can even sell it if you want without any problem
 - Account system (Login / Register)
 - Cloud save system
 - Top 100 leaderboard
