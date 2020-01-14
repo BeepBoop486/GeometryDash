@@ -5,5 +5,8 @@ instance_destroy(ClickableSpeed2)
 instance_destroy(ClickableSpeed3)
 instance_destroy(ClickableSpeed4)
 instance_destroy(BOpts_SelectBg)
+instance_destroy(BOpts_SelectG)
+instance_destroy(BoptsClickableCloseWind)
+
 
 global.spdboost = global.levelspeed

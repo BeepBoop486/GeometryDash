@@ -1,3 +1,4 @@
+image_speed = 0
 image_index = global.ground
 
 iniw = sprite_width
