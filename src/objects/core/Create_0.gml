@@ -15,6 +15,9 @@ global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete
 
 global.playing = false //Checks if we're in test mode
 
+global.ground = spr_ground1
+global.background = spr_bg1
+
 //global.dragging= false //Variable that determines wether we're dragging or not
 
 global.intab = 0 // 0 - solid, 1 - spike
