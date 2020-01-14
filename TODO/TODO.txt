@@ -1,6 +1,5 @@
 TODO
 
-Ground selector
 Vehicle selector to the editor
 
 Fix the ylimit bug
@@ -11,9 +10,8 @@ Level comment
 Added all the left GUI to the editor
 Edit object
 
-Adapt all the cubes of GD to the presets of the project (60x60)
 Attempt counter
-Cube selector, ball selector, wave selector, ship selector, ufo selector
+ball selector, wave selector, ship selector, ufo selector
 Vault
 Another vault xd
 Store
@@ -22,7 +20,6 @@ An official level for every song
 Add editor pause
 Add editor vehicle switcher
 Modifiy all the show_message_async by the GD's blue box with the OK button
-Implement all the codes returned by the server in the GameMaker's project
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
 At mod or admin rate first check if the siggned in user is really admin (stored in the server)
