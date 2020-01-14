@@ -218,6 +218,7 @@ if dragging
 
 if keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_backspace)
 {
+	audio_stop_all()
 	instance_activate_all()
 	save_level(0, "l" + string(global.editingLvl) + ".gdl")
 	room_goto(rm_editingSelectedLvl)
