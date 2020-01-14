@@ -52,7 +52,7 @@ if filename != "" {
 		
 			if objid != obj_upload && objid != obj_playEditorBtn {
 				
-				obj = instance_create(xpos, ypos, objid)
+				obj = instance_create_depth(xpos, ypos, 0, objid)
 				obj.image_angle = angle
 				obj.image_xscale = xscale
 				obj.image_yscale = yscale

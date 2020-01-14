@@ -211,6 +211,7 @@ if dragging
 {
 	if !instance_exists(BoxOpts) && !instance_exists(ed_edRingsobj)
 	&& !instance_exists(BgSelector) && !instance_exists(GSelector)
+	&& !global.playing
 	{
 		__view_set(e__VW.XView, 0, (__view_get(e__VW.XView, 0) + drag_x - mouse_x))
 		__view_set(e__VW.YView, 0, (__view_get(e__VW.YView, 0) + drag_y - mouse_y))
@@ -219,8 +220,10 @@ if dragging
 
 if keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_backspace)
 {
-	audio_stop_all()
-	instance_activate_all()
-	save_level(0, "l" + string(global.editingLvl) + ".gdl")
-	room_goto(rm_editingSelectedLvl)
+	if !global.playing {
+		audio_stop_all()
+		instance_activate_all()
+		save_level(0, "l" + string(global.editingLvl) + ".gdl")
+		room_goto(rm_editingSelectedLvl)
+	}
 }

@@ -1,4 +1,4 @@
-if downx == mouse_x and downy == mouse_y and timedown < 1.2
+if downx == mouse_x and downy == mouse_y and timedown < 1.5
 {
 	//Build
 	if !position_meeting(mouse_x, mouse_y, obj_ed_obj)
@@ -12,7 +12,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.2
 	&& mouse_x > 0
 	&& global.selected_mode = 0 // If we're in build mode
 	{
-		boj = instance_create_layer(mouse_x, mouse_y, "objes",global.toput) //Bugs fixed
+		boj = instance_create_depth(mouse_x, mouse_y, 0, global.toput) //Bugs fixed
 		with(boj) move_snap(30.5,30.5)
 		if boj.x > global.wallx {
 			global.wallx = boj.x
