@@ -4511,6 +4511,14 @@
             }
         },
         {
+            "Key": "c1a612b2-f552-42fc-a542-95d54855ffad",
+            "Value": {
+                "id": "8f5f3764-c79d-4bd3-89c4-8e91c9b10be2",
+                "resourcePath": "objects\\obj_charSel\\obj_charSel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c2aef03a-25ba-423e-b5f3-1e3b2d53c9cb",
             "Value": {
                 "id": "19e07d15-1a95-45ec-8e40-1675af146a4b",
