@@ -210,6 +210,7 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 if dragging
 {
 	if !instance_exists(BoxOpts) && !instance_exists(ed_edRingsobj)
+	&& !instance_exists(BgSelector)
 	{
 		__view_set(e__VW.XView, 0, (__view_get(e__VW.XView, 0) + drag_x - mouse_x))
 		__view_set(e__VW.YView, 0, (__view_get(e__VW.YView, 0) + drag_y - mouse_y))
