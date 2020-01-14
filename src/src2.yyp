@@ -4943,6 +4943,14 @@
             }
         },
         {
+            "Key": "daeec889-6fe9-452d-a92b-2e8f2f128738",
+            "Value": {
+                "id": "c5f5dd40-9e55-4a42-96d7-5668de27472e",
+                "resourcePath": "objects\\BOpts_SelectBg\\BOpts_SelectBg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db75cb60-6971-4774-b82e-c1023055e639",
             "Value": {
                 "id": "713e3112-cf7d-45f9-8739-a0f7e28a21d2",
