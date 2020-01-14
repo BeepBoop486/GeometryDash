@@ -1959,6 +1959,14 @@
             }
         },
         {
+            "Key": "50cb5070-efd9-4bd1-be47-a27874d03df4",
+            "Value": {
+                "id": "2849ff64-279a-4955-9ba9-9b7e75184e28",
+                "resourcePath": "sprites\\spr_bgIcon\\spr_bgIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50d590ed-5a1c-4528-bb79-b85787d1d012",
             "Value": {
                 "id": "b603068f-d328-41ff-b71f-881db1ec5b39",
