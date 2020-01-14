@@ -32,3 +32,5 @@ Here's the actual game in action (This could change soon, so you better clone th
 - All the Geometry Dash vehicles (The swing copter won't be added still)
 - Rings and path reverse (that can be made in editor)
 - Half multiplatform (This is coded in linux thru wine)
+- An online creator points calculator
+- There can be mod users
