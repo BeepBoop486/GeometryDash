@@ -21,6 +21,10 @@ if filename != "" {
 			global.color[i] = file_text_read_real(file)
 			file_text_readln(file)
 		}
+		global.background = file_text_read_real(file)
+		file_text_readln(file)
+		global.ground = file_text_read_real(file)
+		file_text_readln(file)
 	
 		//if instance_exists(obj_player) instance_destroy(obj_player)
 	
