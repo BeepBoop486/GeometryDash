@@ -5530,7 +5530,7 @@
             "Key": "f13139a7-12c0-4931-bfb4-9422445cdc92",
             "Value": {
                 "id": "5c44d526-cb3f-47df-ba6f-c7f8b58029b9",
-                "resourcePath": "objects\\ClickableCloseWind\\ClickableCloseWind.yy",
+                "resourcePath": "objects\\BoptsClickableCloseWind\\BoptsClickableCloseWind.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -2,7 +2,7 @@
     "id": "f13139a7-12c0-4931-bfb4-9422445cdc92",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ClickableCloseWind",
+    "name": "BoptsClickableCloseWind",
     "eventList": [
         {
             "id": "2b7730c3-7a79-4608-beb9-7fb4c3e32752",
