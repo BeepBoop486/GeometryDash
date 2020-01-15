@@ -61,3 +61,5 @@ if global.notexists {
 if room_width > 10000 {
 	__view_set(e__VW.XView, 0, room_width - 1280)
 }
+
+instance_create_depth(0,0,-1,obj_player)

@@ -5,6 +5,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.5
 	&& !position_meeting(mouse_x, mouse_y, undel)
 	&& !position_meeting(mouse_x, mouse_y, obj_ground)
 	&& !position_meeting(mouse_x, mouse_y, obj_ground2)//You can't put an object upon "undel" child objects
+	&& !position_meeting(mouse_x, mouse_y, undel)
 	&& global.toput != noone /*& mouse_y < 4592*/
 	&& global.toput != obj_ed_obj //If the selected object isn't a GUI element (This'll be a lot of
 	&& !global.playing
