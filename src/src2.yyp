@@ -3479,6 +3479,14 @@
             }
         },
         {
+            "Key": "98c0814c-442f-4ed4-b074-3774a6f0a10b",
+            "Value": {
+                "id": "7b46cca1-382e-4044-a222-6f2ea31b1886",
+                "resourcePath": "sprites\\spr_shipsel\\spr_shipsel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9a034def-521b-4a68-936d-708deb051b5d",
             "Value": {
                 "id": "88527909-f663-4fe7-92b3-cece63208ff7",

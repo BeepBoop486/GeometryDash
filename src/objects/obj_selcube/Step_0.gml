@@ -23,6 +23,10 @@ if global.inveh == 0 {
 	} if global.cubepage == 0 {
 		visible=true
 	}
+} else if global.inveh == 1 {
+	if toput > image_number -1 {
+		visible = false
+	}
 }
 
 image_yscale = image_xscale;
