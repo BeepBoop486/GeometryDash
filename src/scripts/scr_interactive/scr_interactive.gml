@@ -249,5 +249,6 @@ if place_meeting(x, y, obj_winWall)
 	} else {
 		//We assume you're in a future local level xd
 		room_goto(rm_levelsel)
+		audio_stop_all()
 	}
 }
