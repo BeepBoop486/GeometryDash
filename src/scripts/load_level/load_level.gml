@@ -14,6 +14,8 @@ if filename != "" {
 		file_text_readln(file)
 		global.levelspeed = file_text_read_real(file)
 		file_text_readln(file)
+		global.levelveh = file_text_read_real(file)
+		file_text_readln(file)
 		room_width = file_text_read_real(file)
 		file_text_readln(file)
 		for(var i = 0; i < global.colors; i+=1)

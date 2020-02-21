@@ -17,6 +17,8 @@ if argument0 != "" {
 		file_text_writeln(file)
 		file_text_write_real(file, global.levelspeed)
 		file_text_writeln(file)
+		file_text_write_real(file, global.levelveh)
+		file_text_writeln(file)
 		file_text_write_real(file, room_width)
 		file_text_writeln(file)
 		

@@ -23,7 +23,8 @@ global.background = 0
 global.intab = 0 // 0 - solid, 1 - spike
 
 global.levelspeed = 1 // This is for the speed switcher
-
+global.levelveh = 0 //The vehicle switcher for the editor
+// 0 - cube, 1 - ship, 2 - ball, 3 - ufo, 4 - wave, 5 - robot, 6 - spider
 
 
 global.wallx = 0
