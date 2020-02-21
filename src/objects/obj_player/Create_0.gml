@@ -53,3 +53,5 @@ trail = 0
 scr_other_var()
 
 fbspd = 12
+
+global.ylimit = y

@@ -2,7 +2,6 @@ TODO
 
 Vehicle selector to the editor
 
-Fix the ylimit bug
 Level liking
 Level disliking
 Level rating
