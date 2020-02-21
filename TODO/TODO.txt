@@ -16,7 +16,6 @@ Another vault xd
 Store
 Another store xd
 An official level for every song
-Add editor pause
 Add editor vehicle switcher
 Modifiy all the show_message_async by the GD's blue box with the OK button
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
@@ -33,3 +32,4 @@ A more beautiful top 100
 Add the grounds left
 Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
+Add a pause menu where is needed
