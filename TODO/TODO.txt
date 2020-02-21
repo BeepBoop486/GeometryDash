@@ -31,3 +31,5 @@ A better account handling system (Profile photo, add posts etc...)
 A more beautiful top 100
 
 Add the grounds left
+Fixed the music bug with an online level (it keeps playing)
+Added the menuLoop sound
