@@ -82,6 +82,12 @@ if global.selected_obj != 0 && global.selected_obj != undefined && global.select
 //If we've selected an object
 
 {
+	
+	//Utils
+	if(keyboard_check_pressed(vk_delete)) {
+		instance_destroy(global.selected_obj)
+		global.selected_obj = noone
+	}
 
 	
 

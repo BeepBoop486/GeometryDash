@@ -1,6 +1,6 @@
 if !instance_exists(BoxOpts) {
-		global.playing = !global.playing
-	}
+	global.playing = !global.playing
+}
 
 global.ylimit = 4076
 
