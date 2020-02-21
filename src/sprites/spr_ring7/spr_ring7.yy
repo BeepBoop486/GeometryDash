@@ -7,7 +7,7 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 60,
-    "bbox_left": 0,
+    "bbox_left": 2,
     "bbox_right": 60,
     "bbox_top": 0,
     "bboxmode": 0,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "21cdd05a-9398-4446-908b-13ba19900b5e",
+            "id": "5a205a2d-f282-408a-8b33-df5faa646da0",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "ead3d5e0-a077-471d-aaab-b1851ef13c97",
             "compositeImage": {
-                "id": "adf448d6-6b86-4d1f-9751-3f88941b7c63",
+                "id": "71114228-ddb8-479c-b124-3d92661ad367",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "21cdd05a-9398-4446-908b-13ba19900b5e",
+                "FrameId": "5a205a2d-f282-408a-8b33-df5faa646da0",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "4a7d77df-a1b4-4d22-a4a6-0ed5b8185950",
+                    "id": "d074155c-66b1-4804-afc0-7c07708a653c",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "21cdd05a-9398-4446-908b-13ba19900b5e",
-                    "LayerId": "945d66dd-6cff-4d46-909a-9cacf36b9ec7"
+                    "FrameId": "5a205a2d-f282-408a-8b33-df5faa646da0",
+                    "LayerId": "4e43a1dc-d8dc-41a0-a253-dd93f0b1cf4c"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 61,
     "layers": [
         {
-            "id": "945d66dd-6cff-4d46-909a-9cacf36b9ec7",
+            "id": "4e43a1dc-d8dc-41a0-a253-dd93f0b1cf4c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "ead3d5e0-a077-471d-aaab-b1851ef13c97",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 1,
     "playbackSpeedType": 1,
