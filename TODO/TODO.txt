@@ -1,7 +1,5 @@
 TODO
 
-To change all of the gui by a texture pack
-
 Level liking
 Level disliking
 Level rating
