@@ -34,3 +34,4 @@ Here's the actual game in action (This could change soon, so you better clone th
 - Duals (available in editor too)
 - In-editor vehicle switching
 - Multiple backgrounds and grounds for the levels
+- Online level liking
