@@ -6,7 +6,6 @@ To add all the left GUI to the editor
 Edit object
 
 Attempt counter
-ball selector, wave selector, ship selector, ufo selector
 Vault
 Another vault xd
 Store
