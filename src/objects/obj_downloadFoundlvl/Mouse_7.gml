@@ -12,13 +12,12 @@ if global.negrito == 0{
 	global.rate = rate
 	global.stars = stars
 	global.downloads = downloads
-	global.likes = likes
-	global.dislikes = dislikes
 	global.isepic = isepic
 	global.isfeatured = isfeatured
 	global.isdemon = isdemon
 	global.uploadern = uploadern
 	global.lvllikes = 0
+	global.lvldlikes = 0
 	
 	room_goto(rm_dlevel)
 }

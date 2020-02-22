@@ -5,3 +5,6 @@ reqLikes = http_get(global.serverUrl+"levels/GDDGetLevelLikes.php?lvlid="+string
 req3 = http_get_file(global.serverUrl+"levels/saved/"+string(global.lvlid)+".gdl", working_directory+string(global.lvlid)+".gdl")
 req4 = http_get(global.serverUrl+"levels/GDDHaveILiked.php?id="+string(global.lvlid))
 req5 = 901290
+req6 = http_get(global.serverUrl+"levels/GDDHaveIDisliked.php?id="+string(global.lvlid))
+req7 = 901291
+req8 = http_get(global.serverUrl+"levels/GDDGetLevelDislikes.php?lvlid="+string(global.lvlid))

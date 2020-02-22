@@ -1,4 +1,5 @@
-var response = "", response2 = "", response3 = "", response4 = "", response5 = "";
+var response = "", response2 = "", response3 = "", response4 = "", response5 = "", response6 = "",
+response7 = "", response8 = "";
 
 if ds_map_find_value(async_load, "id") == req {
 	if ds_map_find_value(async_load, "status") == 0 {
@@ -32,6 +33,7 @@ if ds_map_find_value(async_load, "id") == req2
 		response4 = ds_map_find_value(async_load, "result")
 		if response4 == -1 {
 			obj_likeBtn.image_index = 1
+			obj_dislikeBtn.image_index = 1
 		}
 	}
 } if ds_map_find_value(async_load, "id") == req5 {
@@ -40,8 +42,35 @@ if ds_map_find_value(async_load, "id") == req2
 		show_message(response5)
 		if response5 == 1 {
 			obj_likeBtn.image_index = 1
+			obj_dislikeBtn.image_index = 1
+			global.lvllikes = global.lvllikes + 1
 		} else if response5 == -1 {
 			obj_likeBtn.image_index = 1
+			obj_dislikeBtn.image_index = 1
 		}
+	}
+} if ds_map_find_value(async_load, "id") == req6 {
+	if ds_map_find_value(async_load, "status") == 0 {
+		response6 = ds_map_find_value(async_load, "result")
+		if response6 == -1 {
+			obj_dislikeBtn.image_index = 1
+			obj_likeBtn.image_index = 1
+		}
+	}
+} if ds_map_find_value(async_load, "id") == req7 {
+	if ds_map_find_value(async_load, "status") == 0 {
+		response7 = ds_map_find_value(async_load, "result")
+		if response7 == 1 {
+			obj_dislikeBtn.image_index = 1
+			obj_likeBtn.image_index = 1
+		} else if response7 == -1 {
+			obj_dislikeBtn.image_index = 1
+			obj_likeBtn.image_index = 1
+		}
+	}
+} if ds_map_find_value(async_load, "id") == req8 {
+	if ds_map_find_value(async_load, "status") == 0 {
+		response8 = ds_map_find_value(async_load, "result")
+		global.lvldlikes = response8
 	}
 }

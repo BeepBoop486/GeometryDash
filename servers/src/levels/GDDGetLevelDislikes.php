@@ -5,7 +5,7 @@
 	if (isset($_GET["lvlid"])) {
 		$lvlid = $_GET["lvlid"];
 
-		$stmt = $conn->prepare("SELECT * FROM likes WHERE lvlid=?");
+		$stmt = $conn->prepare("SELECT * FROM dislikes WHERE lvlid=?");
 		$stmt->bind_param("i", $lvlid);
 		$stmt->execute();
 		$stmt->store_result();
