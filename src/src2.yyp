@@ -1807,6 +1807,14 @@
             }
         },
         {
+            "Key": "48331132-4c70-4f1d-a6ad-7705083c4250",
+            "Value": {
+                "id": "72ec26ee-2bed-479b-9110-8205322680dd",
+                "resourcePath": "sprites\\spr_playMusicEditorBtn\\spr_playMusicEditorBtn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4866df4a-499a-4123-b62c-2c6e24cf9d3a",
             "Value": {
                 "id": "8c587f70-b55b-4e2f-b6e1-dfd44a80c33a",
@@ -5491,6 +5499,14 @@
             "Value": {
                 "id": "b11ec29a-7633-48f8-acef-bae4002d42ca",
                 "resourcePath": "objects\\obj_blockOutline3\\obj_blockOutline3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e93afb61-84a3-4894-909d-4515e6ca23df",
+            "Value": {
+                "id": "a68b50d3-b57e-480e-9b66-6dff524b533a",
+                "resourcePath": "objects\\obj_playMusicEditorBtn\\obj_playMusicEditorBtn.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -14,6 +14,7 @@ global.selected_obj = noone //Selected object
 global.selected_mode = 0 // 0 - build, 1 - edit, 2 - delete
 
 global.playing = false //Checks if we're in test mode
+global.playingm = false //Checks if we're playing the level music
 
 global.ground = 0
 global.background = 0
