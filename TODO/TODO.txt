@@ -1,6 +1,5 @@
 TODO
 
-Level liking
 Level disliking
 Level rating
 Level comment

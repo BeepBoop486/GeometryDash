@@ -31,7 +31,7 @@ if ds_map_find_value(async_load, "id") == req2
 	if ds_map_find_value(async_load, "status") == 0 {
 		response4 = ds_map_find_value(async_load, "result")
 		if response4 == -1 {
-			obj_likeBtn.image_blend = c_gray
+			obj_likeBtn.image_index = 1
 		}
 	}
 } if ds_map_find_value(async_load, "id") == req5 {
@@ -39,9 +39,9 @@ if ds_map_find_value(async_load, "id") == req2
 		response5 = ds_map_find_value(async_load, "result")
 		show_message(response5)
 		if response5 == 1 {
-			obj_likeBtn.image_blend = c_gray
+			obj_likeBtn.image_index = 1
 		} else if response5 == -1 {
-			obj_likeBtn.image_blend = c_gray
+			obj_likeBtn.image_index = 1
 		}
 	}
 }
