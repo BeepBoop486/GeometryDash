@@ -5,20 +5,14 @@
 	if (isset($_GET["lvlid"])) {
 		$lvlid = $_GET["lvlid"];
 
-		$stmt = $conn->prepare("SELECT * FROM levels WHERE id=?");
+		$stmt = $conn->prepare("SELECT * FROM likes WHERE lvlid=?");
 		$stmt->bind_param("i", $lvlid);
 		$stmt->execute();
+		$stmt->store_result();
 
-		$result = $stmt->get_result();
+		if ($stmt->num_rows > 0) {
 
-		$likes = 0;
-
-		if ($result->num_rows > 0) {
-
-			$row = $result->fetch_array(MYSQLI_ASSOC);
-			$likes = $row["likes"];
-
-			echo $likes;
+			echo $stmt->num_rows;
 		} else {
 			echo "This level doesn't exist";
 		}
