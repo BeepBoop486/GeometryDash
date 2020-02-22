@@ -3,8 +3,9 @@ TODO
 Level disliking
 Level rating
 Level comment
-Added all the left GUI to the editor
+To add all the left GUI to the editor
 Edit object
+Add a reverse for the portals too
 
 Attempt counter
 ball selector, wave selector, ship selector, ufo selector
@@ -13,7 +14,6 @@ Another vault xd
 Store
 Another store xd
 An official level for every song
-Add editor vehicle switcher
 Modifiy all the show_message_async by the GD's blue box with the OK button
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
@@ -21,12 +21,11 @@ At mod or admin rate first check if the siggned in user is really admin (stored 
 if amiadmin is true and the server saved is false, the user will be banned
 Change all the editor btns and add the btn parent as its parent and modify basically all xd
 A server-made checking if you're mod when rating levels
-Add a reverse for the portals too
 
 A better account handling system (Profile photo, add posts etc...)
 A more beautiful top 100
 
-Add the grounds left
+Add the ground left
 Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
 Add a pause menu where is needed
