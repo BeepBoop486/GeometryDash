@@ -1,6 +1,7 @@
 TODO
 
 Adding g2y to every vehicle (to copy every portal collisione event to the scr_transform by checking the argument0) - workin' on it
+To change all of the gui by a texture pack
 
 Level liking
 Level disliking
