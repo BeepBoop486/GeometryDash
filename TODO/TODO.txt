@@ -1,11 +1,11 @@
 TODO
 
+Add a reverse for the portals too
 Level disliking
 Level rating
 Level comment
 To add all the left GUI to the editor
 Edit object
-Add a reverse for the portals too
 
 Attempt counter
 ball selector, wave selector, ship selector, ufo selector
