@@ -19,7 +19,7 @@ image_xscale += .02} else {paso = 0} }
 image_yscale = image_xscale;
 
 
-if global.levelveh == 0 {
+if global.levelveh == 1 {
 	image_index = 1
 } else {
 	image_index = 0

@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "176f614b-fcf5-4f1c-a9fe-8fab4f2b80eb",
+            "Value": {
+                "id": "e5eec163-f560-4595-8449-a5f8f11c417f",
+                "resourcePath": "objects\\vehsel_3\\vehsel_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1795891e-eb5e-45a2-8e93-76af5df9c18b",
             "Value": {
                 "id": "fe9dd641-f857-4c67-9727-e5e9876c8f1a",
@@ -700,6 +708,14 @@
                 "id": "59b691f6-0aa0-40a8-954b-602b3838e0b4",
                 "resourcePath": "scripts\\@__global_object_depths\\__global_object_depths.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1b2ab792-7f79-422c-a2cd-e6dd79720e96",
+            "Value": {
+                "id": "f5e794aa-2b84-4b7f-b1ab-75050781e461",
+                "resourcePath": "objects\\vehsel_1\\vehsel_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -931,6 +947,14 @@
             "Value": {
                 "id": "56c248cb-1133-4cbe-94a9-8df6dab28f34",
                 "resourcePath": "objects\\obj_block001_03\\obj_block001_03.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "265337ec-093c-4590-b01c-f5f15bd353ce",
+            "Value": {
+                "id": "59b5c10e-b476-4b34-9b04-4fa9c4f85ce6",
+                "resourcePath": "objects\\vehsel_4\\vehsel_4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1532,6 +1556,14 @@
                 "id": "224759a1-aa63-4f01-9f02-8d8a31067c3e",
                 "resourcePath": "sprites\\spr_robot_fb_a\\spr_robot_fb_a.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3eed92b9-7bd3-4513-a2a7-2844a2cc3510",
+            "Value": {
+                "id": "f82bc8d8-0557-43f1-84c3-81ad781fbf19",
+                "resourcePath": "objects\\vehsel_5\\vehsel_5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2868,6 +2900,14 @@
                 "id": "72478071-75ec-4b10-87fb-4bb65647b716",
                 "resourcePath": "views\\77607584-9e53-4888-8f04-34a704bca095.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "778c0984-006f-4349-a5d0-30943c819d44",
+            "Value": {
+                "id": "96c659f0-1fc6-4169-88c4-6400a666afbb",
+                "resourcePath": "objects\\vehsel_2\\vehsel_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5364,6 +5404,14 @@
                 "id": "40df5376-94c4-464d-8602-916d765b3d8f",
                 "resourcePath": "views\\e70bf31c-f3f5-46a9-8a86-5acbfb270b47.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e71f3eeb-c258-4ac7-b5a6-06156e40b83c",
+            "Value": {
+                "id": "f1ce60b3-25b3-4b52-823f-25081d3b944d",
+                "resourcePath": "objects\\vehsel_6\\vehsel_6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
