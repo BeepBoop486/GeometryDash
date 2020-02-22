@@ -7,6 +7,8 @@ instance_destroy(ClickableSpeed4)
 instance_destroy(BOpts_SelectBg)
 instance_destroy(BOpts_SelectG)
 instance_destroy(BoptsClickableCloseWind)
+instance_destroy(vehsel_0)
+
 
 
 global.spdboost = global.levelspeed

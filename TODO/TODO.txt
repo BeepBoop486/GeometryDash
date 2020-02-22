@@ -1,6 +1,6 @@
 TODO
 
-Vehicle selector to the editor - Workin' on it
+Vehicle selector in the editor - Workin' on it
 
 Level liking
 Level disliking
@@ -33,3 +33,4 @@ Add the grounds left
 Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
 Add a pause menu where is needed
+To get creator points it's neccessary to have start and face rating
