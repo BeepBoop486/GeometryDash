@@ -10,7 +10,10 @@ and global.selected_obj != undefined {
 	or __obj == obj_path1
 	or __obj == obj_path2
 	or __obj == obj_path3
-	or __obj == obj_path4{
+	or __obj == obj_path4
+	
+	or __obj == obj_portal1
+	or __obj == obj_portal2{
 		image_index = global.selected_obj.reverse
 	}
 }

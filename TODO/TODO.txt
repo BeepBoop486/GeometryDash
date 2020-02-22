@@ -1,6 +1,5 @@
 TODO
 
-Add a reverse for the portals too
 Level disliking
 Level rating
 Level comment
