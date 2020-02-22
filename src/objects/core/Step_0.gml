@@ -18,6 +18,15 @@ if global.playing
 	} else if instance_exists(obj_ufo)
 	{
 		obj_camera.tofol = obj_ufo
+	} else if instance_exists(obj_wave)
+	{
+		obj_camera.tofol = obj_wave
+	} else if instance_exists(obj_robot)
+	{
+		obj_camera.tofol = obj_robot
+	} else if instance_exists(obj_spider)
+	{
+		obj_camera.tofol = obj_spider
 	}
 	
 	instance_activate_all()
@@ -25,6 +34,13 @@ if global.playing
 	instance_activate_object(obj_ground)
 	instance_activate_object(obj_ground2)
 	instance_activate_object(obj_player)
+	instance_activate_object(obj_ship)
+	instance_activate_object(obj_ball)
+	instance_activate_object(obj_ufo)
+	instance_activate_object(obj_robot)
+	instance_activate_object(obj_spider)
+
+
 	instance_activate_object(obj_camera)
 	
 } else {
@@ -69,6 +85,7 @@ if !global.playing
 	with(obj_player) {trail = 0}
 
 } else {
+
 
 	//global.spdboost = 1
 

@@ -2,6 +2,7 @@ player = 0
 separated = false
 ini_physics(36.6)
 global.yscroll=0
+global.ylimit = y
 fis=1
 image_xscale=1
 ddb=instance_create(x, y, obj_player_deadbox)

@@ -8,3 +8,6 @@ tt.gravdir=gravdir
 tt.mini=mini
 tt.fireboost=fireboost
 instance_destroy()
+if instance_exists(obj_camera) {
+	obj_camera.tofol = argument0
+}

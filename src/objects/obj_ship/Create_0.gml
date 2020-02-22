@@ -1,6 +1,7 @@
 player = 0
 separated = false
 ini_physics(2)
+global.ylimit = y
 global.yscroll = 0
 fis=0.8
 image_xscale=0.8

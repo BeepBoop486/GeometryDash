@@ -2,6 +2,7 @@ player = 0
 separated = false
 ini_physics(2)
 global.yscroll=0
+global.ylimit = y
 fis=0.8
 image_xscale=0.8
 jboost=1
