@@ -10,6 +10,7 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.5
 	&& global.toput != obj_ed_obj //If the selected object isn't a GUI element (This'll be a lot of
 	&& !global.playing
 	&& !instance_exists(BoxOpts)
+	&& !instance_exists(BgSelector) && !instance_exists(GSelector)
 	&& mouse_x > 0
 	&& global.selected_mode = 0 // If we're in build mode
 	{
