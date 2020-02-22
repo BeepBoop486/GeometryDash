@@ -1,7 +1,5 @@
 TODO
 
-Level rating
-Level comment
 To add all the left GUI to the editor
 Edit object
 
