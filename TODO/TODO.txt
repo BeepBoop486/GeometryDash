@@ -1,14 +1,7 @@
 TODO
 
-To add all the left GUI to the editor
-Edit object
+To add all the left GUI to the editor - workin' on it and dunno how to do dis
 
-Attempt counter
-Vault
-Another vault xd
-Store
-Another store xd
-An official level for every song
 Modifiy all the show_message_async by the GD's blue box with the OK button
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
@@ -25,3 +18,9 @@ Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
 Add a pause menu where is needed
 To get creator points it's neccessary to have start and difficulty rating
+
+Vault
+Another vault xd
+Store
+Another store xd
+An official level for every song
