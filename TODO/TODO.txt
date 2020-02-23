@@ -1,8 +1,6 @@
 TODO
 
-To add all the left GUI to the editor - workin' on it and dunno how to do dis
-
-Modifiy all the show_message_async by the GD's blue box with the OK button
+Modifiy all the show_message_async by the GD's blue box with the OK button - Workin' on it
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
 At mod or admin rate first check if the siggned in user is really admin (stored in the server)
@@ -24,3 +22,5 @@ Another vault xd
 Store
 Another store xd
 An official level for every song
+
+To add all the left GUI to the editor - workin' on it and dunno how to do dis

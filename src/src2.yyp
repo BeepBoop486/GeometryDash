@@ -3519,6 +3519,14 @@
             }
         },
         {
+            "Key": "95a8525d-23c2-4e33-9a31-1561e78a4795",
+            "Value": {
+                "id": "351b91e6-d5cb-4433-9c24-cf98e0e00398",
+                "resourcePath": "sprites\\spr_blueWind\\spr_blueWind.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "973e320a-80e4-4621-a5f3-b6f0c0d34b89",
             "Value": {
                 "id": "b9b2ffb5-d659-484d-95d3-fb7ced234278",
