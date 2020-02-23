@@ -15,7 +15,7 @@ Add the ground left
 Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
 Add a pause menu where is needed
-To get creator points it's neccessary to have start and difficulty rating
+To get creator points it's neccessary to have star and difficulty rating
 
 Vault
 Another vault xd
