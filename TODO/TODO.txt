@@ -14,7 +14,7 @@ A more beautiful top 100
 Add the ground left
 Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
-Add a pause menu where is needed
+Add a pause menu where 'tis needed
 To get creator points it's neccessary to have star and difficulty rating
 
 Vault
@@ -23,4 +23,4 @@ Store
 Another store xd
 An official level for every song
 
-To add all the left GUI to the editor - workin' on it and dunno how to do dis
+To add all the left GUI to the editor - workin' on it but dunno how to do dis

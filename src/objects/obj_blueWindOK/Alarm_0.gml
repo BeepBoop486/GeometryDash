@@ -1,0 +1,2 @@
+instance_destroy(obj_blueWind)
+instance_destroy()
