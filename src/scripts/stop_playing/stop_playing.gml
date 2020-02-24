@@ -1,4 +1,4 @@
-if !instance_exists(BoxOpts) {
+if !instance_exists(BoxOpts) && !instance_exists(ed_edRingsobj) {
 	global.playing = !global.playing
 }
 global.ylimit = 4076

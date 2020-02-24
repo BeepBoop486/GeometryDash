@@ -25,5 +25,12 @@ repeat 45
 with obj_player_deadbox {instance_destroy()}
 instance_destroy()
 if player != 1 {
-	instance_create(__view_get(e__VW.XView, 0), __view_get(e__VW.YView, 0),obj_restart)
+	if room != rm_editor {
+		instance_create(__view_get(e__VW.XView, 0), __view_get(e__VW.YView, 0),obj_restart)
+	} else {
+		global.playing = false
+		scr_reset_vars()
+		hide_ui()
+		instance_create(__view_get(e__VW.XView, 0), __view_get(e__VW.YView, 0),obj_restart)
+	}
 }
