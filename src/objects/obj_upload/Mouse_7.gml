@@ -5,6 +5,4 @@ if !global.playing {
 		global.lvlname = get_string("Enter the level name","")
 		alarm[0] = 10
 	}
-	
-	//show_message(get_level_cnt(name))
 }

@@ -47,7 +47,6 @@ if downx == mouse_x and downy == mouse_y and timedown < 1.5
 
 	}
 }
-//show_message(timedown)
 timedown=0
 if dragging {
 	dragging = false

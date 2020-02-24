@@ -75,9 +75,9 @@ if filename != "" {
 			}
 		}
 	} else {
-		show_message_async("Version not zero")
+		scr_bwind("Error","Version not zero")
 	}
 	file_text_close(file)
 } else {
-	show_message_async("The file you entered can't be empty")
+	scr_bwind("Error","The file you entered can't be empty")
 }

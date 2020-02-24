@@ -66,7 +66,8 @@ if argument0 != "" {
 			&& objid != obj_ground && objid != obj_playEditorBtn && objid != BoxOpts && objid != BgSelector && objid != BgChoicer
 			&& objid != undel && objid != BOpts_SelectBg && objid != ClickableMusicPlus1 && objid != ClickableMusicLess1
 			&& objid != ClickableSpeed1 && objid != ClickableSpeed2 && objid != ClickableSpeed3 && objid != ClickableSpeed4
-			&& objid != BoptsClickableCloseWind && objid != GSelector && objid != BOpts_SelectG && objid != GChoicer{
+			&& objid != BoptsClickableCloseWind && objid != GSelector && objid != BOpts_SelectG && objid != GChoicer
+			&& objid != obj_playMusicEditorBtn{
 				obj_name = object_get_name(objid);
 				angle = obj.image_angle
 				xscale = obj.image_xscale
