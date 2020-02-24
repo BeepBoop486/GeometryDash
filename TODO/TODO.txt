@@ -1,6 +1,7 @@
 TODO
 
-Modifiy all the show_message_async by the GD's blue box with the OK button - Workin' on it
+Add some icons for every vehicle - Workin' on this
+Modifiy all the show_message_async by the GD's blue box with the OK button - I'll do it later
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
 Change all the old views by the new camera functions
 At mod or admin rate first check if the siggned in user is really admin (stored in the server)
