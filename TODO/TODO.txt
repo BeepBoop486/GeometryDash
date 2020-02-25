@@ -25,4 +25,6 @@ Store
 Another store xd
 An official level for every song
 
+Add the final animation at endin' a level
+
 To add all the left GUI to the editor - workin' on it but dunno how to do dis
