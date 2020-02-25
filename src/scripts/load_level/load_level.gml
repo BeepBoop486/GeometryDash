@@ -52,7 +52,7 @@ if filename != "" {
 			ypos = file_text_read_real(file)
 			file_text_readln(file)
 		
-			if objid != obj_upload && objid != obj_playEditorBtn {
+			if objid != obj_upload && objid != obj_playEditorBtn && objid != obj_playMusicEditorBtn {
 				
 				obj = instance_create_depth(xpos, ypos, 0, objid)
 				obj.image_angle = angle
