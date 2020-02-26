@@ -16,6 +16,7 @@ Here's the actual game in action (This could change soon, so you better clone th
 # Features
 - Powerful in-game editor
 - All the vehicles
+- Slopes
 - All the speeds (and x0 speed)
 - Rings
 - Paths
