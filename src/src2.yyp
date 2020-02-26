@@ -1887,14 +1887,6 @@
             }
         },
         {
-            "Key": "4c98ea30-d6fe-4d21-8d5a-7b342ff3fd77",
-            "Value": {
-                "id": "4e5ce293-b939-4a8d-b7a2-c302c2f58c9c",
-                "resourcePath": "sprites\\s_setts_accountBtn\\s_setts_accountBtn.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4c9e4ab1-affb-4d49-9178-a6f79ba30277",
             "Value": {
                 "id": "a1ba65ab-51d9-4309-b100-74b24abafe55",
@@ -2579,14 +2571,6 @@
             "Value": {
                 "id": "a98e26a2-5571-4cd5-8388-6cdf999710fa",
                 "resourcePath": "views\\6ad4dcfd-32d1-4518-a58c-87d9dd8c578a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6adb5f41-e1b2-4b5f-a16d-4fc9d37a0018",
-            "Value": {
-                "id": "2e23bf1b-7ea9-448f-9722-99f408a7a41e",
-                "resourcePath": "views\\6adb5f41-e1b2-4b5f-a16d-4fc9d37a0018.yy",
                 "resourceType": "GMFolder"
             }
         },
