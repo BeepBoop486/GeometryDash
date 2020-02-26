@@ -1791,6 +1791,14 @@
             }
         },
         {
+            "Key": "46697766-3f9a-46dd-a6e7-c4f4b07c6d09",
+            "Value": {
+                "id": "90537672-851b-4fde-9f2a-f4562b9328fc",
+                "resourcePath": "objects\\obj_checkeredSlope1\\obj_checkeredSlope1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "469ae5c4-a02a-4f44-ac48-d44544c3e668",
             "Value": {
                 "id": "69e6abaf-2eae-4b7f-8ede-b8f3c1417cf1",
@@ -3079,6 +3087,14 @@
             }
         },
         {
+            "Key": "8111d03a-69ed-4b11-aff0-acf41eaa545c",
+            "Value": {
+                "id": "fa707ad6-9025-4735-ae28-c504ed60c182",
+                "resourcePath": "sprites\\spr_waveSlope1\\spr_waveSlope1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81138e53-0687-4610-9668-7cbb1bbd5566",
             "Value": {
                 "id": "1c9cd479-e909-4e68-bfeb-e785d8bb9a25",
@@ -4079,6 +4095,14 @@
             }
         },
         {
+            "Key": "aea33933-fba0-42b9-8607-3df16e7260fa",
+            "Value": {
+                "id": "02b3c421-016f-40cc-905f-b942cc79d1b5",
+                "resourcePath": "sprites\\spr_metalicSlope1\\spr_metalicSlope1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aef3a3b4-69ba-4d12-9fa3-6bac08ef8c6f",
             "Value": {
                 "id": "f16dcd6f-b401-420c-80fd-703666cb276c",
@@ -4380,6 +4404,14 @@
                 "id": "72ff215f-8dec-4393-9fd0-c1c065569f7d",
                 "resourcePath": "sprites\\spr_blockOutline\\spr_blockOutline.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba2e77a2-e5ea-4b04-8ee0-9f0c27720b6d",
+            "Value": {
+                "id": "3a19599f-d33f-4d31-a52f-30466db39d56",
+                "resourcePath": "objects\\obj_metallicSlope1\\obj_metallicSlope1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4756,6 +4788,14 @@
                 "id": "86d94510-3891-43b9-b2c7-f56e9cc105e4",
                 "resourcePath": "objects\\mainSetsMan\\mainSetsMan.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca94dc90-a800-411b-8cb9-c89dee808927",
+            "Value": {
+                "id": "efaaf486-bb4a-48c7-b41c-a97f691a8436",
+                "resourcePath": "sprites\\spr_checkeredSlope1\\spr_checkeredSlope1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5419,6 +5459,14 @@
             "Value": {
                 "id": "42e93f95-f9e4-445c-ae2f-2446cabae673",
                 "resourcePath": "objects\\foundLvlDrawDisLikes\\foundLvlDrawDisLikes.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e5bdcdf0-469c-47d4-9962-5b7ca42a7bda",
+            "Value": {
+                "id": "532ed01c-7821-4800-9022-55fdbffb8926",
+                "resourcePath": "objects\\obj_waveSlope1\\obj_waveSlope1.yy",
                 "resourceType": "GMObject"
             }
         },
