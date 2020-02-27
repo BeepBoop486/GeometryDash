@@ -28,6 +28,7 @@ An official level for every song
 Add the final animation at endin' a level
 In the editor, all of the object selector, whose obj_*tab* is undefined won't be visible
 Add the pause mode to the editor
+The player name at the top 100 leaderboard will be placed at the center
 
 To add all the left GUI to the editor - workin' on it but dunno how to do dis
 
