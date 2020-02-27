@@ -1,6 +1,7 @@
 loggedin
 uname
-upas
+upass
+
 stars
 demons
 icon
@@ -18,7 +19,6 @@ cps
 diamonds
 orbs
 completedLvls
-isAdmin
-isMod
-isBanned
-isCreatorBanned
+
+width Resolution
+height Resolution
