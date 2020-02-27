@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 4.9.4
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 15-11-2019 a las 16:30:36
+-- Tiempo de generación: 27-02-2020 a las 19:27:54
 -- Versión del servidor: 10.3.16-MariaDB
--- Versión de PHP: 7.3.10
+-- Versión de PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,13 +25,24 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `dislikes`
+--
+
+CREATE TABLE `dislikes` (
+  `id` int(11) NOT NULL,
+  `uname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `lvlid` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `levels`
 --
 
 CREATE TABLE `levels` (
   `id` int(11) NOT NULL,
   `lvlname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `lvlcnt` longtext COLLATE utf8_unicode_ci NOT NULL,
   `uploader` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `rate` int(255) NOT NULL,
   `stars` int(2) NOT NULL,
@@ -41,6 +52,18 @@ CREATE TABLE `levels` (
   `isepic` int(2) NOT NULL,
   `isfeatured` int(2) NOT NULL,
   `isdemon` int(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `likes`
+--
+
+CREATE TABLE `likes` (
+  `id` int(11) NOT NULL,
+  `uname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `lvlid` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -56,8 +79,8 @@ CREATE TABLE `users` (
   `stars` int(255) NOT NULL,
   `demons` int(255) NOT NULL,
   `icon` int(255) NOT NULL,
-  `color1` int(255) NOT NULL,
-  `color2` int(255) NOT NULL,
+  `color1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `color2` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `coins` int(255) NOT NULL,
   `userCoins` int(255) NOT NULL,
   `ship` int(255) NOT NULL,
@@ -81,9 +104,21 @@ CREATE TABLE `users` (
 --
 
 --
+-- Indices de la tabla `dislikes`
+--
+ALTER TABLE `dislikes`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `levels`
 --
 ALTER TABLE `levels`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `likes`
+--
+ALTER TABLE `likes`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -97,9 +132,21 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `dislikes`
+--
+ALTER TABLE `dislikes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de la tabla `levels`
 --
 ALTER TABLE `levels`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `likes`
+--
+ALTER TABLE `likes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
