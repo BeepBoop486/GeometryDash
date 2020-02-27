@@ -28,3 +28,7 @@ An official level for every song
 Add the final animation at endin' a level
 
 To add all the left GUI to the editor - workin' on it but dunno how to do dis
+
+ANDROID: (I'm testing this game at android)
+Online levels scroll
+Add backspace where scape is present

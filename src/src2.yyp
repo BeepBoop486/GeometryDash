@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "218c06af-4713-4340-8552-8a85526116f0",
+            "Value": {
+                "id": "4a1a0efc-bd7f-4c2a-b19a-e53bb28dad1a",
+                "resourcePath": "objects\\ads\\ads.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21d33b7c-a26e-4de5-8972-73e4f349e5ab",
             "Value": {
                 "id": "8b2a873d-3a5b-4dd0-ba36-35ba2532076d",
@@ -4340,6 +4348,14 @@
                 "id": "d847b42e-85b8-4124-935e-e0b4321d2d0b",
                 "resourcePath": "scripts\\ed_edRings\\ed_edRings.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b692918b-a2eb-41d7-ad77-08871dc1ffff",
+            "Value": {
+                "id": "cc6c577a-6e28-4898-ae39-388e75684120",
+                "resourcePath": "extensions\\GooglePlayAdsExtension\\GooglePlayAdsExtension.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
