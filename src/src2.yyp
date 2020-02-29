@@ -1079,6 +1079,14 @@
             }
         },
         {
+            "Key": "2ec50ec9-ffc5-4cc9-9679-05a148b5bd8f",
+            "Value": {
+                "id": "6b8408ce-2342-4954-8438-84b6dd8c2337",
+                "resourcePath": "sounds\\ChaozImpact\\ChaozImpact.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2f0dc764-f43d-4ff8-b85a-07a5ba26a6ef",
             "Value": {
                 "id": "c640ed7e-b6ea-4f09-a3d1-a1d03602d80d",
@@ -2364,6 +2372,14 @@
                 "id": "8f070bd3-5e84-441e-99c1-f4234b5a8200",
                 "resourcePath": "objects\\obj_block001_06\\obj_block001_06.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66fbaf2f-4a0b-4791-a11a-e56d2745a8f1",
+            "Value": {
+                "id": "12a92e05-4af7-4b0b-a53e-741d40588351",
+                "resourcePath": "sounds\\Uprise\\Uprise.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -4812,6 +4828,14 @@
                 "id": "f81f2e60-b668-4028-99eb-76727207c905",
                 "resourcePath": "sprites\\spr_tile07\\spr_tile07.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d372d094-d2d1-4526-8953-c62d3aa1b22f",
+            "Value": {
+                "id": "32500b42-6f80-4a98-bd21-b512998916c3",
+                "resourcePath": "sounds\\GloriousMorning\\GloriousMorning.yy",
+                "resourceType": "GMSound"
             }
         },
         {
