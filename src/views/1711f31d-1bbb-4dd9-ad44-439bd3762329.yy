@@ -12,7 +12,8 @@
         "6b3eb99f-3f22-4e16-951d-40d8a7499f30",
         "135d2737-239a-467a-9476-c5575ab7aef9",
         "5a91506d-eba6-481d-a3e8-b95fa6aad9ce",
-        "c1a612b2-f552-42fc-a542-95d54855ffad"
+        "c1a612b2-f552-42fc-a542-95d54855ffad",
+        "1b022e44-f29d-4f5d-99e5-2fb1dee14a4a"
     ],
     "filterType": "GMObject",
     "folderName": "CharasSel",

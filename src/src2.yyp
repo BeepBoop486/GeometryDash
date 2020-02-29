@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "1b022e44-f29d-4f5d-99e5-2fb1dee14a4a",
+            "Value": {
+                "id": "637ba193-8760-4ca4-8d23-ccd4dd046b61",
+                "resourcePath": "objects\\drawStats\\drawStats.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b2ab792-7f79-422c-a2cd-e6dd79720e96",
             "Value": {
                 "id": "f5e794aa-2b84-4b7f-b1ab-75050781e461",

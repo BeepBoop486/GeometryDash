@@ -1,0 +1,6 @@
+draw_set_font(font0)
+draw_text_outline(x, y, string(global.accstars), c_white, c_black)
+draw_text_outline(x, y+60, string(global.coins), c_white, c_black)
+draw_text_outline(x, y+120, string(global.userCoins), c_white, c_black)
+draw_text_outline(x, y+190, string(global.orbs), c_white, c_black)
+draw_text_outline(x, y+260, string(global.diamonds), c_white, c_black)
