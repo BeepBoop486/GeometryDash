@@ -17,7 +17,6 @@ A better account handling system (Profile photo, add posts etc...)
 A more beautiful top 100
 
 Add the ground left
-Fixed the music bug with an online level (it keeps playing)
 Added the menuLoop sound
 Add a pause menu where 'tis needed
 To get creator points it's neccessary to have star and difficulty rating
