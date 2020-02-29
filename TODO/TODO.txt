@@ -1,7 +1,5 @@
 TODO
 
-To fix the ships short-height and is a blank space between player and the ship itself
-To delete all of the songs and add ~8 custom
 To create an offline level with all of those new songs
 Progress bar
 
