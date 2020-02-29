@@ -1,5 +1,4 @@
-if global.music < 32 && global.music > 0
-//If the selected song isn't snd_dead
+if global.music < 2 && global.music > 0
 {
 	global.music -= 1
 } else {
