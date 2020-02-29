@@ -1,6 +1,11 @@
 TODO
 
-Add some icons for every vehicle - Workin' on this
+To fix the ships short-height and is a blank space between player and the ship itself
+To delete all of the songs and add ~8 custom
+To create an offline level with all of those new songs
+Progress bar
+
+To add death effects
 To add more objects to the editor
 Modifiy all the show_message_async by the GD's blue box with the OK button
 The downloads of a level stored in a DB with the dest level ID and the used who downloaded the Level
@@ -29,8 +34,7 @@ Add the final animation at endin' a level
 In the editor, all of the object selector, whose obj_*tab* is undefined won't be visible
 Add the pause mode to the editor
 The player name at the top 100 leaderboard will be placed at the center
+Set the player sprite origin at center in the top 100 leaderboard
 
 To add all the left GUI to the editor - workin' on it but dunno how to do dis
-
-ANDROID: (I'm testing this game at android)
-Add backspace where scape is present
+Add some icons for every vehicle - Do it later

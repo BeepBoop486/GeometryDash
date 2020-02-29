@@ -16,25 +16,31 @@
                             $finalname = str_replace("'", "\'", $uname);
 
                             //$query = $conn->query("SELECT * FROM users WHERE uname='$finalname'");
-                            $stmt = $conn->query("SELECT * FROM users WHERE uname=?");
+                            $stmt = $conn->prepare("SELECT * FROM users WHERE uname=?");
                             $stmt->bind_param("s", $uname);
                             $stmt->execute();
                             $query = $stmt->get_result();
+                            $rows = $query->num_rows;
                             $stmt->close();
-                            if($query) {
-                                if($query->num_rows > 0) {
-                                    echo "-181";
+                            if($rows > 0) {
+                                echo "-181";
+                            } else {
+                                //TODO: Change this
+                                /*$query = $conn->query("INSERT INTO users(uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES('$finalname', '$finalpass', 0,0,0,65535,16777000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
+                                if($query) {
+                                    echo "1";
                                 } else {
-                                    //TODO: Change this
-                                    $query = $conn->query("INSERT INTO users(id, uname, upass, stars, demons, icon, color1, color2, coins, userCoins, ship, ball, ufo, wave, robot, spider, creatorPoints, diamonds, orbs, completedLevels, isAdmin, isMod, isBanned, isCreatorBanned) VALUES(NULL, '$finalname', '$finalpass', 0,0,0,65535,16777000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)");
-                                    if($query) {
+                                    echo "-1";
+                                }*/
+                                if ($stmt = $conn->prepare("INSERT INTO users(uname,upass,stars,demons,icon,color1,color2,coins,userCoins,ship,ball,ufo,wave,robot,spider,creatorPoints,diamonds,orbs,completedLevels,isAdmin,isMod,isBanned,isCreatorBanned) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")) {
+                                    $o = 0;
+                                    $stmt->bind_param("ssiiiiiiiiiiiiiiiiiiiii", $finalname, $finalname,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o);
+                                    if ($stmt->execute()) {
                                         echo "1";
                                     } else {
                                         echo "-1";
                                     }
                                 }
-                            } else {
-                                echo "-404";
                             }
                         } else {
                             echo "-180";

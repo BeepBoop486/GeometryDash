@@ -1,11 +1,12 @@
 var response = "";
-if variable_instance_exists(instance_id, "req") {
+
 	if ds_map_find_value(async_load, "id") == req
 	{
 		if ds_map_find_value(async_load, "status") == 0
 		{
 			response = ds_map_find_value(async_load, "result")
-			if response == 1 {
+			show_message(response)
+			/*if response == 1 {
 				show_message_async("Register successfully, now you can sign in")
 			} else if response == -1 {
 				show_message_async("Unusuccessfull sign up")
@@ -23,7 +24,6 @@ if variable_instance_exists(instance_id, "req") {
 				show_message_async("The password can't be empty")
 			} else if response == -183 {
 				show_message_async("The username can't be empty")
-			}
+			}*/
 		}
 	}
-}

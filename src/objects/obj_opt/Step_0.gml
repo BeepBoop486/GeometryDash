@@ -6,4 +6,5 @@ if global.playing
 	instance_activate_object(obj_ground2)
 	instance_activate_object(obj_player)
 	instance_activate_object(obj_camera)
+	instance_activate_object(obj_restart)
 }

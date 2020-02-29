@@ -1,4 +1,4 @@
-if !instance_exists(BoxOpts)
+if !instance_exists(BoxOpts) && !global.playing
 
 {
 

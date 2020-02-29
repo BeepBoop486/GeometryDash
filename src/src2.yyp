@@ -1687,6 +1687,14 @@
             }
         },
         {
+            "Key": "42791abd-6b4c-47cd-be8c-5d00ce17ec35",
+            "Value": {
+                "id": "f5c40e86-b5d7-41a7-9421-bea6fa9068fa",
+                "resourcePath": "objects\\fndback\\fndback.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42890f73-d7da-407c-ba96-f6dd168571cf",
             "Value": {
                 "id": "11f3dc4f-2040-4943-bfd0-2e996f711fbc",
