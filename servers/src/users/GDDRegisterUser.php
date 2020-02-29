@@ -34,7 +34,7 @@
                                 }*/
                                 if ($stmt = $conn->prepare("INSERT INTO users(uname,upass,stars,demons,icon,color1,color2,coins,userCoins,ship,ball,ufo,wave,robot,spider,creatorPoints,diamonds,orbs,completedLevels,isAdmin,isMod,isBanned,isCreatorBanned) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")) {
                                     $o = 0;
-                                    $stmt->bind_param("ssiiiiiiiiiiiiiiiiiiiii", $finalname, $finalname,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o);
+                                    $stmt->bind_param("ssiiiiiiiiiiiiiiiiiiiii", $finalname, $finalpass,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o,$o);
                                     if ($stmt->execute()) {
                                         echo "1";
                                     } else {
