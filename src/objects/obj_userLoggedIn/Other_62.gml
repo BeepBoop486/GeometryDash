@@ -4,7 +4,7 @@ if ds_map_find_value(async_load, "id") == req {
 	if result == 1 {
 		scr_bwind("Cloud saving","Saving successful")
 	} else {
-		scr_bwind("Cloud saving","There's been an error trying to save in the cloud")
+		scr_bwind("Cloud saving",result)
 	}
 }
 

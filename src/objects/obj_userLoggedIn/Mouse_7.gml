@@ -4,5 +4,6 @@ req = http_post_string(global.serverUrl+"users/GDDSaveOnline.php", "secret="+glo
 "&userCoins="+string(global.userCoins)+"&ship="+string(global.ship)+"&ball="+string(global.ball)+
 "&ufo="+string(global.ufo)+"&wave="+string(global.wave)+"&robot="+string(global.robot)+"&spider="+
 string(global.spider)+"&cps="+string(global.cps)+"&diamonds="+string(global.diamonds)+"&orbs="+
-string(global.orbs)+"&completedLevels="+string(global.completedLevels))
+string(global.orbs)+"&completedLevels="+string(global.completedLevels) + "&uname=" + global.loggedname + "&upass="
++ global.loggedpass)
 amimodcheck = http_get(global.serverUrl+"users/GDDAmIMod.php")

@@ -1,6 +1,6 @@
 <?php 
 
-	include '../inc/db.php';
+	include 'GDDLoginUser.php';
 	if (isset($_POST["secret"])) {
 		$secret = $_POST["secret"];
 		if ($secret == GAME_REQ_SECRET) {
@@ -45,9 +45,7 @@
 															orbs=$orbs,
 															completedLevels=$completedLevels
 											WHERE uname='$loggedname'");
-					if ($query) {
-						echo "1";
-					} else {
+					if (!$query) {
 						echo mysqli_error($conn);
 					}
 				} else {
