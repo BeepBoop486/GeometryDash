@@ -243,7 +243,7 @@ if dragging
 
 if keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_backspace)
 {
-	if !global.playing {
+	if !global.playing && !instance_exists(BoxOpts) && !instance_exists(ed_edRingsobj) {
 		audio_stop_all()
 		instance_activate_all()
 		save_level(0, "l" + string(global.editingLvl) + ".gdl")

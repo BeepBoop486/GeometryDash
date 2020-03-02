@@ -1,4 +1,4 @@
-if os_type == os_android {
+if os_type == os_android && global.showads {
 	global.app_id = "ca-app-pub-4697091344014722~5529273400"
 	global.banner_id = "ca-app-pub-4697091344014722/3561940831"
 	global.interstitial_id = "ca-app-pub-4697091344014722/8388544498"

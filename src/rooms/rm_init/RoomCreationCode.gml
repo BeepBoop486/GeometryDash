@@ -5,29 +5,17 @@ room_goto_next()
 global.spdboost = 1
 
 
-
 global.music = 0
-
 global.pause = 0
-
 global.pulse = 0
 
-
-
 global.bgcolor = c_red
-
 global.yscroll = 1
 
-
-
 global.g1y = 0
-
 global.g2y = 0
 
-
-
 global.gcolor = merge_color(c_red, c_black, 0.3)
-
 global.ylimit = 4076
 
 
@@ -61,10 +49,7 @@ global.cps = 0
 global.diamonds = 0
 global.orbs = 0
 global.completedLevels = 0
-global.amiadmin = 0
 global.amimod = 0
-global.amibanned = 0
-global.amicreatorbanned = 0
 global.displaywidth=1280
 global.displayheight=720
 
@@ -80,3 +65,4 @@ if file_exists("player.dat") {
 
 global.colors = 999
 global.color[global.colors] = c_white
+global.showads = 1
