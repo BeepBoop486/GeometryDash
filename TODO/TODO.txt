@@ -1,5 +1,9 @@
 TODO
 
+When dying obj_camera.tofol = obj_player
+Online level search sort
+Stop using sessions
+
 To create an offline level with all of those new songs
 Progress bar
 
